@@ -1,9 +1,5 @@
 module:
   automated_cron: 0
-  bibcite: 0
-  bibcite_entity: 0
-  bibcite_export: 0
-  bibcite_import: 0
   block: 0
   block_content: 0
   breakpoint: 0

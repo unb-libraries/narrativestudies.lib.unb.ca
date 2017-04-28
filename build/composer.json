@@ -76,6 +76,7 @@
         "drupal/token": "1.0-rc1",
         "drush/drush": "~8.1.10",
         "webflo/drupal-finder": "^0.2.1",
+        "drupal/bibcite": "~1.0-alpha4",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {

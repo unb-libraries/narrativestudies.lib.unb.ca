@@ -1,0 +1,12 @@
+uuid: 95a26d7f-f3ea-46eb-89e7-fd2854fe5637
+langcode: en
+status: true
+dependencies:
+  module:
+    - bibcite_entity
+_core:
+  default_config_hash: rT39Z8_LT4aR0BiSbIlNF-TolkC8yKGJA_YJ0lHVpXc
+id: bibcite_reference.citation
+label: Citation
+targetEntityType: bibcite_reference
+cache: true

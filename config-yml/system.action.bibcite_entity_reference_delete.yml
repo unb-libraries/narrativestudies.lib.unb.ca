@@ -1,0 +1,13 @@
+uuid: 049a6b6f-4687-43c8-82d8-908547921053
+langcode: en
+status: true
+dependencies:
+  module:
+    - bibcite_entity
+_core:
+  default_config_hash: M4x-w3oaK5mPp5h8nRuta5Nxgozv9UTz2zOdV1-uSv8
+id: bibcite_entity_reference_delete
+label: 'Delete reference'
+type: bibcite_reference
+plugin: bibcite_entity_reference_delete
+configuration: {  }

@@ -1,0 +1,8 @@
+processor: citeproc-php
+default_style: apa
+links:
+  pubmed: true
+  doi: true
+  google_scholar: true
+_core:
+  default_config_hash: vHLCHxoCv4nbxpJ_MaYsG9ZXEvBZ_NUyg7zUFAuB5fU

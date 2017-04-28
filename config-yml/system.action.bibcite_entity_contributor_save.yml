@@ -1,0 +1,13 @@
+uuid: b9b42037-7ec8-43c8-9e9c-f884fa0355b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - bibcite_entity
+_core:
+  default_config_hash: UGy4pSOPREjESGlMz-ymvrmdCuvQXK6OyCIk-BIevek
+id: bibcite_entity_contributor_save
+label: 'Save contributor'
+type: bibcite_contributor
+plugin: bibcite_entity_contributor_save
+configuration: {  }

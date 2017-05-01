@@ -1,0 +1,8 @@
+id: 'bibcite_export_action:ris'
+label: 'Export to RIS'
+status: true
+plugin: 'bibcite_export_action:ris'
+type: Reference
+dependencies:
+  module:
+    - bibcite_export

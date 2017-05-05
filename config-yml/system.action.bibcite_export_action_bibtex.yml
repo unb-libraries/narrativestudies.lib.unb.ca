@@ -1,8 +1,0 @@
-id: 'bibcite_export_action:bibtex'
-label: 'Export to BibTex'
-status: true
-plugin: 'bibcite_export_action:bibtex'
-type: Reference
-dependencies:
-  module:
-    - bibcite_export

@@ -41,7 +41,7 @@
                 "allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
             },
             "drupal/bibcite": {
-                "correct bibtex carriage returns": "https://www.drupal.org/files/issues/2875764-fix-bibtex-cr.patch"
+                "correct bibtex carriage returns": "https://www.drupal.org/files/issues/2875764-fix-bibtex-cr-3.patch"
             }
          }
     },

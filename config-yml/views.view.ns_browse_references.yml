@@ -2,6 +2,8 @@ uuid: 5a4387c7-4aa1-428b-a250-79ac87a2a5e9
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.main
   module:
     - bibcite_entity
 id: ns_browse_references
@@ -159,7 +161,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Year of Publication'
+          label: 'Pub. Year'
           exclude: false
           alter:
             alter_text: false
@@ -334,7 +336,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: false
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -420,7 +422,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Reference Type'
+          label: Type
           exclude: false
           alter:
             alter_text: false
@@ -516,6 +518,15 @@ display:
     display_options:
       display_extenders: {  }
       path: ns-browse-references
+      menu:
+        type: normal
+        title: 'Browse References'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: 0
       contexts:

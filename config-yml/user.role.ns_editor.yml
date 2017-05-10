@@ -1,0 +1,28 @@
+uuid: 435453dc-5366-484b-ae05-76b30720db60
+langcode: en
+status: true
+dependencies: {  }
+id: ns_editor
+label: 'NS Editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'access bibcite export'
+  - 'add bibcite_reference entities'
+  - 'add contributor entities'
+  - 'add keyword entities'
+  - 'administer bibcite'
+  - 'administer bibcite_reference entities'
+  - 'administer contributor entities'
+  - 'administer keyword entities'
+  - 'delete all bibcite_reference entities'
+  - 'delete contributor entities'
+  - 'delete keyword entities'
+  - 'delete own bibcite_reference entities'
+  - 'edit all bibcite_reference entities'
+  - 'edit contributor entities'
+  - 'edit keyword entities'
+  - 'edit own bibcite_reference entities'
+  - 'view bibcite_reference entities'
+  - 'view contributor entities'
+  - 'view keyword entities'

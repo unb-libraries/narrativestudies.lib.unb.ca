@@ -44,7 +44,7 @@
                 "correct bibtex carriage returns": "https://www.drupal.org/files/issues/2875764-fix-bibtex-cr-3.patch"
             },
             "drupal/bibcite": {
-                "Fix ref entity access edit and del": "https://www.drupal.org/files/issues/fix-entity-access-ud-2877810-3.patch"
+                "Fix admin ref access": "https://www.drupal.org/files/issues/fix-admin-ref-access-2878836-3.patch"
             }
          }
     },

@@ -41,9 +41,6 @@
                 "allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
             },
             "drupal/bibcite": {
-                "correct bibtex carriage returns": "https://www.drupal.org/files/issues/2875764-fix-bibtex-cr-3.patch"
-            },
-            "drupal/bibcite": {
                 "Fix admin ref access": "https://www.drupal.org/files/issues/fix-admin-ref-access-2878836-3.patch"
             }
          }

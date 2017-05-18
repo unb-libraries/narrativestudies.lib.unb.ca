@@ -42,9 +42,6 @@
             },
             "drupal/bibcite": {
                 "Fix BibTex carriage returns": "https://www.drupal.org/files/issues/fix-bibtext-cr-2875764-9.patch"
-            },
-            "drupal/bibcite": {
-                "Fix admin references access": "https://www.drupal.org/files/issues/fix-admin-ref-access-2878836-3.patch"
             }
          }
     },

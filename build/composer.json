@@ -38,10 +38,13 @@
         },
         "patches": {
             "drupal/node_edit_protection": {
-                "allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
+                "Allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
             },
             "drupal/bibcite": {
-                "Fix admin ref access": "https://www.drupal.org/files/issues/fix-admin-ref-access-2878836-3.patch"
+                "Fix BibTex carriage returns": "https://www.drupal.org/files/issues/fix-bibtext-cr-2875764-9.patch"
+            },
+            "drupal/bibcite": {
+                "Fix admin references access": "https://www.drupal.org/files/issues/fix-admin-ref-access-2878836-3.patch"
             }
          }
     },

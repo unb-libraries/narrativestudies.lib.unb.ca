@@ -63,7 +63,7 @@ fields:
   A4: ''
   AB: bibcite_abst_e
   AD: ''
-  AN: ''
+  AN: bibcite_accession_number
   AU: author
   AV: ''
   BT: title
@@ -76,7 +76,7 @@ fields:
   C7: ''
   C8: ''
   CA: ''
-  CN: ''
+  CN: bibcite_call_number
   CP: bibcite_issue
   CT: title
   CY: bibcite_place_published
@@ -111,13 +111,13 @@ fields:
   OP: ''
   PB: bibcite_publisher
   PP: ''
-  PY: ''
+  PY: bibcite_year
   RI: ''
   RN: ''
   RP: ''
   SE: ''
   SN: bibcite_isbn
-  SP: ''
+  SP: bibcite_pages
   ST: title
   T1: title
   T2: bibcite_secondary_title

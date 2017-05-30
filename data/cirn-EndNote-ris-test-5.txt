@@ -1,0 +1,88 @@
+TY  - JOUR
+AN  - RN041321520
+AU  - Rush, J.
+AU  - Baughman, C.
+CN  - 791.43 384.55 4984.190000
+IS  - 3
+LA  - English
+N1  - The Third Screenwriting Issue Rush, J. Baughman, C. Quarterly: 4 issues per year UNIVERSITY FILM AND VIDEO ASSOCIATION USA
+PY  - 1997
+SN  - 0742-4671
+SP  - 28-37
+ST  - Language as Narrative Voice: The Poetics of the Highly Inflected Screenplay
+T2  - Journal of Film and Video
+TI  - Language as Narrative Voice: The Poetics of the Highly Inflected Screenplay
+VL  - 49
+ID  - 10771
+ER  - 
+
+
+TY  - JOUR
+AN  - EN002183973
+AU  - Rushdy, A. H. A.
+CN  - 810.9896 E185.5 0732.312100
+IS  - 3
+N1  - Quarterly: 4 issues per year INDIANA STATE UNIVERSITY USA
+PY  - 1992
+SN  - 1062-4783
+SP  - 373
+ST  - The Phenomenology of the Allmuseri: Charles Johnson and the Subject of the Narrative of Slavery
+T2  - African American Review
+TI  - The Phenomenology of the Allmuseri: Charles Johnson and the Subject of the Narrative of Slavery
+VL  - 26
+ID  - 10772
+ER  - 
+
+
+TY  - JOUR
+AN  - RN130091441
+AU  - Rushing, J. A.
+CN  - 909.07 PN661 8411.178000
+IS  - 2
+LA  - English
+N1  - MASSACHUSETTS Quarterly: 4 issues per year MEDIEVAL ACADEMY OF AMERICA USA
+PY  - 2003
+SN  - 0038-7134
+SP  - 570-571
+ST  - McLelland, Nicola, Ulrich von Zatzikhoven's "Lanzelet": Narrative Style and Entertainment
+T2  - Speculum
+TI  - McLelland, Nicola, Ulrich von Zatzikhoven's "Lanzelet": Narrative Style and Entertainment
+VL  - 78
+ID  - 10773
+ER  - 
+
+
+TY  - JOUR
+AN  - RN104254524
+AU  - Rushton, R.
+CN  - 791.43 L 3198.635705
+IS  - 56
+LA  - English
+N1  - TORONTO Thrice yearly: 3 issues per year CINEACTION COLLECTIVE Canada
+PY  - 2001
+SN  - 0826-9866
+SP  - 34-43
+ST  - Narrative and Spectacle in Gladiator
+T2  - Cineaction
+TI  - Narrative and Spectacle in Gladiator
+ID  - 10774
+ER  - 
+
+
+TY  - JOUR
+AN  - RN209275453
+AU  - Rushton, R.
+CN  - 371.3 791.43 PN1993 8211.754800
+DA  - Numb 1
+LA  - English
+N1  - LONDON Quarterly: 4 issues per year OXFORD UNIVERSITY PRESS Great Britain
+PY  - 2007
+SN  - 0036-9543
+SP  - 109-112
+ST  - Absorption and theatricality in the cinema: some thoughts on narrative and spectacle
+T2  - Screen
+TI  - Absorption and theatricality in the cinema: some thoughts on narrative and spectacle
+VL  - 48
+ID  - 10775
+ER  - 
+

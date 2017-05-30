@@ -1,0 +1,55 @@
+﻿@article{RN1,
+   title = {NARRATIVE record--a nursing tool},
+   journal = {Public Health Nurs},
+   volume = {43},
+   number = {11},
+   pages = {620-3; passim},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=14892199},
+   year = {1951},
+   type = {Journal Article}
+}
+
+@article{RN2,
+   title = {Background narrative script. The film: "A different kind of nurse."},
+   journal = {CANA},
+   volume = {35},
+   number = {1},
+   pages = {4-6},
+   ISSN = {0196-2752 (Print)},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=6903456},
+   year = {1980},
+   type = {Journal Article}
+}
+
+@article{RN3,
+   title = {Choosing a dialysis therapy: narrative summary of a panel discussion},
+   journal = {Am J Kidney Dis},
+   volume = {4},
+   number = {3},
+   pages = {256-9},
+   ISSN = {0272-6386 (Print)},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=6496468},
+   year = {1984},
+   type = {Journal Article}
+}
+
+@article{RN4,
+   title = {Narrative of excellence},
+   journal = {Nurs Stand},
+   volume = {5},
+   number = {29},
+   pages = {22-3},
+   ISSN = {0029-6570 (Print)},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=1903285},
+   year = {1991},
+   type = {Journal Article}
+}
+
+@article{RN5,
+   title = {A Cyberspace Model for Narrative Affect: Virtual Realism},
+   journal = {International Conference of Cyberspace},
+   pages = {84-85},
+   year = {1991},
+   type = {Journal Article}
+}
+

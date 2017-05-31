@@ -40,6 +40,9 @@
             "drupal/bibcite": {
                 "Fix BibTex carriage returns": "https://www.drupal.org/files/issues/fix-bibtext-cr-2875764-9.patch"
             },
+            "drupal/bibcite": {
+                "Strip BibTex of type entries": "https://www.drupal.org/files/issues/strip-bibtex-type-2882855-3.patch"
+            },
             "drupal/node_edit_protection": {
                 "Allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
             }

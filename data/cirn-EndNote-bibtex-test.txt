@@ -1,4 +1,4 @@
-﻿@article{RN1,
+@article{RN1,
    title = {NARRATIVE record--a nursing tool},
    journal = {Public Health Nurs},
    volume = {43},
@@ -53,3 +53,52 @@
    type = {Journal Article}
 }
 
+@article{RN6,
+   title = {Narrative Archetypes and Hypermedia: How Have We Acquired Narrativity?},
+   journal = {Japan Computer Quarterly},
+   pages = {27},
+   ISSN = {0910-6707},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@article{RN7,
+   title = {Constructing Meaning From Narrative Text: Cognitive Processes of Deaf Children},
+   journal = {American Annals of the Deaf},
+   volume = {138},
+   number = {5},
+   pages = {397},
+   ISSN = {0002-726X},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@inproceedings{RN8,
+   title = {Tales of Power - VOCA Storytelling Strategies},
+   booktitle = {Engineering the ADA: from vision to reality with technology},
+   editor = {Binion, M.},
+   publisher = {Resna},
+   pages = {166-168},
+   ISBN = {0883-4741
+093210133X},
+   type = {Conference Proceedings}
+}
+
+@article{RN9,
+   title = {Narrative Research Method Tells Young Adults' Stories},
+   journal = {International Family Planning Perspectives},
+   volume = {20},
+   number = {1},
+   pages = {33},
+   year = {1994},
+   type = {Journal Article}
+}
+
+@inproceedings{RN10,
+   title = {Use of Narrative Text Fields in Occupational Injury Data},
+   booktitle = {Vol 1},
+   publisher = {Hyattsville MD},
+   pages = {24-1},
+   ISBN = {084060503X},
+   type = {Conference Proceedings}
+}

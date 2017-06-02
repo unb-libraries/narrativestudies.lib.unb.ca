@@ -1,104 +1,57 @@
-@article{RN1,
-   title = {NARRATIVE record--a nursing tool},
-   journal = {Public Health Nurs},
-   volume = {43},
-   number = {11},
-   pages = {620-3; passim},
-   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=14892199},
-   year = {1951},
-   type = {Journal Article}
-}
-
-@article{RN2,
-   title = {Background narrative script. The film: "A different kind of nurse."},
-   journal = {CANA},
-   volume = {35},
+@article{RN3899,
+   author = {Ezrahi, S. D.},
+   title = {Holocaust, Storytelling, Memory, Identity: David Grossman in California: The Future of the Holocaust: Storytelling, Oppression, and Identity - See Under: "Apocalypse"},
+   journal = {Judaism},
+   volume = {51},
    number = {1},
-   pages = {4-6},
-   ISSN = {0196-2752 (Print)},
-   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=6903456},
-   year = {1980},
+   pages = {61-70},
+   ISSN = {0022-5762},
+   year = {2002},
    type = {Journal Article}
 }
 
-@article{RN3,
-   title = {Choosing a dialysis therapy: narrative summary of a panel discussion},
-   journal = {Am J Kidney Dis},
-   volume = {4},
+@article{RN3900,
+   author = {Ezzy, D.},
+   title = {Theorizing Narrative Identity: Symbolic Interactionism and Hermeneutics},
+   journal = {Sociological Quarterly},
+   volume = {39},
+   number = {2},
+   pages = {239-252},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN3901,
+   author = {Ezzy, D.},
+   title = {Lived Experience and Interpretation in Narrative Theory: Experiences of Living with HIV/AIDS},
+   journal = {Qualitative Sociology},
+   volume = {21},
+   number = {2},
+   pages = {169-180},
+   ISSN = {0162-0436},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN3902,
+   author = {Ezzy, D.},
+   title = {Making a Life in Yorkville: Experience and Meaning in the Life-Course Narrative of an Urban Working-Class Man},
+   journal = {Qualitative Sociology},
+   volume = {24},
    number = {3},
-   pages = {256-9},
-   ISSN = {0272-6386 (Print)},
-   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=6496468},
-   year = {1984},
+   pages = {425-428},
+   ISSN = {0162-0436},
+   year = {2001},
    type = {Journal Article}
 }
 
-@article{RN4,
-   title = {Narrative of excellence},
-   journal = {Nurs Stand},
-   volume = {5},
-   number = {29},
-   pages = {22-3},
-   ISSN = {0029-6570 (Print)},
-   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=1903285},
-   year = {1991},
+@article{RN3903,
+   author = {Faber, B.},
+   title = {Toward a Rhetoric of Change: Reconstructing Image and Narrative in Distressed Organizations},
+   journal = {Journal of Business and Technical Communication},
+   volume = {12},
+   number = {2},
+   pages = {217-237},
+   year = {1998},
    type = {Journal Article}
-}
-
-@article{RN5,
-   title = {A Cyberspace Model for Narrative Affect: Virtual Realism},
-   journal = {International Conference of Cyberspace},
-   pages = {84-85},
-   year = {1991},
-   type = {Journal Article}
-}
-
-@article{RN6,
-   title = {Narrative Archetypes and Hypermedia: How Have We Acquired Narrativity?},
-   journal = {Japan Computer Quarterly},
-   pages = {27},
-   ISSN = {0910-6707},
-   year = {1993},
-   type = {Journal Article}
-}
-
-@article{RN7,
-   title = {Constructing Meaning From Narrative Text: Cognitive Processes of Deaf Children},
-   journal = {American Annals of the Deaf},
-   volume = {138},
-   number = {5},
-   pages = {397},
-   ISSN = {0002-726X},
-   year = {1993},
-   type = {Journal Article}
-}
-
-@inproceedings{RN8,
-   title = {Tales of Power - VOCA Storytelling Strategies},
-   booktitle = {Engineering the ADA: from vision to reality with technology},
-   editor = {Binion, M.},
-   publisher = {Resna},
-   pages = {166-168},
-   ISBN = {0883-4741
-093210133X},
-   type = {Conference Proceedings}
-}
-
-@article{RN9,
-   title = {Narrative Research Method Tells Young Adults' Stories},
-   journal = {International Family Planning Perspectives},
-   volume = {20},
-   number = {1},
-   pages = {33},
-   year = {1994},
-   type = {Journal Article}
-}
-
-@inproceedings{RN10,
-   title = {Use of Narrative Text Fields in Occupational Injury Data},
-   booktitle = {Vol 1},
-   publisher = {Hyattsville MD},
-   pages = {24-1},
-   ISBN = {084060503X},
-   type = {Conference Proceedings}
 }

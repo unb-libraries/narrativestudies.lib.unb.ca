@@ -78,10 +78,48 @@ display:
           summary: ''
           description: ''
           columns:
+            author_target_id: author_target_id
+            bibcite_year: bibcite_year
+            bibcite_pages: bibcite_pages
             title: title
+            bibcite_publisher: bibcite_publisher
+            type: type
           info:
-            title:
+            author_target_id:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            bibcite_year:
+              sortable: true
+              default_sort_order: desc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            bibcite_pages:
               sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            title:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            bibcite_publisher:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            type:
+              sortable: true
               default_sort_order: asc
               align: ''
               separator: ''

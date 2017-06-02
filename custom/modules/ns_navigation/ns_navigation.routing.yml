@@ -1,0 +1,6 @@
+page.intro:
+  path: 'intro'
+  defaults:
+    _title: 'Introduction'
+  requirements:
+    _permission: 'view published content'

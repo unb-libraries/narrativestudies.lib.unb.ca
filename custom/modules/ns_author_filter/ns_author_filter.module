@@ -1,0 +1,18 @@
+<?php
+
+function ns_author_filter_views_pre_render(Drupal\views\ViewExecutable $view) {
+
+  if ($view->id() == 'ns_browse_references') {
+    $authors = $view->result[0]->_entity->get('author')->getValue();
+    $author_id = $authors[0]['target_id'];
+
+    $author_name = \Drupal::entityTypeManager()
+      ->getStorage('bibcite_contributor')
+      ->load($author_id);
+
+    kint($view);
+    kint($authors);
+    kint($author_id);
+    kint($author_name);
+  }
+}

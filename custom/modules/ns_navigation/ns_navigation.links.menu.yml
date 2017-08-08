@@ -5,8 +5,8 @@ ns_navigation.intro:
   menu_name: main
   route_name: page.intro
 ns_navigation.add_reference:
-    title: 'Add Reference'
-    description: 'Add a new bibliography reference.'
-    parent: main
-    menu_name: main
-    route_name: entity.bibcite_reference.add_page
+  title: 'Add Reference'
+  description: 'Add a new bibliography reference.'
+  parent: main
+  menu_name: main
+  route_name: entity.bibcite_reference.add_page

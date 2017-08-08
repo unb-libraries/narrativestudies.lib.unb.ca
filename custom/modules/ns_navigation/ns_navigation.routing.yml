@@ -1,6 +1,7 @@
 page.intro:
-  path: 'intro'
+  path: '/intro'
   defaults:
+    _controller: '\Drupal\ns_navigation\Controller\NSNavController:home'
     _title: 'Introduction'
   requirements:
-    _permission: 'view published content'
+    _permission: 'access content'

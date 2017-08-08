@@ -1,4 +1,4 @@
-uuid: 63e09214-16c4-4293-8752-9424fe6ff1b6
+uuid: f8013378-58b8-40ea-830e-e1d0b66c37e9
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: fzCq7xjId8UOK7a_VxHBb2x2DDnnomdOQqHW84YqtrI
+  default_config_hash: LG5ezLJp8WhZvYdGusYra3U0FHh3HeYk_3n4HhsuW1o
 id: bibcite_reference_admin
 label: 'Reference (Admin)'
 module: views
@@ -76,19 +76,19 @@ display:
           row_class: ''
           default_row_class: true
           override: true
-          sticky: false
+          sticky: true
           caption: ''
           summary: ''
           description: ''
           columns:
-            bulk_form: bulk_form
+            bibcite_reference_bulk_form: bibcite_reference_bulk_form
             title: title
             type: type
             uid: uid
             changed: changed
             operations: operations
           info:
-            bulk_form:
+            bibcite_reference_bulk_form:
               align: ''
               separator: ''
               empty_column: false
@@ -127,7 +127,7 @@ display:
               empty_column: false
               responsive: ''
           default: changed
-          empty_table: false
+          empty_table: true
       row:
         type: fields
       fields:
@@ -583,10 +583,22 @@ display:
       title: Reference
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: 'No references available.'
+          plugin_id: text_custom
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      show_admin_links: false
     cache_metadata:
       max-age: 0
       contexts:

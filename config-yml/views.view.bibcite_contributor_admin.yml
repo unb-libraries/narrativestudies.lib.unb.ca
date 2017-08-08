@@ -1,4 +1,4 @@
-uuid: c12d4ba1-f267-4b8b-a8e4-a2db8d72d52e
+uuid: 2c69c527-c5ed-4407-a0c0-002848e6b303
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: xyfNERGIpeEIAIT-DXOAPNjS8KoJzL4XHtOgdY6IsAM
+  default_config_hash: NT3J01zpxkDBu8khNPTzfLcQvs_qNSPJCmpKmjH7ZGI
 id: bibcite_contributor_admin
 label: 'Contributor (Admin)'
 module: views
@@ -76,7 +76,7 @@ display:
           row_class: ''
           default_row_class: true
           override: true
-          sticky: false
+          sticky: true
           caption: ''
           summary: ''
           description: ''
@@ -127,7 +127,7 @@ display:
               empty_column: false
               responsive: ''
           default: '-1'
-          empty_table: false
+          empty_table: true
       row:
         type: fields
       fields:
@@ -661,10 +661,22 @@ display:
       title: Contributor
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: 'No contributors available.'
+          plugin_id: text_custom
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      show_admin_links: false
     cache_metadata:
       max-age: 0
       contexts:

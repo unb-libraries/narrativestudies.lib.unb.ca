@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Contains ns_navigation.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function ns_navigation_theme($existing, $type, $theme, $path) {
+  return [
+    'ns_intro' => [
+      'variables' => [],
+    ],
+  ];
+}

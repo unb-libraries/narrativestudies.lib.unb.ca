@@ -1,11 +1,11 @@
 uuid: 505198c5-b3da-4759-80ae-8f2bcfb469b5
-name: 'Narrative Studies'
+name: 'Bibliography of Interdisciplinary Narrative Studies'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /intro
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

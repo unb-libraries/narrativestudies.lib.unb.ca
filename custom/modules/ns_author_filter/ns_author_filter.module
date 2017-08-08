@@ -1,6 +1,16 @@
 <?php
 
-function ns_author_filter_views_pre_render(Drupal\views\ViewExecutable $view) {
+/**
+ * @file
+ * Contains pomp_add_linking.module.
+ */
+
+ use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function ns_author_filter_views_pre_render(ViewExecutable $view) {
 
   if ($view->id() == 'ns_browse_references') {
     $authors = $view->result[0]->_entity->get('author')->getValue();

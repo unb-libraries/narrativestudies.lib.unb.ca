@@ -1,4 +1,4 @@
-uuid: f4fe514e-2553-4d46-a599-9578c68ec92b
+uuid: bf784eed-4cac-4fe5-b51c-2e58bc166106
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: suGosA-ko9-NToGHC6K2SO9_LlM_D5RjBxLcyDa5ePM
+  default_config_hash: mY5z13h5UojRvS8SZsmZHBI9yMJu47mnY1uKb_qiGWE
 id: bibcite_keyword_admin
 label: 'Keyword (Admin)'
 module: views
@@ -76,7 +76,7 @@ display:
           row_class: ''
           default_row_class: true
           override: true
-          sticky: false
+          sticky: true
           caption: ''
           summary: ''
           description: ''
@@ -103,7 +103,7 @@ display:
               empty_column: false
               responsive: ''
           default: name
-          empty_table: false
+          empty_table: true
       row:
         type: fields
       fields:
@@ -321,10 +321,22 @@ display:
       title: Keyword
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: 'No keywords available.'
+          plugin_id: text_custom
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      show_admin_links: false
     cache_metadata:
       max-age: 0
       contexts:

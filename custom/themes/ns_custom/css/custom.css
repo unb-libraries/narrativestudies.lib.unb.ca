@@ -22,3 +22,12 @@
 #libs-footer-logo {
   max-width: 300px;
 }
+
+/* Responsive */
+
+@media (min-width: 768px) {
+  .menu.nav.navbar-nav {
+    float: right;
+    margin: 0;
+  }
+}

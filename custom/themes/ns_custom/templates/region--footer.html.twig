@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-4">
+      <a href="https://www.lib.unb.ca">
+        <img class="pull-right" id="libs-footer-logo"
+        src="/themes/custom/ns_custom/images/UNB_Lib_Black_Red.png">
+      </a>
+    </div>
+  </div>
+</div>
+
+{% if content %}
+<div id="{{ id }}-wrapper"><footer id="{{ id }}" class="row" role="contentinfo">
+  <div{{ attributes }}>
+    {{ content }}
+  </div>
+</footer><div><!-- /#{{ id }}, /#{{ id }}-wrapper -->
+{% endif %}

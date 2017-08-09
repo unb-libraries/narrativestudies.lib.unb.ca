@@ -1,0 +1,24 @@
+
+/* Datasets custom CSS. */
+
+/* Colour.
+ *
+ * red1:  cc0000;
+ * red2:  990000;
+ * gray1: f8f8f8;
+ * gray2: e7e7e7;
+ */
+
+/* All forms. */
+
+#edit-preview {
+  display: none;
+}
+
+/* Bootstrap global overrides. */
+
+/* Footer */
+
+#libs-footer-logo {
+  max-width: 300px;
+}

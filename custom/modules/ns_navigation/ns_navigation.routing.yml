@@ -1,7 +1,31 @@
-page.intro:
+site.intro:
   path: '/intro'
   defaults:
     _controller: '\Drupal\ns_navigation\Controller\NSNavController:home'
-    _title: 'Introduction'
+  requirements:
+    _permission: 'access content'
+site.user:
+  path: '/user/{uid}'
+  defaults:
+    _controller: '\Drupal\ns_navigation\Controller\NSNavController:user'
+    _title: 'User'
+  requirements:
+    _permission: 'access content'
+site.adv_biblio:
+  path: '/advanced'
+  defaults:
+    _title: 'Advanced Search'
+  requirements:
+    _permission: 'access content'
+site.subjects:
+  path: '/subjects'
+  defaults:
+    _title: 'Subjects'
+  requirements:
+    _permission: 'access content'
+site.about:
+  path: '/about'
+  defaults:
+    _title: 'About the Site'
   requirements:
     _permission: 'access content'

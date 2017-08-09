@@ -1,0 +1,22 @@
+uuid: fb317c2a-e0b1-4bac-a517-175da9367dad
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ns_custom
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: ns_custom_help
+theme: ns_custom
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

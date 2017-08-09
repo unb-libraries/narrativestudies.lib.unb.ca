@@ -1,0 +1,20 @@
+uuid: 755062bb-b6f1-4da7-a14f-5a0d420d2b5c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ns_custom
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: ns_custom_page_title
+theme: ns_custom
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

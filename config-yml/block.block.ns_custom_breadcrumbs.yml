@@ -1,0 +1,22 @@
+uuid: 54526160-3045-4633-8ac6-dfb32a5eb973
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ns_custom
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: ns_custom_breadcrumbs
+theme: ns_custom
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

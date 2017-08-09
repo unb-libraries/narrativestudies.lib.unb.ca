@@ -1,4 +1,4 @@
-uuid: b159ec98-2ef4-40b9-9661-2580211cfb54
+uuid: 8ef530d8-0821-4564-b812-f7285b8fb8ba
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - ns_custom
 _core:
   default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
-id: bootstrap_account_menu
-theme: bootstrap
+id: ns_custom_account_menu
+theme: ns_custom
 region: footer
 weight: -4
 provider: null

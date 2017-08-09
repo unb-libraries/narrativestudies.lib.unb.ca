@@ -1,15 +1,15 @@
-uuid: 38fb81b3-9961-495f-a4b5-f3e7216ac135
+uuid: ad90de34-9eaa-4253-b3a3-755fe9ac334f
 langcode: en
 status: false
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - ns_custom
 _core:
   default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
-id: bootstrap_powered
-theme: bootstrap
+id: ns_custom_powered
+theme: ns_custom
 region: footer
 weight: -5
 provider: null

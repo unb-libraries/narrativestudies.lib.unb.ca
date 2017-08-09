@@ -1,0 +1,22 @@
+uuid: c1981113-d546-4d73-a23a-d74220730399
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ns_custom
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: ns_custom_search
+theme: ns_custom
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

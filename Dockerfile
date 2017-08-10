@@ -15,10 +15,6 @@ ENV DRUPAL_SITE_URI narrativestudies.lib.unb.ca
 ENV DRUPAL_SITE_UUID 505198c5-b3da-4759-80ae-8f2bcfb469b5
 ENV DRUPAL_CONFIGURATION_EXPORT_SKIP devel
 
-# Newrelic.
-ENV NEWRELIC_PHP_VERSION 7.2.0.191
-ENV NEWRELIC_PHP_ARCH musl
-
 # Add scripts, remove delete upstream drupal build.
 COPY ./scripts/container /scripts
 RUN /scripts/DeployUpstreamContainerScripts.sh && \

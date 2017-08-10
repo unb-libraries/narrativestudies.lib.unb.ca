@@ -1,6 +1,9 @@
 <?php
-/*
-Include prod-only settings here.
-*/
-
+/**
+ * @file
+ * Include prod-only settings here.
+ */
 $settings['config_readonly'] = TRUE;
+$settings['trusted_host_patterns'] = [
+  '^narrativestudies\.lib\.unb\.ca$',
+];

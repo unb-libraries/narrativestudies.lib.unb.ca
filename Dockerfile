@@ -19,20 +19,18 @@ ENV DRUPAL_CONFIGURATION_EXPORT_SKIP devel
 ENV NEWRELIC_PHP_VERSION 7.2.0.191
 ENV NEWRELIC_PHP_ARCH musl
 
-# Add Mail Sending
-RUN apk --update add postfix && \
-  rm -f /var/cache/apk/*
-COPY package-conf/postfix/main.cf /etc/postfix/main.cf
-
-# php7-ldap and openldap
-RUN apk --update add php7-ldap && \
+# Add Mail Sending, Rsyslogd
+RUN apk --update add rsyslog postfix php7-ldap  && \
   rm -f /var/cache/apk/* && \
+  touch /var/log/nginx/access.log && touch /var/log/nginx/error.log && \
   echo "TLS_REQCERT never" > /etc/openldap/ldap.conf
 
 # Add nginx and PHP conf.
 COPY package-conf/nginx/app.conf /etc/nginx/conf.d/app.conf
+COPY package-conf/postfix/main.cf /etc/postfix/main.cf
 COPY package-conf/php/app-php.ini /etc/php7/conf.d/zz_app.ini
 COPY package-conf/php/app-php-fpm.conf /etc/php7/php-fpm.d/zz_app.conf
+COPY package-conf/rsyslog/21-logzio-nginx.conf /etc/rsyslog.d/21-logzio-nginx.conf
 
 # Scripts.
 COPY ./scripts/container /scripts

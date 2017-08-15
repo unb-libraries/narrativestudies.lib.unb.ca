@@ -1,0 +1,37 @@
+<?php
+
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Field\BaseFieldDefinition;
+
+/**
+ * Implements hook_entity_base_field_info().
+ */
+function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
+  if ($entity_type->id() === 'bibcite_reference') {
+    $fields['text_author'] = BaseFieldDefinition::create('text')
+      ->setLabel(t('Text Author'))
+      ->setTranslatable(TRUE);
+    return $fields;
+  }
+}
+
+/**
+ * Implements hook_node_load().
+ */
+function ns_author_entity_load($entities, $entity_type) {
+  if ($entity_type == 'bibcite_reference') {
+
+    foreach ($entities as $entity) {
+      kint($entity);
+      $authors = $entity->get('author')->getValue();
+
+      foreach ($authors as $author) {
+        $aid = $author['target_id'];
+        $aut_storage = \Drupal::entityManager()->getStorage('bibcite_contributor');
+        $author = $aut_storage->load($aid);
+        $aut_names = $aut_names . $author->getName();
+        kint($aut_names);
+      }
+    }
+  }
+}

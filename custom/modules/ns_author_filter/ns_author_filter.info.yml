@@ -1,5 +1,0 @@
-name: Author Filter
-type: module
-description: Add exposed filter on author (text) to browse-references.
-core: 8.x
-package: Narrative Studies

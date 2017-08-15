@@ -26,9 +26,11 @@ module:
   help: 0
   history: 0
   image: 0
+  kint: 0
   link: 0
   menu_ui: 0
   node: 0
+  ns_author: 0
   ns_navigation: 0
   options: 0
   page_cache: 0

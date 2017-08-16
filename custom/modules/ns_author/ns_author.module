@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains ns_author.module.
+ */
+
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 
@@ -7,6 +12,7 @@ use Drupal\Core\Field\BaseFieldDefinition;
  * Implements hook_entity_base_field_info().
  */
 function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
+  // Add text author field to bibcite_reference.
   if ($entity_type->id() === 'bibcite_reference') {
     $fields['text_author'] = BaseFieldDefinition::create('text')
       ->setLabel(t('Text Author'))
@@ -16,22 +22,22 @@ function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
 }
 
 /**
- * Implements hook_node_load().
+ * Implements hook_ENTITY_TYPE_presave().
  */
-function ns_author_entity_load($entities, $entity_type) {
-  if ($entity_type == 'bibcite_reference') {
+function ns_author_bibcite_reference_presave($entity) {
+  // Generate text author on entity save.
+  $authors = $entity->get('author')->getValue();
+  $aut_names = '';
 
-    foreach ($entities as $entity) {
-      kint($entity);
-      $authors = $entity->get('author')->getValue();
-
-      foreach ($authors as $author) {
-        $aid = $author['target_id'];
-        $aut_storage = \Drupal::entityManager()->getStorage('bibcite_contributor');
-        $author = $aut_storage->load($aid);
-        $aut_names = $aut_names . $author->getName();
-        kint($aut_names);
-      }
-    }
+  foreach ($authors as $author) {
+    $aid = $author['target_id'];
+    $aut_storage = \Drupal::entityManager()->getStorage('bibcite_contributor');
+    $author = $aut_storage->load($aid);
+    $aut_names = $aut_names . ' ' . $author->getName();
   }
+
+  unset($author);
+  unset($authors);
+
+  $entity->get('text_author')->setValue($aut_names);
 }

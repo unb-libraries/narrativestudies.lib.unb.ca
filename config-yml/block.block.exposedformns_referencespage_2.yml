@@ -1,0 +1,29 @@
+uuid: 2373785c-a863-44cd-b684-703ebdd8fe52
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ns_references
+  module:
+    - system
+    - views
+  theme:
+    - ns_custom
+id: exposedformns_referencespage_2
+theme: ns_custom
+region: header
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:ns_references-page_2'
+settings:
+  id: 'views_exposed_filter_block:ns_references-page_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/reference-search*"
+    negate: false
+    context_mapping: {  }

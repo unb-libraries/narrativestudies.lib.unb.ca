@@ -1,0 +1,29 @@
+uuid: c4b03892-be6b-43c6-addb-d47d5e53d88e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ns_references
+  module:
+    - system
+    - views
+  theme:
+    - ns_custom
+id: exposedformns_referencespage_3
+theme: ns_custom
+region: header
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:ns_references-page_3'
+settings:
+  id: 'views_exposed_filter_block:ns_references-page_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /advanced-search
+    negate: false
+    context_mapping: {  }

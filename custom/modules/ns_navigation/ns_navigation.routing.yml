@@ -12,7 +12,7 @@ site.user:
   requirements:
     _permission: 'access content'
 site.adv_biblio:
-  path: '/advanced'
+  path: '/advanced-search'
   defaults:
     _title: 'Advanced Search'
   requirements:

@@ -12,7 +12,7 @@ use Drupal\Core\Field\BaseFieldDefinition;
  * Implements hook_entity_base_field_info().
  */
 function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
-  // Add text author field to bibcite_reference.
+  // Add text author(s) field to bibcite_reference.
   if ($entity_type->id() === 'bibcite_reference') {
     $fields['text_author'] = BaseFieldDefinition::create('text')
       ->setLabel(t('Text Author'))
@@ -25,7 +25,7 @@ function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
  * Implements hook_ENTITY_TYPE_presave().
  */
 function ns_author_bibcite_reference_presave($entity) {
-  // Generate text author on entity save.
+  // Generate text author(s) on entity save.
   $authors = $entity->get('author')->getValue();
   $aut_names = '';
 

@@ -45,6 +45,9 @@
             "drupal/bibcite": {
                 "Strip BibTex of type entries": "https://www.drupal.org/files/issues/strip-bibtex-type-2882855-3.patch"
             },
+            "drupal/bibcite": {
+                "Add BibTex langauge key to mapping": "https://www.drupal.org/files/issues/add-bibtex-lang-2903950-3.patch"
+            },
             "drupal/node_edit_protection": {
                 "Allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
             }

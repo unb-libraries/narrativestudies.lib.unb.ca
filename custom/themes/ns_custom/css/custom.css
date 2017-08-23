@@ -1,4 +1,3 @@
-
 /* Datasets custom CSS. */
 
 /* Colour.
@@ -83,22 +82,34 @@ a:active,
   outline: none !important;
 }
 
+.name.navbar-brand {
+  font-size: 24px;
+}
+
 /* Global Search Form */
 
 form#views-exposed-form-ns-references-page-2 > div {
   margin: 0 auto;
   width: 80%;
+  text-align: center;
 }
 
 form#views-exposed-form-ns-references-page-2 > div >
 div.form-item.js-form-item.form-type-textfield.js-form-type-textfield {
-  width: 80%;
+  width: 70%;
 }
 
 form#views-exposed-form-ns-references-page-2 > div >
 div.form-item.js-form-item.form-type-textfield.js-form-type-textfield >
 input {
   width: 100%;
+}
+
+section#block-searchlabel {
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  text-align: center;
 }
 
 /* Intro Page */

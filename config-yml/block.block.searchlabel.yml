@@ -1,0 +1,26 @@
+uuid: 621ee7e4-a943-4778-9b0a-e00d40183caa
+langcode: en
+status: true
+dependencies:
+  module:
+    - ns_navigation
+    - system
+  theme:
+    - ns_custom
+id: searchlabel
+theme: ns_custom
+region: header
+weight: -4
+provider: null
+plugin: search_label
+settings:
+  id: search_label
+  label: 'Search Label'
+  provider: ns_navigation
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

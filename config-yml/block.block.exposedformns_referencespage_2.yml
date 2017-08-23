@@ -12,7 +12,7 @@ dependencies:
 id: exposedformns_referencespage_2
 theme: ns_custom
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: 'views_exposed_filter_block:ns_references-page_2'
 settings:

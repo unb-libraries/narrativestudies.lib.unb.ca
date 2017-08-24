@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains ns_author.module.
+ * Contains ns_fields.module.
  */
 
 use Drupal\Core\Entity\EntityTypeInterface;
@@ -15,7 +15,10 @@ function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
   // Add text author(s) field to bibcite_reference.
   if ($entity_type->id() === 'bibcite_reference') {
     $fields['text_author'] = BaseFieldDefinition::create('text')
-      ->setLabel(t('Text Author'))
+      ->setLabel(t('Text Authors'))
+      ->setTranslatable(TRUE);
+    $fields['text_keyword'] = BaseFieldDefinition::create('text')
+      ->setLabel(t('Text Keywords'))
       ->setTranslatable(TRUE);
     return $fields;
   }
@@ -25,19 +28,34 @@ function ns_author_entity_base_field_info(EntityTypeInterface $entity_type) {
  * Implements hook_ENTITY_TYPE_presave().
  */
 function ns_author_bibcite_reference_presave($entity) {
-  // Generate text author(s) on entity save.
+  // Generate text author(s) and keyword(s) on entity save.
   $authors = $entity->get('author')->getValue();
   $aut_names = '';
 
   foreach ($authors as $author) {
     $aid = $author['target_id'];
     $aut_storage = \Drupal::entityManager()->getStorage('bibcite_contributor');
-    $author = $aut_storage->load($aid);
-    $aut_names = $aut_names . ' ' . $author->getName();
+    $tgt_author = $aut_storage->load($aid);
+    $aut_names = $aut_names . ' ' . $tgt_author->getName();
   }
 
   unset($author);
   unset($authors);
 
   $entity->get('text_author')->setValue($aut_names);
+
+  $keywords = $entity->get('keywords')->getValue();
+  $kw_labels = '';
+
+  foreach ($keywords as $keyword) {
+    $kid = $keyword['target_id'];
+    $kw_storage = \Drupal::entityManager()->getStorage('bibcite_keyword');
+    $tgt_keyword = $kw_storage->load($kid);
+    $kw_labels = $kw_labels . ' ' . $tgt_keyword->getName();
+  }
+
+  unset($keyword);
+  unset($keywords);
+
+  $entity->get('text_keyword')->setValue($kw_labels);
 }

@@ -1156,6 +1156,8 @@ display:
           plugin_id: custom
       defaults:
         fields: false
+        arguments: false
+      arguments: {  }
     cache_metadata:
       max-age: -1
       contexts:

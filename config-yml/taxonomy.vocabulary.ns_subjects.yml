@@ -1,0 +1,9 @@
+uuid: 0a844795-9beb-4aa8-ad18-12fbddaac38c
+langcode: en
+status: true
+dependencies: {  }
+name: Subjects
+vid: ns_subjects
+description: 'For narrative study bibliography keywords.'
+hierarchy: 0
+weight: 0

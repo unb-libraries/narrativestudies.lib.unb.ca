@@ -136,7 +136,7 @@ div#about-cirn {
 
 div#about-csn {
   height: 100%;
-  adding-bottom: 10px;
+  padding-bottom: 10px;
   border: #e7e7e7 1px solid;
   border-radius: 4px;
 }
@@ -144,16 +144,24 @@ div#about-csn {
 img#cirn-logo {
   padding-top: 10px;
   padding-bottom: 10px;
-  display: inline;
   vertical-align: top;
   float: none !important;
-  width: 60%;
+  max-width: 160px;;
 }
 
 /* Footer */
 
-#libs-footer-logo {
-  max-width: 300px;
+footer.footer.container {
+  padding-left: 0px !important;
+}
+
+.footer-logo {
+  max-width: 260px;
+  max-height: 50px;
+}
+
+footer.footer.container > div.container {
+  padding-left: 0px !important;
 }
 
 /* Responsive */

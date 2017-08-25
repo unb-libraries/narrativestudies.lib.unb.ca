@@ -647,7 +647,7 @@ display:
           plugin_id: field
       filters: {  }
       sorts: {  }
-      title: References
+      title: 'References by Subject'
       header:
         result:
           id: result
@@ -674,11 +674,11 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: ref_subject
     position: 1
     display_options:
       display_extenders: {  }
-      path: references
+      path: references-subject
       fields:
         author_target_id:
           id: author_target_id
@@ -1157,7 +1157,10 @@ display:
       defaults:
         fields: false
         arguments: false
+        title: false
       arguments: {  }
+      display_description: ''
+      title: 'References by Subject'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1168,11 +1171,11 @@ display:
   page_2:
     display_plugin: page
     id: page_2
-    display_title: ref_search
+    display_title: references
     position: 1
     display_options:
       display_extenders: {  }
-      path: reference-search
+      path: references
       display_description: ''
       title: 'Reference Search'
       defaults:
@@ -1844,11 +1847,11 @@ display:
   page_3:
     display_plugin: page
     id: page_3
-    display_title: advanced_search
+    display_title: ref_advanced
     position: 1
     display_options:
       display_extenders: {  }
-      path: advanced-search
+      path: references-advanced
       display_description: ''
       title: 'Advanced Search'
       defaults:

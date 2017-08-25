@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains ns_fields.module.
+ * Contains ns_author.module.
  */
 
 use Drupal\Core\Entity\EntityTypeInterface;

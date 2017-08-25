@@ -1,5 +1,5 @@
-name: Text Fields
+name: Text Author
 type: module
-description: Add text fields to bibcite reference views for filtering.
+description: Add text author and other fields to bibcite reference views.
 core: 8.x
 package: Narrative Studies

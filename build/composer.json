@@ -43,7 +43,7 @@
         },
         "patches": {
             "drupal/bibcite": {
-                "Add ';' separator for parsing multiple EndNote BibTex keywords": "https://www.drupal.org/files/issues/bibtex-keywords-semicolon-2904701-2.patch",
+                "Use ';' separator for parsing multiple EndNote BibTex keywords": "https://www.drupal.org/files/issues/bibtex-keywords-semicolon-2904701-4.patch",
                 "Strip BibTex of type entries": "https://www.drupal.org/files/issues/strip-bibtex-type-2882855-4.patch",
                 "Add BibTex langauge key to mapping": "https://www.drupal.org/files/issues/add-bibtex-lang-2903950-3.patch"
             },

@@ -4,7 +4,7 @@ types:
   inbook: book_chapter
   incollection: ''
   conference: conference_paper
-  inproceedings: ''
+  inproceedings: conference_proceedings
   proceedings: conference_proceedings
   article: journal_article
   booklet: ''

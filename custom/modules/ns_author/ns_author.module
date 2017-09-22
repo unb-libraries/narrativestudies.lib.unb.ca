@@ -59,3 +59,11 @@ function ns_author_bibcite_reference_presave($entity) {
 
   $entity->get('text_keyword')->setValue($kw_labels);
 }
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function ns_author_bibcite_keyword_presave($entity) {
+  kint($entity);
+  exit;
+}

@@ -112,6 +112,32 @@ section#block-searchlabel {
   text-align: center;
 }
 
+/* Avanced Search Form */
+
+form#views-exposed-form-ns-references-page-3 {
+  margin-bottom: 30px;
+}
+
+form#views-exposed-form-ns-references-page-3 label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+form#views-exposed-form-ns-references-page-3 div div:first-child {
+  width: 100%;
+  max-width: 934px;
+}
+
+form#views-exposed-form-ns-references-page-3 div div:first-child input {
+  width: 100%;
+}
+
+div#edit-actions {
+  display: block;
+  margin-top: 20px;
+}
+
 /* Intro Page */
 
 p#about-site {

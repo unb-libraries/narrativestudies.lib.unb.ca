@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains ns_biblio.module.
+ */
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function ns_author_bibcite_keyword_presave($entity) {
+  // Make all keywords title-case.
+  kint($entity);
+  $keyword = $entity->get('name')->getValue()[0]['value'];
+  $keyword = ucfirst(strtolower($keyword));
+  kint($keyword);
+  exit;
+}

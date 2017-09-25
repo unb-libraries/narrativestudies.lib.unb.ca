@@ -133,9 +133,15 @@ form#views-exposed-form-ns-references-page-3 div div:first-child input {
   width: 100%;
 }
 
-div#edit-actions {
+form#views-exposed-form-ns-references-page-3 div#edit-actions {
   display: block;
   margin-top: 20px;
+}
+
+/* By-subject Search Form */
+
+form#views-exposed-form-ns-references-page-1 {
+  margin-bottom: 30px;
 }
 
 /* Intro Page */

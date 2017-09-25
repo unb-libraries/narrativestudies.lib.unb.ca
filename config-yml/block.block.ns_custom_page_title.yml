@@ -9,7 +9,7 @@ _core:
 id: ns_custom_page_title
 theme: ns_custom
 region: header
-weight: -1
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

@@ -144,6 +144,14 @@ form#views-exposed-form-ns-references-page-1 {
   margin-bottom: 30px;
 }
 
+/* Explore Subjects Page */
+
+div.view-id-ns_subjects.view-display-id-page_1 div.view-content {
+  -webkit-columns: 3;
+  s-moz-columns: 3;
+  columns: 3;
+}
+
 /* Intro Page */
 
 p#about-site {

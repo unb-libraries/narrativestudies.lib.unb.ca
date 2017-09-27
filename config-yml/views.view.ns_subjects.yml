@@ -118,19 +118,23 @@ display:
           entity_field: name
           plugin_id: field
       filters: {  }
-      sorts: {  }
-      title: 'Explore Subjects'
-      header:
-        result:
-          id: result
-          table: views
-          field: result
+      sorts:
+        name:
+          id: name
+          table: bibcite_keyword
+          field: name
           relationship: none
           group_type: group
           admin_label: ''
-          empty: false
-          content: 'Displaying @start - @end of @total'
-          plugin_id: result
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: bibcite_keyword
+          entity_field: name
+          plugin_id: standard
+      title: 'Explore Subjects'
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }

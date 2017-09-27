@@ -9,7 +9,7 @@ features:
   favicon: 0
   node_user_picture: 1
 logo:
-  path: ''
+  path: themes/custom/ns_custom/favicon.png
   url: ''
   use_default: 0
 schemas:

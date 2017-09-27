@@ -189,6 +189,16 @@ img#cirn-logo {
   max-width: 160px;;
 }
 
+img#csn-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  float: none !important;
+  max-width: 260px;
+  position: relative;
+  left: -18px;
+}
+
 /* Footer */
 
 footer.footer.container {

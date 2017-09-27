@@ -1,12 +1,12 @@
 favicon:
   mimetype: image/png
-  path: 'public://favicon_0.png'
-  url: 'http://192.168.99.100:3089/themes/contrib/bootstrap/favicon.ico'
+  path: ''
+  url: 'http://default/sites/default/files/favicon_0.png'
   use_default: 0
 features:
   comment_user_picture: 1
   comment_user_verification: 1
-  favicon: 1
+  favicon: 0
   node_user_picture: 1
 logo:
   path: ''
@@ -15,4 +15,6 @@ logo:
 schemas:
   bootstrap: 8000
   ns_custom: 8000
+navbar_inverse: 0
+navbar_position: fixed-top
 table: ''

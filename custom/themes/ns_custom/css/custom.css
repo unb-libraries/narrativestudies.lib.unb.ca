@@ -199,6 +199,38 @@ img#csn-logo {
   left: -18px;
 }
 
+/* Suggest Item Form */
+
+fieldset#edit-field-suggest-ref--wrapper
+span.fieldset-legend.js-form-required.form-required {
+  font-size: 16px;
+}
+
+fieldset#edit-field-suggest-ref--wrapper
+span.fieldset-legend.js-form-required.form-required:after {
+  display: none !important;
+}
+
+h1.js-quickedit-page-title.page-header {
+  font-size: 20px;
+}
+
+div#edit-field-abstract-0-format {
+  display: none !important;
+}
+
+form#contact-message-suggest-reference-form button#edit-submit {
+  text-indent: -9999px;
+  line-height: 0;
+}
+
+form#contact-message-suggest-reference-form button#edit-submit:after {
+  content: "Submit";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
+
 /* Footer */
 
 footer.footer.container {

@@ -1,0 +1,19 @@
+uuid: 5d87e6a6-99ce-4c31-8d5d-90f42ff9db77
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.suggest_reference
+    - field.storage.contact_message.field_author_name
+id: contact_message.suggest_reference.field_author_name
+field_name: field_author_name
+entity_type: contact_message
+bundle: suggest_reference
+label: 'Author Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

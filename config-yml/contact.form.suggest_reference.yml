@@ -1,0 +1,12 @@
+uuid: a3df7fa0-982c-4450-b01b-02bfcdd8f2fa
+langcode: en
+status: true
+dependencies: {  }
+id: suggest_reference
+label: 'Suggest a New Item for the Bibliography'
+recipients:
+  - cvillami@unb.ca
+reply: ''
+weight: 0
+message: 'Thank you. Your suggestion has been submitted.'
+redirect: /about

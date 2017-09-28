@@ -1,0 +1,36 @@
+uuid: 8a6ecb38-da4a-4f96-8431-5a4c0156d729
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_suggest_ref
+field_name: field_suggest_ref
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Book
+      label: Book
+    -
+      value: 'Book Chapter'
+      label: 'Book Chapter'
+    -
+      value: 'Journal Article'
+      label: 'Journal Article'
+    -
+      value: 'Conference Proceedings'
+      label: 'Conference Proceedings'
+    -
+      value: 'Other Items'
+      label: 'Other Items'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

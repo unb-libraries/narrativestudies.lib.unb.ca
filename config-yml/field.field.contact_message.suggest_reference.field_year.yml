@@ -1,0 +1,19 @@
+uuid: e8208a4b-5409-4f47-8129-f1dedf5a856a
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.suggest_reference
+    - field.storage.contact_message.field_year
+id: contact_message.suggest_reference.field_year
+field_name: field_year
+entity_type: contact_message
+bundle: suggest_reference
+label: Year
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

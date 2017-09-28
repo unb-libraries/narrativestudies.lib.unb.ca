@@ -1,0 +1,23 @@
+uuid: b33b56a3-f1b1-44d2-9c7c-432dbeea930e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.suggest_reference
+    - field.storage.contact_message.field_suggest_ref
+  module:
+    - options
+id: contact_message.suggest_reference.field_suggest_ref
+field_name: field_suggest_ref
+entity_type: contact_message
+bundle: suggest_reference
+label: 'Please use the form below to suggest additions to the Bibliography of Interdisciplinary Narrative Studies.'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Book
+default_value_callback: ''
+settings: {  }
+field_type: list_string

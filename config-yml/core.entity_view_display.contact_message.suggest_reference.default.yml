@@ -1,0 +1,77 @@
+uuid: ac8933cb-aab8-46ae-be48-15f9731d67db
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.suggest_reference
+    - field.field.contact_message.suggest_reference.field_abstract
+    - field.field.contact_message.suggest_reference.field_author_name
+    - field.field.contact_message.suggest_reference.field_publication_place
+    - field.field.contact_message.suggest_reference.field_publisher
+    - field.field.contact_message.suggest_reference.field_suggest_ref
+    - field.field.contact_message.suggest_reference.field_title
+    - field.field.contact_message.suggest_reference.field_year
+  module:
+    - options
+    - text
+id: contact_message.suggest_reference.default
+targetEntityType: contact_message
+bundle: suggest_reference
+mode: default
+content:
+  field_abstract:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_author_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_publication_place:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_publisher:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_suggest_ref:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_title:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_year:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  message: true

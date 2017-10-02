@@ -164,18 +164,20 @@ p#about-site {
 
 div#cirn-csn {
   width: 90%;
-  height: 420px;
+  min-height: 420px;
 }
 
 div#about-cirn {
-  height: 100%;
+  min-height: 420px;
+  margin-top: 2%;
   padding-bottom: 10px;
   border: #e7e7e7 1px solid;
   border-radius: 4px;
 }
 
 div#about-csn {
-  height: 100%;
+  min-height: 420px;
+  margin-top: 2%;
   padding-bottom: 10px;
   border: #e7e7e7 1px solid;
   border-radius: 4px;
@@ -186,7 +188,7 @@ img#cirn-logo {
   padding-bottom: 10px;
   vertical-align: top;
   float: none !important;
-  max-width: 160px;;
+  max-width: 160px;
 }
 
 img#csn-logo {
@@ -228,7 +230,7 @@ form#contact-message-suggest-reference-form button#edit-submit:after {
   content: "Submit";
   text-indent: 0;
   display: block;
-  line-height: initial; 
+  line-height: initial;
 }
 
 /* Footer */
@@ -252,5 +254,12 @@ footer.footer.container > div.container {
   .menu.nav.navbar-nav {
     float: right;
     margin: 0;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .main-container.container.js-quickedit-main-content {
+    margin-top: 10%;
   }
 }

@@ -154,7 +154,7 @@ div.view-id-ns_subjects.view-display-id-page_1 div.view-content {
 
 /* Intro Page */
 
-p#about-site {
+p#intro-site {
   padding: 5% 10%;
   margin: 5% 0%;
   background-color: #f8f8f8;
@@ -240,6 +240,7 @@ footer.footer.container {
 }
 
 .footer-logo {
+  margin-top: 5%;
   max-width: 260px;
   max-height: 50px;
 }
@@ -255,11 +256,20 @@ footer.footer.container > div.container {
     float: right;
     margin: 0;
   }
-
 }
 
 @media (max-width: 991px) {
   .main-container.container.js-quickedit-main-content {
     margin-top: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #edit-submit-ns-references {
+    display: block;
+  }
+
+  #block-ns-custom-account-menu{
+    margin-left: 10%;
   }
 }

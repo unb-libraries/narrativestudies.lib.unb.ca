@@ -36,4 +36,15 @@ class NSNavController extends ControllerBase {
     return $element;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function about() {
+    $element = [
+      '#theme' => 'ns_about',
+      '#attributes' => [],
+    ];
+    return $element;
+  }
+
 }

@@ -26,6 +26,6 @@ site.subjects:
 site.about:
   path: '/about'
   defaults:
-    _title: 'About the Site'
+    _controller: '\Drupal\ns_navigation\Controller\NSNavController:about'
   requirements:
     _permission: 'access content'

@@ -13,5 +13,8 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
     'ns_intro' => [
       'variables' => [],
     ],
+    'ns_about' => [
+      'variables' => [],
+    ],
   ];
 }

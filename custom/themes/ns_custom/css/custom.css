@@ -272,4 +272,8 @@ footer.footer.container > div.container {
   #block-ns-custom-account-menu{
     margin-left: 10%;
   }
+
+  form#views-exposed-form-ns-references-page-3 button#edit-reset {
+    margin-top: 10px;
+  }
 }

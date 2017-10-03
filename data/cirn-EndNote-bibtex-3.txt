@@ -4138,7 +4138,7 @@
 
 @article{RN3802,
    author = {Engel, M. F.},
-   title = {Achieving â€œNarrative Flowâ€?: Pre-Medical Education as an Essential Chapter of a Physicianâ€™s Story},
+   title = {Achieving Narrative Flow: Pre-Medical Education as an Essential Chapter of a Physician’s Story},
    journal = {Journal of Medical Humanities},
    volume = {26},
    number = {1},
@@ -11418,7 +11418,7 @@
 }
 
 @article{RN4439,
-   author = {GarcÃ­a-PÃ©rez, R. M. and Hobson, R. P. and Lee, A.},
+   author = {García-Pérez, R. M. and Hobson, R. P. and Lee, A.},
    title = {Narrative Role-Taking in Autism},
    journal = {Journal of Autism and Developmental Disorders},
    volume = {38},
@@ -13506,7 +13506,7 @@
 
 @article{RN4623,
    author = {Gilbert, M.},
-   title = {Lâ€™homme souffrant en quÃªte de sens: du rÃ©cit de soi Ã lâ€™identitÃ© narrative. Une rÃ©flexion Ã partir de RicÅ“ur},
+   title = {Le homme souffrant en quate de sens: du racit de soi a la identite narrative. Une reflexion A partir de Ricaur},
    journal = {Psn},
    volume = {5},
    number = {Supp/1},

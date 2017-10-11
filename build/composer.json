@@ -87,7 +87,6 @@
         "drupal/pathauto": "1.0",
         "drupal/sharethis": "2.0-beta3",
         "drupal/token": "1.0-rc1",
-        "drush/drush": "~8.1.10",
         "technosophos/LibRIS": "~2.0",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"

@@ -1,0 +1,54 @@
+language: php
+sudo: required
+
+services:
+  - docker
+
+php:
+  - '7.1'
+
+cache:
+  directories:
+        - $HOME/.composer/cache
+
+git:
+  depth: 1
+
+env:
+  global:
+    - SERVICE_NAME=narrativestudies.lib.unb.ca
+    - AMAZON_ECR_REGION=us-east-1
+    - DEPLOY_BRANCHES=dev,prod
+    - DEPLOYMENT_FINISHED_MARKER=99_report_as_complete
+    - DOCKER_UPSTREAM_IMAGE=unblibraries/drupal:alpine-nginx-php7-8.x-composer
+    - OLD_IMAGES_TO_KEEP=2
+    - SERVICE_DEPLOY_PORT=80
+    - SERVICE_TEST_UP_PATH=/user
+
+before_install:
+  - git clone git://github.com/unb-libraries/CargoDock.git CargoDock
+  - CargoDock/travis/installDockerCompose.sh
+  - CargoDock/aws/installAuthAws.sh
+  - cp docker-compose.yml.travis docker-compose.yml
+  - CargoDock/travis/setDockerComposeEnv.sh
+
+before_script:
+  - CargoDock/travis/buildInstanceTheme.sh
+  - CargoDock/travis/buildInstanceForTesting.sh
+  - CargoDock/travis/waitForDeploy.sh
+  - CargoDock/travis/checkStartupForErrors.sh
+
+script:
+  - CargoDock/travis/testInstance.sh
+
+after_success:
+  - CargoDock/travis/buildImagePushToRepo.sh
+  - CargoDock/travis/cleanupOldImages.sh
+  - CargoDock/travis/triggerKubeDeploy.sh
+
+notifications:
+  slack:
+    rooms:
+      secure: PFl9K1HeJVyTE47LAMIXmRAHQkL2bIuXZnlSqctJy3YnLcJ2z9Ryu9MWiRG8UggfVOG6pEhYNYgwKuZLynC1xvlSTF3hztf4OczSjNArY/B6rGMXIl3MF+Cnas5GD3YVPm6LDCBDvEFkvjBKX2VLbnQyve4kop1ebibDPX4Giz6BVp4INcO3WAqUYpJodbh4ALZ+EGkYNPthZnb7OY4fO9mznKZL0XFPWohmGCQROD8gtmusIEzcX9jA4h3VbrDKHIVPX+qyeaWD8NblLhWnvI4ZXXJx9eTRoz6tjHZ2YH4nfVlZeJVQsssV8Zy2qshmnE8kJi8UhEu6p+OXzAYBHbZ3ISlNGh4C6Z4BN5agLrc9FiaOzlBOr3XnE4qkLhQJd5d+qStoZzOfseVfuFkh5Lj1ZHaner4UwutKysXA6N0G3Xurcn7kYh9L59nBiLlvUjdriihuxmRFO8HPe6aXZDoZWHTVT12bI8lJREYDSkBg/0DSwzvPKRWpGLe4LkBNlImicNdFmez19mWdnYdPnuz0CIrPbzRFke6lPFDpVWL5X+e6BJD7QltATIBHxHqmJw1HSqBD8SzdAD64yAJKE+AHAEEf32kQVrOZTiTeNzqD0uleyx0aoWrSPJ6trp0pRudhRiJNRewlYZpR5Zn4ZIzOoY16dgYQxW7FSoBKSyo=
+    on_start: always
+    on_success: always

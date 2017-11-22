@@ -21,7 +21,7 @@ RUN /scripts/DeployUpstreamContainerScripts.sh && \
   /scripts/deleteUpstreamTree.sh
 
 # Add Mail Sending, Rsyslogd
-RUN apk --update add rsyslog postfix php7-ldap  && \
+RUN apk --update add rsyslog postfix php7-ldap php7-redis && \
   rm -f /var/cache/apk/* && \
   touch /var/log/nginx/access.log && touch /var/log/nginx/error.log && \
   echo "TLS_REQCERT never" > /etc/openldap/ldap.conf

@@ -69,7 +69,7 @@
         "davidgorges/human-name-parser": "~0.2",
         "drupal-composer/drupal-scaffold": "~2.2.0",
         "drupal/bibcite": "1.x-dev",
-        "drupal/bootstrap": "3.8",
+        "drupal/bootstrap": "3.9",
         "drupal/ckeditor_markdown": "1.0",
         "drupal/ckeditor_media_embed": "1.0",
         "drupal/config_update": "1.5",

@@ -6,6 +6,7 @@ _core:
   default_config_hash: 8M-gggdY4hKh3dvmTzMPEG_20Q-ZnXEDe4b-_aWqiqI
 id: magazine_article
 label: 'Magazine Article'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

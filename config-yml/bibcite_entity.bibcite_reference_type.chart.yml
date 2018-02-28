@@ -6,6 +6,7 @@ _core:
   default_config_hash: U_RHLU9m9kgeXlZp7cGm1GcZmk4iwktP8dqDdJRCnnQ
 id: chart
 label: Chart
+description: null
 override: true
 fields:
   bibcite_secondary_title:

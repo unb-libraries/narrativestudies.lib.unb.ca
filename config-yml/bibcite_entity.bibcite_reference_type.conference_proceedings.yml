@@ -6,6 +6,7 @@ _core:
   default_config_hash: n2tNxbT6H4eDmSRBTKEhgSFi7LarHEudUILtqqhRsmY
 id: conference_proceedings
 label: 'Conference Proceedings'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

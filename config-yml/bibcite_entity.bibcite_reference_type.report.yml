@@ -6,6 +6,7 @@ _core:
   default_config_hash: KxIjqGRuq5fkEXq-XlfGSXkumeFV7og9wybwhRFRr6w
 id: report
 label: Report
+description: null
 override: true
 fields:
   bibcite_secondary_title:

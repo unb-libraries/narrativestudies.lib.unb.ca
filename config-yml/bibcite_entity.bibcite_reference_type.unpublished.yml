@@ -6,6 +6,7 @@ _core:
   default_config_hash: k7EbHZiR8CBlJf9FD3A5-nkuV8Gx1CMDqhvRKFAylc4
 id: unpublished
 label: Unpublished
+description: null
 override: true
 fields:
   bibcite_secondary_title:

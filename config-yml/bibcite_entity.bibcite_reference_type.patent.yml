@@ -6,6 +6,7 @@ _core:
   default_config_hash: lp98qaqybFTyjfx2VLNZ1xuW2dlmx-dQ-sjIypjKR2Y
 id: patent
 label: Patent
+description: null
 override: true
 fields:
   bibcite_secondary_title:

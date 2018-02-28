@@ -6,6 +6,7 @@ _core:
   default_config_hash: 6D_igTsr5ozOs3PlssuJDTZ6HkFJcOkbEx1paio-BLA
 id: map
 label: Map
+description: null
 override: true
 fields:
   bibcite_secondary_title:

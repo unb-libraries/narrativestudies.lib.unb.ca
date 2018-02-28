@@ -6,6 +6,7 @@ _core:
   default_config_hash: PTaumsFwE-f_CWmNCpuoXXJNbCuP-PJ2XjTsWFTrnKY
 id: book_chapter
 label: 'Book Chapter'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

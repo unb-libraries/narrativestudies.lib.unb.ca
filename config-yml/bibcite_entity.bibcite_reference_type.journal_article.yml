@@ -6,6 +6,7 @@ _core:
   default_config_hash: YHi42i__lHpzSTiAJP4GetYuARfz-Poa9zUZppMgrJQ
 id: journal_article
 label: 'Journal Article'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

@@ -6,6 +6,7 @@ _core:
   default_config_hash: F7o07WNVnpBqgHASh-zD2ToRvAqdE2nMRDkJvYDhvHY
 id: hearing
 label: Hearing
+description: null
 override: true
 fields:
   bibcite_secondary_title:

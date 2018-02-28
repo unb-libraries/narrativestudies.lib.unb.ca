@@ -6,6 +6,7 @@ _core:
   default_config_hash: lIGFD2vMWf8wWno9Zo0HYjB8PLekfevxA1WLr_MxNjg
 id: case
 label: Case
+description: null
 override: true
 fields:
   bibcite_secondary_title:

@@ -6,6 +6,7 @@ _core:
   default_config_hash: Bu13mtWUYKf0UEOWd-g5SkbvT1xTuhgrzPYkFNHaNtM
 id: miscellaneous
 label: Miscellaneous
+description: null
 override: true
 fields:
   bibcite_secondary_title:

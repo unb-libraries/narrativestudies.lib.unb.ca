@@ -6,6 +6,7 @@ _core:
   default_config_hash: hP5OTwC_EYbnNWKTpyhSRq7egEncT34o1T6c5rbaVRk
 id: web_service
 label: 'Web service'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

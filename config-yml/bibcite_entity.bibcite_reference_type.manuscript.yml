@@ -6,6 +6,7 @@ _core:
   default_config_hash: ewHEm4cVxIHEqYnhplRY8s3XdByKU8uQSFXsF_YNfUA
 id: manuscript
 label: Manuscript
+description: null
 override: true
 fields:
   bibcite_secondary_title:

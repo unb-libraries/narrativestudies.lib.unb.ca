@@ -6,6 +6,7 @@ _core:
   default_config_hash: eb1aP0bEMK5un54087GPoYjWQddgFwwCq0TbF8167lM
 id: presentation
 label: Presentation
+description: null
 override: true
 fields:
   bibcite_secondary_title:

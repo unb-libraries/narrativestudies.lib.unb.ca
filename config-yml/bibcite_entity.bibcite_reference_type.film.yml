@@ -6,6 +6,7 @@ _core:
   default_config_hash: krISA3W9WQ_HK3QqgBsJ9iSRXb5J6NJP5SvxlzSskBg
 id: film
 label: Film
+description: null
 override: true
 fields:
   bibcite_secondary_title:

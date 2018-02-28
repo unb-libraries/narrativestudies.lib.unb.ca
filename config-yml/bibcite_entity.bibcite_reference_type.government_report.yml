@@ -6,6 +6,7 @@ _core:
   default_config_hash: kH2J881PnbydkN5UPsMnXOK1Jdp7yi5CpZVXY1G-KH8
 id: government_report
 label: 'Government Report'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

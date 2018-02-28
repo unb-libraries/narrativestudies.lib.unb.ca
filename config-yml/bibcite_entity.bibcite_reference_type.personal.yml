@@ -6,6 +6,7 @@ _core:
   default_config_hash: L6odNVycMkQ-R-vGprfMVrZn-lNkRAwCpgt0mxeG5rQ
 id: personal
 label: Personal
+description: null
 override: true
 fields:
   bibcite_secondary_title:

@@ -6,6 +6,7 @@ _core:
   default_config_hash: hZ9tdtfrMPUyaVbH45lFYovj1KeHpkqAJwChfuFIeLQ
 id: miscellaneous_section
 label: 'Miscellaneous Section'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

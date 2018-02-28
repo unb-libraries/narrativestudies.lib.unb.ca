@@ -6,6 +6,7 @@ _core:
   default_config_hash: HYepSANpn9qHFhSyQUTJvMpbf3tgzN7Yi0dKhSuyYhU
 id: web_article
 label: 'Web Article'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

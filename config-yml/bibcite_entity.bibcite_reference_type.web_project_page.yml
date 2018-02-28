@@ -6,6 +6,7 @@ _core:
   default_config_hash: 6dkNmi8d8JLwYEZIjGOs5jfTj33gnurEKiHMcm-ssMs
 id: web_project_page
 label: 'Web project page'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

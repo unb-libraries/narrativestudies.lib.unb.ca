@@ -158,7 +158,7 @@ display:
           click_sort_column: target_id
           type: bibcite_contributor_label
           settings:
-            link: 0
+            link: false
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -732,7 +732,7 @@ display:
           click_sort_column: target_id
           type: bibcite_contributor_label
           settings:
-            link: 0
+            link: false
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -1460,7 +1460,7 @@ display:
           click_sort_column: target_id
           type: bibcite_contributor_label
           settings:
-            link: 0
+            link: false
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -2489,7 +2489,7 @@ display:
           click_sort_column: target_id
           type: bibcite_contributor_label
           settings:
-            link: 0
+            link: false
           group_column: ''
           group_columns: {  }
           group_rows: true

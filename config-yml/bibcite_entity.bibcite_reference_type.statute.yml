@@ -6,6 +6,7 @@ _core:
   default_config_hash: UQ_MkDhT-wpTcljhlRhXDCVCBoW45IQrPfj-Pqq-mfY
 id: statute
 label: Statute
+description: null
 override: true
 fields:
   bibcite_secondary_title:

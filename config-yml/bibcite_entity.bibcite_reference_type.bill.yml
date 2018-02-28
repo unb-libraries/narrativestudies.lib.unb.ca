@@ -6,6 +6,7 @@ _core:
   default_config_hash: BBfsAhTSvSRDgQ9m6mEoEGpi1e7qmd446y22gQ87U_w
 id: bill
 label: Bill
+description: null
 override: true
 fields:
   bibcite_secondary_title:

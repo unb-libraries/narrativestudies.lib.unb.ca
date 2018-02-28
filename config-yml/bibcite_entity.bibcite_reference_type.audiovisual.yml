@@ -6,6 +6,7 @@ _core:
   default_config_hash: so9mSEtmv27BLrdbbdB3zCKnlFaAYByoGVirWJpeZYg
 id: audiovisual
 label: Audiovisual
+description: null
 override: true
 fields:
   bibcite_secondary_title:

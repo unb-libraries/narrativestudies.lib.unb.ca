@@ -6,6 +6,7 @@ _core:
   default_config_hash: 7pz1BTc0yYxn7EvUWmU5ZqFXecdaaexrCVUK1gOUlEk
 id: website
 label: Website
+description: null
 override: true
 fields:
   bibcite_secondary_title:

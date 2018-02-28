@@ -6,6 +6,7 @@ _core:
   default_config_hash: KtzObhScJy6YcWViNKogesGe3mRLb70Wgyk9IX_TO8M
 id: book
 label: Book
+description: null
 override: true
 fields:
   bibcite_secondary_title:

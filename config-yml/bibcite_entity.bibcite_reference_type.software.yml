@@ -6,6 +6,7 @@ _core:
   default_config_hash: yZzmagYSgCB6IeCrXRhsGfUwIhwBgzh_VutDGqvUo-0
 id: software
 label: Software
+description: null
 override: true
 fields:
   bibcite_secondary_title:

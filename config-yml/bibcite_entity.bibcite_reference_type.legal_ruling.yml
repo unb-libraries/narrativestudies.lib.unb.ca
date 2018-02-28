@@ -6,6 +6,7 @@ _core:
   default_config_hash: jn4DQy3fBFFoR-poNU12d5DrWqVabVYnxCRZ0Ef9PCw
 id: legal_ruling
 label: 'Legal Ruling'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

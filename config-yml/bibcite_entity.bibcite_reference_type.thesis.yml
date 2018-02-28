@@ -6,6 +6,7 @@ _core:
   default_config_hash: 0rWUolf6nY6-HGhw9gUz1Kk_ev7ZFqLW5eRwqCBB4fY
 id: thesis
 label: Thesis
+description: null
 override: true
 fields:
   bibcite_secondary_title:

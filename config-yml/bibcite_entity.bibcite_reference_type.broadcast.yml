@@ -6,6 +6,7 @@ _core:
   default_config_hash: bLNGJZ8RTXc99D5IzuiWHkPYhqQNyy3I5v9sVj6Lv-Q
 id: broadcast
 label: Broadcast
+description: null
 override: true
 fields:
   bibcite_secondary_title:

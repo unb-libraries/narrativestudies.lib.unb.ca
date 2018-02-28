@@ -6,6 +6,7 @@ _core:
   default_config_hash: 1vkomnHJU-oQOWADzWQAMCaW5DjA4awamE3Wxoc-22k
 id: classical
 label: Classical
+description: null
 override: true
 fields:
   bibcite_secondary_title:

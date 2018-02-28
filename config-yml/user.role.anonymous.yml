@@ -11,3 +11,6 @@ is_admin: false
 permissions:
   - 'access content'
   - 'use text format restricted_html'
+  - 'view bibcite_contributor'
+  - 'view bibcite_keyword'
+  - 'view bibcite_reference'

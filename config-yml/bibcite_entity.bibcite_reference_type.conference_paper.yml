@@ -6,6 +6,7 @@ _core:
   default_config_hash: wh8N6Re5xiomEY66nLSCPxa3IzlvHHs6NBbJDhP6zH8
 id: conference_paper
 label: 'Conference Paper'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

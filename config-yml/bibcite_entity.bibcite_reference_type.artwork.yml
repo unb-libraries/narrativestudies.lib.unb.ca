@@ -6,6 +6,7 @@ _core:
   default_config_hash: lCXziu9XxHS4aD23Cfe2-YRQwypJzAdZYURTONyuGmQ
 id: artwork
 label: Artwork
+description: null
 override: true
 fields:
   bibcite_secondary_title:

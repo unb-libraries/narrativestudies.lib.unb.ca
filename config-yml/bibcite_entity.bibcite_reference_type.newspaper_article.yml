@@ -6,6 +6,7 @@ _core:
   default_config_hash: HMuqjvRAmBA5pPzBBYaSKWU_GUD3suZkPdcsvr1I6gg
 id: newspaper_article
 label: 'Newspaper Article'
+description: null
 override: true
 fields:
   bibcite_secondary_title:

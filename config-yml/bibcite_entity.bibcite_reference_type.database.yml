@@ -6,6 +6,7 @@ _core:
   default_config_hash: oulQUqFQSb8-q-iViyaVRiPn5w0uKl9lJK4fjhpnGRU
 id: database
 label: Database
+description: null
 override: true
 fields:
   bibcite_secondary_title:

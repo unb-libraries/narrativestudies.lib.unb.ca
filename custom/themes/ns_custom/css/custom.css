@@ -213,7 +213,8 @@ span.fieldset-legend.js-form-required.form-required:after {
   display: none !important;
 }
 
-h1.js-quickedit-page-title.page-header {
+h1.page-header {
+  margin-top: 10px;
   font-size: 20px;
 }
 
@@ -231,6 +232,29 @@ form#contact-message-suggest-reference-form button#edit-submit:after {
   text-indent: 0;
   display: block;
   line-height: initial;
+}
+
+/* Bibcite Citation Node Display */
+
+div.field--name-keywords.field--type-entity-reference div.field--item a,
+div.field--name-keywords.field--type-entity-reference div.field--item a:hover,
+div.field--name-keywords.field--type-entity-reference div.field--item a:focus,
+div.field--name-keywords.field--type-entity-reference div.field--item a:visited,
+div.field--type-bibcite-contributor div.field--item a,
+div.field--type-bibcite-contributor div.field--item a:hover,
+div.field--type-bibcite-contributor div.field--item a:focus,
+div.field--type-bibcite-contributor div.field--item a:visited {
+  pointer-events: none;
+  text-decoration: none;
+  color: initial;
+}
+
+div.field.field--label-above {
+  margin-bottom: 10px;
+}
+
+div.bibcite-links.form-group {
+  margin-top: 10px;
 }
 
 /* Footer */

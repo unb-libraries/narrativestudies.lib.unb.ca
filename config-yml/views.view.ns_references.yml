@@ -106,6 +106,13 @@ display:
         type: default
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline:
+            author_target_id: author_target_id
+            text_keyword__value: text_keyword__value
+          separator: ''
+          hide_empty: false
       fields:
         author_target_id:
           id: author_target_id
@@ -1106,55 +1113,6 @@ display:
           empty_zero: false
           hide_alter_empty: false
           plugin_id: custom
-        nothing_2:
-          id: nothing_2
-          table: views
-          field: nothing
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: false
-          plugin_id: custom
         text_author__value:
           id: text_author__value
           table: bibcite_reference
@@ -1283,6 +1241,55 @@ display:
           entity_type: bibcite_reference
           entity_field: text_keyword
           plugin_id: field
+        nothing_2:
+          id: nothing_2
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Subject(s): {{ text_keyword__value|convert_encoding('UTF-8', 'HTML-ENTITIES')|striptags }}</li>\n      <li>Author(s): {{ text_author__value|convert_encoding('UTF-8', 'HTML-ENTITIES')|striptags  }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
       defaults:
         fields: false
         arguments: false

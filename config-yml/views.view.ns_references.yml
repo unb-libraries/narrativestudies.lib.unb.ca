@@ -654,7 +654,7 @@ display:
           plugin_id: field
       filters: {  }
       sorts: {  }
-      title: 'References by Subject'
+      title: 'References by Subject - {{ text_keyword__value }} '
       header:
         result:
           id: result
@@ -1295,6 +1295,7 @@ display:
         arguments: false
         filters: false
         filter_groups: false
+        header: false
       arguments: {  }
       filters:
         text_keyword__value:
@@ -1342,6 +1343,17 @@ display:
         groups:
           1: AND
       exposed_block: true
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          content: 'Displaying @start - @end of @total results'
+          plugin_id: result
     cache_metadata:
       max-age: -1
       contexts:

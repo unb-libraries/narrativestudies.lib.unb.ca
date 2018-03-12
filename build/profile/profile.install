@@ -12,6 +12,6 @@
  *
  * @see system_install()
  */
-function guides_install() {
+function narrativ_install() {
   // Can add code in here to make nodes, terms, etc.
 }

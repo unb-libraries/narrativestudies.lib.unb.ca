@@ -12,9 +12,6 @@
  *
  * @see system_install()
  */
-function guides_install() {
-  include_once DRUPAL_ROOT . '/core/profiles/minimal/minimal.install';
-  minimal_install();
-
+function narrativ_install() {
   // Can add code in here to make nodes, terms, etc.
 }

@@ -18,3 +18,29 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
     ],
   ];
 }
+
+/**
+ * Implements hook_FORM_ID_alter().
+ */
+function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
+  // Removes reference types with no matches from advanced-search drop-down.
+  if (array_key_exists('text_keyword__value', $form) && $form_id == "views_exposed_form") {
+
+    $types = $form['type']['#options'];
+
+    foreach (array_slice($types, 1) as $type) {
+
+      $bib_type = array_search($type, $types);
+
+      $query = \Drupal::entityQuery('bibcite_reference')
+        ->condition('type', $bib_type)
+        ->execute();
+
+      if (!$query) {
+        unset($types[$bib_type]);
+      }
+    }
+
+    $form['type']['#options'] = $types;
+  }
+}

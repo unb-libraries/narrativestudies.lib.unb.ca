@@ -26,7 +26,11 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
   // Removes reference types with no matches from advanced-search drop-down.
   if (array_key_exists('text_keyword__value', $form) && $form_id == "views_exposed_form") {
 
-    $types = $form['type']['#options'];
+    $types = [];
+
+    if (array_key_exists('type', $form)) {
+      $types = $form['type']['#options'];
+    }
 
     foreach (array_slice($types, 1) as $type) {
 

@@ -734,6 +734,7 @@ display:
           plugin_id: standard
       arguments: {  }
       display_extenders: {  }
+      group_by: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -803,7 +804,7 @@ display:
           type: bibcite_contributor_label
           settings:
             link: false
-          group_column: ''
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -1421,7 +1422,7 @@ display:
           type: entity_reference_label
           settings:
             link: false
-          group_column: target_id
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -1683,7 +1684,7 @@ display:
           type: bibcite_contributor_label
           settings:
             link: false
-          group_column: ''
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -2301,7 +2302,7 @@ display:
           type: entity_reference_label
           settings:
             link: false
-          group_column: target_id
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -2777,7 +2778,7 @@ display:
           type: bibcite_contributor_label
           settings:
             link: false
-          group_column: ''
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -3395,7 +3396,7 @@ display:
           type: entity_reference_label
           settings:
             link: false
-          group_column: target_id
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0

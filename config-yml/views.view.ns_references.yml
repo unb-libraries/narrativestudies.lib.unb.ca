@@ -166,7 +166,7 @@ display:
           type: bibcite_contributor_label
           settings:
             link: false
-          group_column: ''
+          group_column: entity_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -1446,7 +1446,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id  }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      <li>Subject(s): {{ keywords_target_id }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id  }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      \n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -2326,7 +2326,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      <li>Subjects: {{ keywords_target_id }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      \n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -3389,7 +3389,7 @@ display:
           element_wrapper_class: ''
           element_default_classes: true
           empty: ''
-          hide_empty: false
+          hide_empty: true
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
@@ -3420,7 +3420,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      <li>Subjects: {{ keywords_target_id }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n\n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
             make_link: false
             path: ''
             absolute: false

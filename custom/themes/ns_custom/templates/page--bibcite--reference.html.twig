@@ -140,22 +140,22 @@
           {% endblock %}
         {% endif %}
 
-        {# Custom navigation buttons #}
-        <div class="btn-group-sm">
-          <a href="javascript:history.back()" class="btn btn-success">
-            Back To Results
-          </a>
-          <a href="/references-advanced" class="btn btn-primary ns-btn-dark">
-            New Search
-          </a>
-        </div>
-        <br>
-
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
           {{ page.content }}
         {% endblock %}
+        <br>
+
+        {# Custom navigation buttons #}
+        <div>
+          <a href="javascript:history.back()" class="btn btn-success">
+            <span class="glyphicon glyphicon-arrow-left"></span> Results
+          </a>
+          <a href="/references-advanced" class="btn btn-primary">
+            <span class="glyphicon glyphicon-search"></span> New Search
+          </a>
+        </div>
       </section>
 
       {# Sidebar Second #}

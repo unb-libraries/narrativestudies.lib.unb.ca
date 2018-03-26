@@ -257,6 +257,16 @@ div.bibcite-links.form-group {
   margin-top: 10px;
 }
 
+div.bibcite-type::before {
+  content: "Type\A";
+  font-weight: bold;
+}
+
+div.bibcite-type {
+  white-space: pre-line;
+}
+
+
 /* Footer */
 
 footer.footer.container {

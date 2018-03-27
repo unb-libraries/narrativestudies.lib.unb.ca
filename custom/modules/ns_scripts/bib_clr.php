@@ -5,6 +5,9 @@
  * Contains script to delete all bibliographic data.
  */
 
+// Temporarily increase memory allowance.
+ini_set('memory_limit', '1024M');
+
 // Delete all keywords.
 $query = \Drupal::entityQuery('bibcite_keyword')
   ->execute();

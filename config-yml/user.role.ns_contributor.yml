@@ -1,0 +1,16 @@
+uuid: d434aab5-b9f9-44e1-81d2-c191b160c6eb
+langcode: en
+status: true
+dependencies: {  }
+id: ns_contributor
+label: 'NS Contributor'
+weight: 3
+is_admin: null
+permissions:
+  - 'access site-wide contact form'
+  - 'create bibcite_reference'
+  - 'delete any bibcite_reference'
+  - 'edit any bibcite_reference'
+  - 'view bibcite_contributor'
+  - 'view bibcite_keyword'
+  - 'view bibcite_reference'

@@ -11,8 +11,7 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access site-wide contact form'
-  - 'administer bibcite_reference'
-  - 'use text format restricted_html'
+  - 'use text format basic_html'
   - 'view bibcite_contributor'
   - 'view bibcite_keyword'
   - 'view bibcite_reference'

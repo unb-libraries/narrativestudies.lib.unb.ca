@@ -1,0 +1,14 @@
+uuid: 1fc59b61-4e4f-4850-a5ea-14ed049b4724
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ns_contributor
+  module:
+    - user
+id: user_add_role_action.ns_contributor
+label: 'Add the NS Contributor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ns_contributor

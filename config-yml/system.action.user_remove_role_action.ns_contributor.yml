@@ -1,0 +1,14 @@
+uuid: 33644909-4fa4-4180-8157-0255a0a424b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ns_contributor
+  module:
+    - user
+id: user_remove_role_action.ns_contributor
+label: 'Remove the NS Contributor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ns_contributor

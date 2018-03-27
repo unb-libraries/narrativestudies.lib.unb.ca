@@ -19,11 +19,11 @@ class SearchLabel extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    $text = '<b>Search more than 16,000 items from the blibliography, ' .
+    $text = '<b>Search more than 6,000 items from the blibliography, ' .
       'including articles, books, essays, and videos.</b>';
 
     return [
-        '#markup' => $this->t($text),
+      '#markup' => $this->t($text),
     ];
   }
 

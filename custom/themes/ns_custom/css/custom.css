@@ -266,6 +266,22 @@ div.bibcite-type {
   white-space: pre-line;
 }
 
+/* Bibcite Reference edit form */
+
+a#edit-delete.button.button--danger,
+div.description.help-block,
+#author-add-more-wrapper > div > button.tabledrag-toggle-weight {
+  display: none;
+}
+
+#edit-submit {
+    width: 90px;
+}
+
+input[data-drupal-selector="edit-bibcite-reference-journal-article-delete-form"]
+  + #edit-actions {
+  padding-top: 10px;
+}
 
 /* Footer */
 

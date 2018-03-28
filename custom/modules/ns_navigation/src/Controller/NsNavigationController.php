@@ -9,20 +9,13 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 /**
  * Controller for Narrative Studies navigation.
  */
-class NSNavController extends ControllerBase {
+class NsNavigationController extends ControllerBase {
 
   /**
    * {@inheritdoc}
    */
   public function archives() {
     return new TrustedRedirectResponse('https://www.lib.unb.ca/archives/');
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function user() {
-    return new RedirectResponse("/");
   }
 
   /**
@@ -47,4 +40,10 @@ class NSNavController extends ControllerBase {
     return $element;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function user() {
+    return new RedirectResponse("/");
+  }
 }

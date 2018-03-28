@@ -3,19 +3,19 @@ menu.adv_biblio:
   description: 'Advanded options for bibliography search.'
   parent: main
   menu_name: main
-  route_name: site.adv_biblio
+  route_name: ns_navigation.adv_biblio
   weight: 10
 menu.subjects:
   title: 'Subjects'
   description: 'Search by subject.'
   parent: main
   menu_name: main
-  route_name: site.subjects
+  route_name: ns_navigation.subjects
   weight: 20
 menu.about:
   title: 'About'
   description: 'About the site.'
   parent: main
   menu_name: main
-  route_name: site.about
+  route_name: ns_navigation.about
   weight: 30

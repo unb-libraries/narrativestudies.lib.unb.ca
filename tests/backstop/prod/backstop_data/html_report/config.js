@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
-        "test": "../bitmaps_test/20180328-203454/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
@@ -13,21 +13,21 @@ report({
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 15,
-            "height": -138
+            "width": 0,
+            "height": -640
           },
-          "misMatchPercentage": "21.10",
-          "analysisTime": 65,
+          "misMatchPercentage": "7.65",
+          "analysisTime": 112,
           "getDiffImage": null
         },
-        "diffImage": "../bitmaps_test/20180328-203454/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png"
+        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20180328-203454/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
@@ -37,20 +37,20 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": -200
           },
-          "misMatchPercentage": "0.03",
-          "analysisTime": 168,
+          "misMatchPercentage": "4.64",
+          "analysisTime": 259,
           "getDiffImage": null
         },
-        "diffImage": "../bitmaps_test/20180328-203454/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png"
+        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
-        "test": "../bitmaps_test/20180328-203454/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
+        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
@@ -60,13 +60,13 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": -170
           },
-          "misMatchPercentage": "0.02",
-          "analysisTime": 251,
+          "misMatchPercentage": "2.87",
+          "analysisTime": 361,
           "getDiffImage": null
         },
-        "diffImage": "../bitmaps_test/20180328-203454/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png"
+        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png"
       },
       "status": "fail"
     }

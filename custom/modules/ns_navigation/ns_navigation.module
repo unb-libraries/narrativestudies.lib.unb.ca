@@ -24,7 +24,6 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
  */
 function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
   // Removes reference types with no matches from advanced-search drop-down.
-
   if (strpos($form_id, "bibcite_reference") !== FALSE) {
     // Note: This means we are NOT DISPLAYING bibcite_section.
     unset($form['bibcite_section']);

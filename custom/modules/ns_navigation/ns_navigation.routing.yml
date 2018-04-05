@@ -29,3 +29,21 @@ ns_navigation.user:
     _title: 'User'
   requirements:
     _permission: 'access content'
+ns_navigation.contact-main:
+  path: '/contact'
+  defaults:
+    _title: 'Contact'
+  requirements:
+    _permission: 'access content'
+ns_navigation.contact-cirn:
+  path: '/contact'
+  defaults:
+    _title: 'Contact CIRN'
+  requirements:
+    _permission: 'access content'
+ns_navigation.contact-csn:
+  path: '/contact'
+  defaults:
+    _title: 'Contact CSN'
+  requirements:
+    _permission: 'access content'

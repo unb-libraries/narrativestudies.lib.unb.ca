@@ -1,14 +1,36 @@
-menu.adv_biblio:
+ns_navigation.adv_biblio:
   title: 'Advanced Search'
   description: 'Advanded options for bibliography search.'
   parent: main
   menu_name: main
   route_name: ns_navigation.adv_biblio
   weight: 10
-menu.about:
+ns_navigation.about:
   title: 'About'
   description: 'About the site.'
   parent: main
   menu_name: main
   route_name: ns_navigation.about
+  weight: 20
+ns_navigation.contact-main:
+  title: 'Contact'
+  description: 'Contact.'
+  parent: main
+  menu_name: main
+  route_name: ns_navigation.contact-main
+  expanded: TRUE
   weight: 30
+ns_navigation.contact-cirn:
+  title: 'Contact CIRN'
+  description: 'Contact CIRN.'
+  parent: ns_navigation.contact-main
+  menu_name: main
+  route_name: ns_navigation.contact-cirn
+  weight: 10
+ns_navigation.contact-csn:
+  title: 'Contact CSN'
+  description: 'Contact.'
+  parent: ns_navigation.contact-main
+  menu_name: main
+  route_name: ns_navigation.contact-csn
+  weight: 20

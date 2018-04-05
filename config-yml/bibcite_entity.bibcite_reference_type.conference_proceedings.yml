@@ -6,236 +6,266 @@ _core:
   default_config_hash: n2tNxbT6H4eDmSRBTKEhgSFi7LarHEudUILtqqhRsmY
 id: conference_proceedings
 label: 'Conference Proceedings'
-description: null
+description: 'Conference Proceedings'
 override: true
 fields:
-  bibcite_secondary_title:
+  title:
+    label: ''
+    hint: 'The title of the Reference.'
     visible: true
     required: false
-    label: 'Conference Name'
-    hint: ''
-  bibcite_tertiary_title:
+  uid:
+    label: ''
+    hint: 'The username of the content author.'
     visible: true
     required: false
-    label: 'Series Title'
+  keywords:
+    label: ''
     hint: ''
-  bibcite_accession_number:
     visible: true
     required: false
-    label: 'Accession Number'
-    hint: ''
-  bibcite_isbn:
-    visible: true
-    required: false
-    label: 'ISBN Number'
-    hint: ''
-  bibcite_call_number:
-    visible: true
-    required: false
-    label: 'Call Number'
-    hint: ''
-  bibcite_other_number:
-    visible: true
-    required: false
-    label: 'Other Numbers'
-    hint: ''
-  bibcite_other_author_affiliations:
-    visible: false
-    required: false
-    label: 'Other Author Affiliations'
-    hint: ''
-  bibcite_publisher:
-    visible: true
-    required: false
-    label: Publisher
-    hint: ''
-  bibcite_place_published:
-    visible: true
-    required: false
-    label: 'Conference Location'
-    hint: ''
-  bibcite_year:
-    visible: true
-    required: true
-    label: 'Year of Conference'
-    hint: ''
-  bibcite_edition:
-    visible: true
-    required: false
-    label: Edition
-    hint: ''
-  bibcite_volume:
-    visible: true
-    required: false
-    label: Volume
-    hint: ''
-  bibcite_number:
-    visible: false
-    required: false
-    label: Number
-    hint: ''
-  bibcite_pages:
-    visible: true
-    required: false
-    label: Pagination
-    hint: ''
-  bibcite_date:
-    visible: true
-    required: false
-    label: 'Date Published'
-    hint: (mm/yyyy)
-  bibcite_lang:
-    visible: false
-    required: false
-    label: 'Publication Language'
-    hint: ''
   bibcite_abst_e:
-    visible: true
-    required: false
     label: Abstract
     hint: ''
-  bibcite_abst_f:
-    visible: false
+    visible: true
     required: false
+  bibcite_abst_f:
     label: 'French Abstract'
     hint: ''
-  bibcite_type_of_work:
     visible: false
     required: false
-    label: 'Type of Work'
-    hint: 'Masters Thesis'
-  bibcite_url:
-    visible: true
-    required: false
-    label: URL
-    hint: ''
   bibcite_notes:
-    visible: false
-    required: false
     label: Notes
     hint: ''
-  bibcite_issue:
     visible: false
     required: false
-    label: Issue
-    hint: ''
-  bibcite_research_notes:
-    visible: false
-    required: false
-    label: 'Reseach Notes'
-    hint: ''
   bibcite_custom1:
-    visible: false
-    required: false
     label: 'Custom 1'
     hint: ''
-  bibcite_custom2:
     visible: false
     required: false
+  bibcite_custom2:
     label: 'Custom 2'
     hint: ''
-  bibcite_custom3:
     visible: false
     required: false
+  bibcite_custom3:
     label: 'Custom 3'
     hint: ''
-  bibcite_custom4:
     visible: false
     required: false
+  bibcite_custom4:
     label: 'Custom 4'
     hint: ''
-  bibcite_custom5:
     visible: false
     required: false
+  bibcite_custom5:
     label: 'Custom 5'
     hint: ''
-  bibcite_custom6:
     visible: false
     required: false
+  bibcite_custom6:
     label: 'Custom 6'
     hint: ''
-  bibcite_custom7:
     visible: false
     required: false
+  bibcite_custom7:
     label: 'Custom 7'
     hint: ''
-  bibcite_number_of_volumes:
-    visible: true
-    required: false
-    label: 'Number of Volumes'
-    hint: ''
-  bibcite_short_title:
-    visible: true
-    required: false
-    label: 'Short Title'
-    hint: ''
-  bibcite_alternate_title:
     visible: false
     required: false
-    label: 'Alternate Title'
-    hint: ''
-  bibcite_translated_title:
-    visible: false
-    required: false
-    label: 'Translated Title'
-    hint: ''
-  bibcite_original_publication:
-    visible: false
-    required: false
-    label: 'Original Publication'
-    hint: ''
-  bibcite_reprint_edition:
-    visible: false
-    required: false
-    label: 'Reprint Edition'
-    hint: ''
-  bibcite_section:
-    visible: false
-    required: false
-    label: Section
-    hint: ''
-  bibcite_citekey:
-    visible: false
-    required: false
-    label: 'Citation Key'
-    hint: ''
-  bibcite_issn:
-    visible: true
-    required: false
-    label: ISBN
-    hint: ''
-  bibcite_doi:
-    visible: true
-    required: false
-    label: DOI
-    hint: ''
   bibcite_auth_address:
-    visible: false
-    required: false
     label: 'Author Address'
     hint: ''
-  bibcite_remote_db_name:
     visible: false
     required: false
-    label: 'Remote Database Name'
+  bibcite_year:
+    label: 'Year of Conference'
     hint: ''
-  bibcite_remote_db_provider:
-    visible: false
-    required: false
-    label: 'Remote Database Provider'
+    visible: true
+    required: true
+  bibcite_secondary_title:
+    label: 'Conference Name'
     hint: ''
-  bibcite_label:
-    visible: false
-    required: false
-    label: Label
-    hint: ''
-  bibcite_access_date:
-    visible: false
-    required: false
-    label: 'Access Date'
-    hint: ''
-  bibcite_refereed:
     visible: true
     required: false
+  bibcite_volume:
+    label: Volume
+    hint: ''
+    visible: true
+    required: false
+  bibcite_edition:
+    label: Edition
+    hint: ''
+    visible: true
+    required: false
+  bibcite_section:
+    label: Section
+    hint: ''
+    visible: false
+    required: false
+  bibcite_issue:
+    label: Issue
+    hint: ''
+    visible: false
+    required: false
+  bibcite_number_of_volumes:
+    label: 'Number of Volumes'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_number:
+    label: Number
+    hint: ''
+    visible: false
+    required: false
+  bibcite_pages:
+    label: Pagination
+    hint: ''
+    visible: true
+    required: false
+  bibcite_date:
+    label: 'Date Published'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_type_of_work:
+    label: 'Type of Work'
+    hint: 'Masters Thesis'
+    visible: false
+    required: false
+  bibcite_lang:
+    label: 'Publication Language'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_reprint_edition:
+    label: 'Reprint Edition'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_publisher:
+    label: Publisher
+    hint: ''
+    visible: true
+    required: false
+  bibcite_place_published:
+    label: 'Conference Location'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_issn:
+    label: ISBN
+    hint: ''
+    visible: true
+    required: false
+  bibcite_isbn:
+    label: 'ISBN Number'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_accession_number:
+    label: 'Accession Number'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_call_number:
+    label: 'Call Number'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_other_number:
+    label: 'Other Numbers'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_citekey:
+    label: 'Citation Key'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_url:
+    label: URL
+    hint: ''
+    visible: true
+    required: false
+  bibcite_doi:
+    label: DOI
+    hint: ''
+    visible: true
+    required: false
+  bibcite_research_notes:
+    label: 'Reseach Notes'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_tertiary_title:
+    label: 'Series Title'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_short_title:
+    label: 'Short Title'
+    hint: ''
+    visible: true
+    required: false
+  bibcite_alternate_title:
+    label: 'Alternate Title'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_translated_title:
+    label: 'Translated Title'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_original_publication:
+    label: 'Original Publication'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_other_author_affiliations:
+    label: 'Other Author Affiliations'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_remote_db_name:
+    label: 'Remote Database Name'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_remote_db_provider:
+    label: 'Remote Database Provider'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_label:
+    label: Label
+    hint: ''
+    visible: false
+    required: false
+  bibcite_access_date:
+    label: 'Access Date'
+    hint: ''
+    visible: false
+    required: false
+  bibcite_refereed:
     label: 'Refereed Designation'
     hint: ''
+    visible: true
+    required: false
+  bibcite_pmid:
+    label: ''
+    hint: ''
+    visible: true
+    required: false
+  text_author:
+    label: ''
+    hint: ''
+    visible: true
+    required: false
+  text_keyword:
+    label: ''
+    hint: ''
+    visible: true
+    required: false

@@ -126,7 +126,7 @@ fields:
     required: false
   bibcite_date:
     label: 'Date Published'
-    hint: (mm/yyyy)
+    hint: ''
     visible: true
     required: false
   bibcite_type_of_work:

@@ -102,7 +102,7 @@ fields:
   bibcite_section:
     label: 'Start Page'
     hint: ''
-    visible: true
+    visible: false
     required: false
   bibcite_issue:
     label: Issue

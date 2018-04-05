@@ -5,13 +5,6 @@ menu.adv_biblio:
   menu_name: main
   route_name: ns_navigation.adv_biblio
   weight: 10
-menu.subjects:
-  title: 'Subjects'
-  description: 'Search by subject.'
-  parent: main
-  menu_name: main
-  route_name: ns_navigation.subjects
-  weight: 20
 menu.about:
   title: 'About'
   description: 'About the site.'

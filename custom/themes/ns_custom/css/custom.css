@@ -133,6 +133,20 @@ form#views-exposed-form-ns-references-page-3 div div:first-child input {
   width: 100%;
 }
 
+
+form#views-exposed-form-ns-references-page-3 div div:not(:first-child) {
+  width: 33%;
+}
+
+form#views-exposed-form-ns-references-page-3 div div.select-wrapper {
+  width: 100%;
+}
+
+form#views-exposed-form-ns-references-page-3 div div:not(:first-child) input,
+form#views-exposed-form-ns-references-page-3 div div:not(:first-child) select {
+  width: 100%;
+}
+
 form#views-exposed-form-ns-references-page-3 div#edit-actions {
   display: block;
   margin-top: 20px;
@@ -325,5 +339,9 @@ footer.footer.container > div.container {
 
   form#views-exposed-form-ns-references-page-3 button#edit-reset {
     margin-top: 10px;
+  }
+
+  form#views-exposed-form-ns-references-page-3 div div {
+    width: 100% !important;
   }
 }

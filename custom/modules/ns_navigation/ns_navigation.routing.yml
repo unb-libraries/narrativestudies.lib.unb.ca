@@ -36,14 +36,16 @@ ns_navigation.contact-main:
   requirements:
     _permission: 'access content'
 ns_navigation.contact-cirn:
-  path: '/contact'
+  path: '/contact/{form_id}'
   defaults:
     _title: 'Contact CIRN'
+    form_id: 'contact_cirn'
   requirements:
     _permission: 'access content'
 ns_navigation.contact-csn:
-  path: '/contact'
+  path: '/contact/{form_id}'
   defaults:
     _title: 'Contact CSN'
+    form_id: 'contact_csn'
   requirements:
     _permission: 'access content'

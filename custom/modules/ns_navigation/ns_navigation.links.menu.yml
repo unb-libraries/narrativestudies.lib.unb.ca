@@ -17,7 +17,7 @@ ns_navigation.contact-main:
   description: 'Contact.'
   parent: main
   menu_name: main
-  route_name: ns_navigation.contact-main
+  route_name: ns_navigation.intro
   expanded: TRUE
   weight: 30
 ns_navigation.contact-cirn:

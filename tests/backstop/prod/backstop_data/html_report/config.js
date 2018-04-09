@@ -4,71 +4,65 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
-        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20180409-184321/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -640
+            "height": 0
           },
-          "misMatchPercentage": "7.65",
-          "analysisTime": 112,
+          "misMatchPercentage": "0.00",
           "getDiffImage": null
-        },
-        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_0_phone.png"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20180409-184321/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -200
+            "height": 0
           },
-          "misMatchPercentage": "4.64",
-          "analysisTime": 259,
+          "misMatchPercentage": "0.00",
           "getDiffImage": null
-        },
-        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_1_tablet.png"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
-        "test": "../bitmaps_test/20180404-183700/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
+        "test": "../bitmaps_test/20180409-184321/narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
         "selector": "document",
         "fileName": "narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png",
         "label": "narrativestudies.lib.unb.ca Homepage",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -170
+            "height": 0
           },
-          "misMatchPercentage": "2.87",
-          "analysisTime": 361,
+          "misMatchPercentage": "0.00",
           "getDiffImage": null
-        },
-        "diffImage": "../bitmaps_test/20180404-183700/failed_diff_narrativestudies_lib_unb_ca_narrativestudieslibunbca_Homepage_0_document_2_monitor.png"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ]
 });

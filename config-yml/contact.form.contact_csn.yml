@@ -1,0 +1,12 @@
+uuid: ced247ce-1df1-42f1-8a49-b9cc3d0b3b2f
+langcode: en
+status: true
+dependencies: {  }
+id: contact_csn
+label: 'Contact CSN'
+recipients:
+  - jmackenz@unb.ca
+reply: ''
+weight: 0
+message: ''
+redirect: ''

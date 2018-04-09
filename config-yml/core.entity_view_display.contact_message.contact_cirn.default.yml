@@ -1,0 +1,20 @@
+uuid: df7bfdac-3774-4ab8-8618-c51996f8aeb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_cirn
+id: contact_message.contact_cirn.default
+targetEntityType: contact_message
+bundle: contact_cirn
+mode: default
+content:
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,12 @@
+uuid: b6b3c296-7029-4671-9c00-9b99a8ab50c0
+langcode: en
+status: true
+dependencies: {  }
+id: contact_cirn
+label: 'Contact CIRN'
+recipients:
+  - narrativeworks@stu.ca
+reply: ''
+weight: 0
+message: ''
+redirect: /about

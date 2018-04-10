@@ -6,7 +6,6 @@ dependencies:
     - contact.form.suggest_reference
     - field.field.contact_message.suggest_reference.field_abstract
     - field.field.contact_message.suggest_reference.field_author_name
-    - field.field.contact_message.suggest_reference.field_issue
     - field.field.contact_message.suggest_reference.field_journal_title
     - field.field.contact_message.suggest_reference.field_publication_place
     - field.field.contact_message.suggest_reference.field_publisher
@@ -31,14 +30,6 @@ content:
     region: content
   field_author_name:
     weight: 1
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_issue:
-    weight: 9
     label: above
     settings:
       link_to_entity: false

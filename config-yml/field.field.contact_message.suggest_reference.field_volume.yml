@@ -9,7 +9,7 @@ id: contact_message.suggest_reference.field_volume
 field_name: field_volume
 entity_type: contact_message
 bundle: suggest_reference
-label: Volume
+label: 'Volume / Issue'
 description: ''
 required: false
 translatable: false

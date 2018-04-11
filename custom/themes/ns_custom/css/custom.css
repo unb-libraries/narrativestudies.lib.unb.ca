@@ -207,12 +207,11 @@ img#cirn-logo {
 
 img#csn-logo {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 22px;
   vertical-align: top;
   float: none !important;
-  max-width: 260px;
+  max-width: 180px;
   position: relative;
-  left: -18px;
 }
 
 /* Suggest Item Form */
@@ -303,16 +302,10 @@ footer.footer.container {
   padding-left: 0px !important;
 }
 
-#stu-footer-logo,
-#libs-footer-logo {
+.footer-logo {
   margin-top: 10%;
   max-width: 260px;
   max-height: 50px;
-}
-
-#mercer-footer-logo {
-  max-width: 260px;
-  max-height: 150px;
 }
 
 footer.footer.container > div.container {

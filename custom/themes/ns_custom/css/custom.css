@@ -303,10 +303,16 @@ footer.footer.container {
   padding-left: 0px !important;
 }
 
-.footer-logo {
-  margin-top: 5%;
+#stu-footer-logo,
+#libs-footer-logo {
+  margin-top: 10%;
   max-width: 260px;
   max-height: 50px;
+}
+
+#mercer-footer-logo {
+  max-width: 260px;
+  max-height: 150px;
 }
 
 footer.footer.container > div.container {

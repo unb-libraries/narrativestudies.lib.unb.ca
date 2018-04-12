@@ -1,14 +1,12 @@
-uuid: 9d0f02a4-38aa-4008-b64c-037e248b58a3
+uuid: 4755c995-a722-44dc-9bff-6412306e9f7c
 langcode: en
 status: true
 dependencies:
   config:
     - contact.form.suggest_reference
-    - field.storage.contact_message.field_abstract
-  module:
-    - text
-id: contact_message.suggest_reference.field_abstract
-field_name: field_abstract
+    - field.storage.contact_message.field_abstract_or_description
+id: contact_message.suggest_reference.field_abstract_or_description
+field_name: field_abstract_or_description
 entity_type: contact_message
 bundle: suggest_reference
 label: 'Abstract or Description'
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string_long

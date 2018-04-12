@@ -1,16 +1,16 @@
-uuid: 250b031c-0358-45f8-9628-49a961e3705c
+uuid: 84c0d1b9-08e2-4ff5-b56f-0f0176339523
 langcode: en
 status: true
 dependencies:
   module:
     - contact
-    - text
-id: contact_message.field_abstract
-field_name: field_abstract
+id: contact_message.field_abstract_or_description
+field_name: field_abstract_or_description
 entity_type: contact_message
-type: text_long
-settings: {  }
-module: text
+type: string_long
+settings:
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

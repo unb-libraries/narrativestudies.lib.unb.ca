@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - contact.form.suggest_reference
-    - field.field.contact_message.suggest_reference.field_abstract
+    - field.field.contact_message.suggest_reference.field_abstract_or_description
     - field.field.contact_message.suggest_reference.field_author_name
     - field.field.contact_message.suggest_reference.field_journal_title
     - field.field.contact_message.suggest_reference.field_publication_place
@@ -15,18 +15,17 @@ dependencies:
     - field.field.contact_message.suggest_reference.field_year
   module:
     - options
-    - text
 id: contact_message.suggest_reference.default
 targetEntityType: contact_message
 bundle: suggest_reference
 mode: default
 content:
-  field_abstract:
-    weight: 6
+  field_abstract_or_description:
+    weight: 9
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    type: basic_string
     region: content
   field_author_name:
     weight: 1

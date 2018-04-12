@@ -86,6 +86,10 @@ a:active,
   font-size: 24px;
 }
 
+.main-container.container.js-quickedit-main-content {
+  padding-top: 40px !important;
+}
+
 /* Global Search Form */
 
 form#views-exposed-form-ns-references-page-2 > div {

@@ -26,7 +26,6 @@ ns_navigation.user:
   path: '/user/{uid}'
   defaults:
     _controller: '\Drupal\ns_navigation\Controller\NsNavigationController:user'
-    _title: 'User'
   requirements:
     _permission: 'access content'
 ns_navigation.contact-main:

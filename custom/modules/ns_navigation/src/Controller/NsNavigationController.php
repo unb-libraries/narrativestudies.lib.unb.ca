@@ -44,6 +44,8 @@ class NsNavigationController extends ControllerBase {
    * {@inheritdoc}
    */
   public function user() {
+    drupal_set_message("DEBUG!!!");
     return new RedirectResponse("/");
   }
+
 }

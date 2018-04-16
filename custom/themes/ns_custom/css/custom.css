@@ -321,13 +321,6 @@ footer.footer.container > div.container {
   padding-left: 0px !important;
 }
 
-/* Temporary */
-
-/* Hide bibcite-citation (Author not displayed) */
-.bibcite-citation {
-  display: none;
-}
-
 /* Responsive */
 
 @media (min-width: 768px) {

@@ -300,6 +300,10 @@ form.contact-message-feedback-form.contact-message-form.contact-form
     width: 90px;
 }
 
+#edit-actions {
+  margin-top: 10px;
+}
+
 input[data-drupal-selector="edit-bibcite-reference-journal-article-delete-form"]
   + #edit-actions {
   padding-top: 10px;

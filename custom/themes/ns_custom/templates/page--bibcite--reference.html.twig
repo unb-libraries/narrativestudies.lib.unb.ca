@@ -148,6 +148,10 @@
         <br>
 
         {# Custom navigation buttons #}
+
+        {% set here = url('<current>')['#markup'] %}
+
+        {% if 'add' not in here and 'edit' not in here and 'delete' not in here %}
         <div>
           <a href="javascript:history.back()" class="btn btn-success">
             <span class="glyphicon glyphicon-arrow-left"></span> Results
@@ -156,6 +160,7 @@
             <span class="glyphicon glyphicon-search"></span> New Search
           </a>
         </div>
+        {% endif %}
       </section>
 
       {# Sidebar Second #}

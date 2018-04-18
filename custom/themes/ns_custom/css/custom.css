@@ -304,11 +304,6 @@ form.bibcite-reference-confirm-form.confirmation #edit-actions {
   margin-top: 10px;
 }
 
-input[data-drupal-selector="edit-bibcite-reference-journal-article-delete-form"]
-  + #edit-actions {
-  padding-top: 10px;
-}
-
 /* Footer */
 
 footer.footer.container {

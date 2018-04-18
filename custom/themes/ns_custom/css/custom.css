@@ -300,7 +300,7 @@ form.contact-message-feedback-form.contact-message-form.contact-form
     width: 90px;
 }
 
-#edit-actions {
+form.bibcite-reference-confirm-form.confirmation #edit-actions {
   margin-top: 10px;
 }
 

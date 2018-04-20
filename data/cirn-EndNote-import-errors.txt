@@ -1,53 +1,533 @@
-Entity can not be saved.\nLabel: The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. Jenkins-Smith\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. Jenkins-Smith\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. Jenkins-Smith\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: DIFFERENT VOICE Storytelling That Moves People: Didactic press releases, dry memos, and hyperbolic missives are unlikely to persuade people, let alone set them on fire. To do that, you need to tell stories. Great stories reveal the struggles of life, honestly and engagingly. Executives can become storytellers by unearthing the dramas within themselves and their organizations\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Story: From Fireplace to Cyberspace, Connecting Children and Narrative. Proceedings from the 39th Allerton Park Institute. Hearne, Betsy, et al. (Eds.). Champaign, IL: University of Illinois, Graduate School of Library and Information Science, 1998. - 143 pp. $21.95 (paperback). ISBN 0-87845-105-6\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Educating Savages: The education of Native Americans emerges from a narrative about how the members of a superior society constantly have extended themselves in their efforts to lead savages away from their quaint but untenable existence and toward salvation through civilization\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Subversive Pleasures: Painting s New Feminine Narrative: Aspects of the feminine are employed in new subversive strategies by women painters, in a medium famous for its potential to indulge and seduce, emphasizing the emotional and intuitive along with theoretical concerns\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Adre Marshall, The Turn of the Mind: Constituting Consciousness in Henry James; Beverly Haviland, Henry James s Last Romance: Making Sense of the Past and the American Scene; Enacting History in Henry James; Narrative, Power, and Ethics, ed. by Gert Buelens\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Randolph Vigne (ed.), Guillaume Chenu de Chalezac, the  French Boy : The Narrative of his Experiences as a Huguenot Refugee, as a Castaway Among the Xhosa, his Rescue with the Stavenisse Survivors by the Centaurus, his Service at the Cape and Return to Europe, 1686-9\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Let Me Tell You a Story: Human beings have communicated through storytelling for ages. The story argument is a powerful force in the courtroom because it is made in our natural language. Lawyers who use stories to explain cases speak easily and clearly, hold juror  interest, and touch their hearts\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Thucydides: An Introduction for the Common Reader by Perez Zagorin. Princeton: Princeton University Press, 2005. 190+xvi pp A Review of: &quot;Thucydides and the Shaping of History by Emily Greenwood. Classical Literature and Society Series. London: Duckworth, 2006. 188+xii pp.&quot; A Review of: &quot;Thucydides  War Narrative: A Structural Study by Carolyn Dewald. Berkeley: The University of California Press, 2006. 258+xiv pp.&quot; A Review of: &quot;Thucydides and the Philosophical Origins of History by Darien Shanske. New York: Cambridge University Press, 2006. 268+xii pp.&quot;\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Deviance from Normality or the Normalization of Deviance? Making Sense of the Challenger Launch Decision [Claus Jensen s No Downlink: A Dramatic Narrative about the Challenger Accident and Our Time; Diane Vaughan s The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA]\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Miming for Meaning Storytelling and representational picture-making are enjoying a resurgence in contemporary art, providing a relief from the dry over-administered critiques now being hosted by institutions across the art world. These late 1990s images are breaking through our consciousness with weird aggressive subjectivities and pertinently awkward\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Book Review: Reassembling the Social: An Introduction to Actor-Network-Theory by Bruno Latour A Review of: &quot;Reassembling the Social: An Introduction to Actor-Network-Theory. Bruno Latour. New York: Oxford University Press, 2005. 312 pages. ISBN: 0199256047&quot;\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Fairness at work - implications for employers: Amongst all the rhetoric which has surrounded the recent White Paper there are some sensible proposals aimed at simplifying some aspects of UK employment law and ensuring consistency as to when individuals acquire the full scale of rights\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Perfectly Unconventional Offbeat seminars can lighten the load of a content-heavy conference. We asked planners to recommend eccentric topics that appealed to their attendees, and the results range from the wise (using metaphors in storytelling) to the wacky (how to act more like a dog at work)\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Only a story? Once upon a time, a fairy godmother weaved her magic on children in Stockport schools. The children were never short of a story again, and they all lived more happily ever after. But, for Becky Shanks, this foray into narrative therapy was just the beginning\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The AMIA 2006 Scientific Program Committee has retracted the following paper from the AMIA 2006 Proceedings: Comparative evaluation of accuracy of extraction of medication information from narrative physician notes by commercial and academic natural language processing software packages\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Michael T. Ghiselin; Giovanni Pinna (Editors): Biology as History: Papers from International Conferences Sponsored by the California Academy of Sciences in San Francisco and the Museo Civico di Storia Naturale in Milan, Vol. 2: New Perspectives on the History of Life: Essays on Systematic Biology as Historical Narrative\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The comprehension of shinden-zukuri in the 16^T^H and 17^T^H century and it s transformation factors represented in the images of tale of genji picture series -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 1\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The yearning for shinden-zukuri in the 17th century and it s level of understanding represented in the images of &quot;narrative picture scroll of the tale of ise&quot; drawn by sumiyoshi jyokei -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 2\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The Art of Storytelling for Cross Cultural Understanding\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Aspect and tense in storytelling by Russian, German and bilingual children\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Aspect and tense in storytelling by Russian, German and bilingual children\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: &quot;I Don t Want to Be an Artificial Man&quot;: Narrative Reconstruction of Sexuality among Prostate Cancer Survivors\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Questions liees a la traduction de la prose narrative en grec moderne (1780-1800)\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Historical space as narrative medium: on the configuration of spatial narratives of time at historical sites\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Communicating about illness: a family narrative\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Relating Narrative, Inquiry, and Inscriptions: Supporting Consequential Play\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Narrative, Adaptation, and Change\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Narrative, Adaptation, and Change\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Narrative, Adaptation, and Change\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Paul Morel edited by Helen Baron; Studies in Classic American Literature edited by Ezra Greenspan, Lindeth Vasey and John Worthen; Radicalizing Lawrence: Critical Interventions in the Reading and Reception of D.H. Lawrence s Narrative Fiction by Robert Burden\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Alison Bashford, Purity Women s Writing in Caribbean Narrative (1999) and Pollution: Gender, Embodiment Victorian Medicine (1998); Diana Gittins, Madness in its Place: Narratives of Severalls Hospital, 1913-1997 (1998); Rosemary Pringle, Sex and Medicine: Gender, Power and Authority in the Medical Profession (1998)\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Narrative skills following traumatic brain injury in children and adults\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'bibcite_url' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: &quot;Apprenticing to Freedom in the West Indies,&quot; review of Between Slavery and Freedom: Special Magistrate John Anderson s Journal of St. Vincent during the Apprenticeship, ed. MCDONALD, and A Narrative of Events, since the First of August, 1834, by James Williams, ed. PATON\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Relocations and Border Crossings [Reviews of Female Stories, Female Bodies: Narrative Identity and Representation, by Lidia Curti; Women, America, and Movement: Narratives of Relocation, ed. Susan L. Roberson; Secret Journeys: The Trope of Women s Travel in American Literature, by Marilyn C. Wesley.]\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Lushootseed Texts: An Introduction to Puget Salish Narrative Aesthetics (Crisca Bierwert, ed.); Northern Haida Songs (John Enrico and Wendy Bross Stuart, eds.); Our Tellings: Interior Salish Stories of the NIha7kapmx People (Darwin Hanna and Mamie Henry, eds.); Tales from the Dena: Indian Stories from the Tanana, Koyukuk, and Yukon Rivers (Frederica de Laguna, ed.); The Epic of Qayak: The Longest Story Ever Told by My People (Lela Kiana Oman); The Maidu Indian Myths and Stories of Hainc ibyjim (William Shipley, ed.)\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Consuelo Lopez Springfield (ed.), Daughters of Caliban: Caribbean Women in the Twentieth Century (1997); Paula L. Aymer, Uprooted Women: Migrant Domestics in the Caribbean (1998); Belinda Edmondson, Making Men: Gender, Literary Authority and Women s Writing in Caribbean Narrative (1999)\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Judith Still, Feminine Economies: Thinking Against the Market in the Enlightenment and the Late Twentieth Century; Barbara Leah Harman, The Feminine Political Novel in Victorian England; Suzanne Keen, Victorian Renovations of the Novel: Narrative Annexes and the Boundaries of Representation\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Peter J. Schraeder (ed.). Exporting Democracy: Rhetoric vs. Reality. Boulder: Lynne Rienner Publishers, 2002. Pp. 289.Susan Marks. The Riddle of All Constitutions: International Law, Democracy, and the Critique of Ideology. Oxford: Oxford University Press, 2003 (paperback). Pp. 164\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Taking chances: As an author, professional speaker, and founder of Big Picture Institute, Anita Caputo uses her storytelling techniques to educate and empower business leaders to foster and cultivate a productive workforce. Through her strategic thinking and thought provoking style, she s empowering her clients to explore options and take action to get what they want from their own careers\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Leah Price, The Anthology and the Rise of the Novel from Richardson to George Eliot, Nicola Diane Thompson (ed), Victorian Writers and the Woman Question, Sophie Gilmartin, Ancestry and Narrative in Nineteenth-century British Literature: Blood Relations from Edgeworth to Hardy\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: South Africa s Future: From Crisis to Prosperity. Anthony Ginsberg; Fault Lines: Journeys into the New South Africa. David Goodman; South Africa in Transition: The Misunderstood Miracle. Adrian Guelke; A Concise History of South Africa. Robert Ross South Africa: A Narrative History. Frank Welsh\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: PEOPLE ON THE MOVE IN EUROPE: Age, Narrative and Migration: The Life Course and Life Histories of Bengali Elders in London Katy Gardner (Oxford and New York: Berg, 2002). vii + 254 pp.; Sunset Lives: British Retirement Migration to the Mediterranean Russell King, Tony Warnes, and Allan Williams (Oxford and New York: Berg, 2000). xiii + 235 pp; Moving with the Ball: The Migration of Professional Footballers Pierre Lanfranchi and Matthew Taylor (Oxford and New York: Berg, 2001). viii + 273 pp; Europe s Invisible Migrants Andrea Smith, ed. (Amsterdam: Amsterdam University Press, 2003). 244 pp\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Self-Storying, Self-Understanding: Toward a Narrative Approach to EFL Teacher Education Through the writting of his own narrative, a Venezuelan teacher educator illustrates the power of self-storying to inspire culturally sensitive, reflective teaching practices and to promote the value of teacher s firsthand experiences\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Revising Voice: Women Writers and the Challenge to Traditional Narrative Form [Reviews of The Feminine Sublime: Gender and Excess in Women s Fiction, by Barbara Claire Freeman; Passions of the Voice: Hysteria, Narrative and the Figure of the Speaking Woman, by Claire Kahane; The Disobedient Writer: Women and Narrative Tradition, by Nancy A. Walker.]\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Volume Two of The New Interpreter s Bible: The New Interpreter s Bible: General Articles and Introduction, Commentary, and Reflections for Each Book of the Bible, Including the Apocryphal/Deuterocanonical Books, vol. 2: The Book of Numbers, the Book of Deuteronomy, Introduction to Narrative Literature, the Book of Joshua, the Book of Judges, the Book of Ruth, and the First and Second Books of Samuel\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: Clipper s Hidden Agenda: As the Great Clipper Debate loses its steam, corporations are realizing that they still need encryption to protect their trade secrets. There are some practical realities to understand after listening to the rhetoric of law-enforcement zealots and privacy libertarians\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility toward an impressionist narrative\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility toward an impressionist narrative\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: NARRATING THE GOSPEL IN 1 AND 2 PETER Narrative theology prioritizes the overall aim and employment of God s ways revealed in Scripture and ongoing in history. An exploration of 1 and 2 Peter from this perspective emphasizes their theological role in ecclesial formation and prompts renewed reflection on the theological relationship between these two letters\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
-Entity can not be saved.\nLabel: NARRATING THE GOSPEL IN 1 AND 2 PETER Narrative theology prioritizes the overall aim and employment of God s ways revealed in Scripture and ongoing in history. An exploration of 1 and 2 Peter from this perspective emphasizes their theological role in ecclesial formation and prompts renewed reflection on the theological relationship between these two letters\n<pre>\nSQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1: 	********************************************************************************
+@article{RN7158,
+   author = {Lawlor, E. F.},
+   title = {The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. Jenkins-Smith},
+   journal = {Journal of Policy Analysis and Management},
+   volume = {15},
+   number = {1},
+   pages = {110-120},
+   year = {1996},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN8182,
+   author = {McKee, R.},
+   title = {DIFFERENT VOICE Storytelling That Moves People: Didactic press releases, dry memos, and hyperbolic missives are unlikely to persuade people, let alone set them on fire. To do that, you need to tell stories. Great stories reveal the struggles of life, honestly and engagingly. Executives can become storytellers by unearthing the dramas within themselves and their organizations},
+   journal = {Harvard Business Review},
+   volume = {81},
+   number = {6},
+   pages = {51-91},
+   ISSN = {0017-8012},
+   year = {2003},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN8262,
+   author = {McQueen, S.},
+   title = {Story: From Fireplace to Cyberspace, Connecting Children and Narrative. Proceedings from the 39th Allerton Park Institute. Hearne, Betsy, et al. (Eds.). Champaign, IL: University of Illinois, Graduate School of Library and Information Science, 1998. - 143 pp. $21.95 (paperback). ISBN 0-87845-105-6},
+   journal = {Library and Information Science Research},
+   volume = {21},
+   number = {4},
+   pages = {559-561},
+   year = {1999},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN8709,
+   author = {Morris, R.},
+   title = {Educating Savages: The education of Native Americans emerges from a narrative about how the members of a superior society constantly have extended themselves in their efforts to lead savages away from their quaint but untenable existence and toward salvation through civilization},
+   journal = {Quarterly Journal of Speech},
+   volume = {83},
+   number = {2},
+   pages = {152-171},
+   ISSN = {0033-5630},
+   year = {1997},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN8811,
+   author = {Murphy, M.},
+   title = {Subversive Pleasures: Painting's New Feminine Narrative: Aspects of the feminine are employed in new subversive strategies by women painters, in a medium famous for its potential to indulge and seduce, emphasizing the emotional and intuitive along with theoretical concerns},
+   journal = {New Art Examiner},
+   volume = {24},
+   number = {6},
+   pages = {14-20},
+   ISSN = {0886-8115},
+   year = {1997},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN10265,
+   author = {Rawlings, P.},
+   title = {Adre Marshall, The Turn of the Mind: Constituting Consciousness in Henry James; Beverly Haviland, Henry James's Last Romance: Making Sense of the Past and the American Scene; Enacting History in Henry James; Narrative, Power, and Ethics, ed. by Gert Buelens},
+   journal = {Modern Language Review},
+   volume = {95},
+   number = {3},
+   pages = {813-814},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN11740,
+   author = {Spence, G.},
+   title = {Let Me Tell You a Story: Human beings have communicated through storytelling for ages. The story argument is a powerful force in the courtroom because it is made in our natural language. Lawyers who use stories to explain cases speak easily and clearly, hold juror' interest, and touch their hearts},
+   journal = {Trial},
+   volume = {31},
+   number = {2},
+   pages = {72},
+   ISSN = {0041-2538},
+   year = {1995},
+   type = {Journal Article}
+} 
+********************************************************************************
+@article{RN12078,
+   author = {Svoboda, M.},
+   title = {Thucydides: An Introduction for the Common Reader by Perez Zagorin. Princeton: Princeton University Press, 2005. 190+xvi pp A Review of: "Thucydides and the Shaping of History by Emily Greenwood. Classical Literature and Society Series. London: Duckworth, 2006. 188+xii pp." A Review of: "Thucydides' War Narrative: A Structural Study by Carolyn Dewald. Berkeley: The University of California Press, 2006. 258+xiv pp." A Review of: "Thucydides and the Philosophical Origins of History by Darien Shanske. New York: Cambridge University Press, 2006. 268+xii pp."},
+   journal = {Rhetoric Society Quarterly},
+   volume = {37},
+   pages = {203-207},
+   ISSN = {0277-3945},
+   year = {2007},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN12379,
+   author = {Tompkins, P. K. and Heppard, K. and Melville, C.},
+   title = {Deviance from Normality or the Normalization of Deviance? Making Sense of the Challenger Launch Decision [Claus Jensen's No Downlink: A Dramatic Narrative about the Challenger Accident and Our Time; Diane Vaughan's The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA]},
+   journal = {Organization},
+   volume = {5},
+   number = {4},
+   pages = {620-629},
+   ISSN = {1350-5084},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN12663,
+   author = {Van Proyen, M.},
+   title = {Miming for Meaning Storytelling and representational picture-making are enjoying a resurgence in contemporary art, providing a relief from the dry over-administered critiques now being hosted by institutions across the art world. These late 1990s images are breaking through our consciousness with weird aggressive subjectivities and pertinently awkward},
+   journal = {New Art Examiner},
+   volume = {27},
+   number = {6},
+   pages = {30-33},
+   ISSN = {0886-8115},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN13129,
+   author = {Wessells, A. T.},
+   title = {Book Review: Reassembling the Social: An Introduction to Actor-Network-Theory by Bruno Latour A Review of: "Reassembling the Social: An Introduction to Actor-Network-Theory. Bruno Latour. New York: Oxford University Press, 2005. 312 pages. ISBN: 0199256047"},
+   journal = {International Public Management Journal},
+   volume = {10},
+   number = {3},
+   pages = {351-356},
+   ISSN = {1096-7494},
+   year = {2007},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN13259,
+   author = {Williams, A.},
+   title = {Fairness at work - implications for employers: Amongst all the rhetoric which has surrounded the recent White Paper there are some sensible proposals aimed at simplifying some aspects of UK employment law and ensuring consistency as to when individuals acquire the full scale of rights},
+   journal = {Croner Employers Briefing},
+   pages = {6-7},
+   ISSN = {0963-5343},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN108,
+   title = {Perfectly Unconventional Offbeat seminars can lighten the load of a content-heavy conference. We asked planners to recommend eccentric topics that appealed to their attendees, and the results range from the wise (using metaphors in storytelling) to the wacky (how to act more like a dog at work)},
+   journal = {M and C},
+   volume = {36},
+   number = {10},
+   pages = {41-52},
+   ISSN = {0025-8652},
+   year = {2001},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN157,
+   title = {Only a story? Once upon a time, a fairy godmother weaved her magic on children in Stockport schools. The children were never short of a story again, and they all lived more happily ever after. But, for Becky Shanks, this foray into narrative therapy was just the beginning},
+   journal = {Speech and Language Therapy in Practice},
+   pages = {10-13},
+   ISSN = {1368-2105},
+   year = {2003},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN206,
+   title = {The AMIA 2006 Scientific Program Committee has retracted the following paper from the AMIA 2006 Proceedings: Comparative evaluation of accuracy of extraction of medication information from narrative physician notes by commercial and academic natural language processing software packages},
+   journal = {AMIA Annu Symp Proc},
+   pages = {789-93},
+   ISSN = {1559-4076 (Electronic)},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=18297753},
+   year = {2006},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN360,
+   author = {Adler, K.},
+   title = {Michael T. Ghiselin; Giovanni Pinna (Editors): Biology as History: Papers from International Conferences Sponsored by the California Academy of Sciences in San Francisco and the Museo Civico di Storia Naturale in Milan, Vol. 2: New Perspectives on the History of Life: Essays on Systematic Biology as Historical Narrative},
+   journal = {Isis},
+   volume = {89},
+   number = {3},
+   pages = {584},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN393,
+   author = {Akazawa, M. and Hatano, J.},
+   title = {The comprehension of shinden-zukuri in the 16^T^H and 17^T^H century and it's transformation factors represented in the images of tale of genji picture series -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 1},
+   journal = {Journal of Architecture and Planning},
+   pages = {185-192},
+   year = {2005},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN395,
+   author = {Akazawa, M. and Hatano, J.},
+   title = {The yearning for shinden-zukuri in the 17th century and it's level of understanding represented in the images of "narrative picture scroll of the tale of ise" drawn by sumiyoshi jyokei -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 2},
+   journal = {Journal of Architecture and Planning},
+   pages = {167-174},
+   year = {2006},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN403,
+   author = {Al-Jafar, A. and Buzzelli, C. A.},
+   title = {The Art of Storytelling for Cross Cultural Understanding},
+   journal = {International Journal of Early Childhood},
+   volume = {36},
+   number = {1},
+   pages = {35-48},
+   ISSN = {0020-7187},
+   url = {http://download.springer.com/static/pdf/692/art%253A10.1007%252FBF03165939.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF03165939&token2=exp=1452174751~acl=%2Fstatic%2Fpdf%2F692%2Fart%25253A10.1007%25252FBF03165939.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252FBF03165939*~hmac=d8e5766070613d67b533f2e093082022be2141931dad6333dc07bd45b993a75a},
+   year = {2004},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN579,
+   author = {Anstatt, T.},
+   title = {Aspect and tense in storytelling by Russian, German and bilingual children},
+   journal = {Russian Linguistics},
+   volume = {32},
+   number = {1},
+   pages = {1-26},
+   ISSN = {0304-3487},
+   url = {http://download.springer.com/static/pdf/553/art%253A10.1007%252Fs11185-007-9021-0.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11185-007-9021-0&token2=exp=1452174842~acl=%2Fstatic%2Fpdf%2F553%2Fart%25253A10.1007%25252Fs11185-007-9021-0.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs11185-007-9021-0*~hmac=c05a5f19646b34dfb2b904e04bfd09629fac31761d8df0c44dc827c60b4252ec},
+   year = {2008},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN650,
+   author = {Arrington, M. I.},
+   title = {"I Don't Want to Be an Artificial Man": Narrative Reconstruction of Sexuality among Prostate Cancer Survivors},
+   journal = {Sexuality and Culture},
+   volume = {7},
+   number = {2},
+   pages = {30-58},
+   ISSN = {1095-5143},
+   url = {http://download.springer.com/static/pdf/828/art%253A10.1007%252Fs12119-003-1011-9.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs12119-003-1011-9&token2=exp=1452174883~acl=%2Fstatic%2Fpdf%2F828%2Fart%25253A10.1007%25252Fs12119-003-1011-9.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs12119-003-1011-9*~hmac=99a8f35309e10977e8ea6536e728d260599193f906fd8317fdfdc8260884b43a},
+   year = {2003},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN679,
+   author = {Athini, S.},
+   title = {Questions liees a la traduction de la prose narrative en grec moderne (1780-1800)},
+   journal = {Neohelicon},
+   volume = {31},
+   number = {2},
+   pages = {43-52},
+   ISSN = {0324-4652},
+   url = {http://download.springer.com/static/pdf/43/art%253A10.1007%252Fs11059-004-0532-z.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11059-004-0532-z&token2=exp=1452174898~acl=%2Fstatic%2Fpdf%2F43%2Fart%25253A10.1007%25252Fs11059-004-0532-z.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs11059-004-0532-z*~hmac=23048a5be69289b0a4aab52babe3fc8d48cdffc741738158c7474c73972b598b},
+   year = {2004},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN738,
+   author = {Azaryahu, M. and Foote, K. E.},
+   title = {Historical space as narrative medium: on the configuration of spatial narratives of time at historical sites},
+   journal = {Geojournal},
+   volume = {73},
+   number = {3},
+   pages = {179-194},
+   ISSN = {0343-2521},
+   url = {http://download.springer.com/static/pdf/202/art%253A10.1007%252Fs10708-008-9202-4.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10708-008-9202-4&token2=exp=1452174926~acl=%2Fstatic%2Fpdf%2F202%2Fart%25253A10.1007%25252Fs10708-008-9202-4.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs10708-008-9202-4*~hmac=ca5eaab38ed76142e637dab4bcbe53c1f64223cd829ad27a6a9c3264890ac059},
+   year = {2008},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN779,
+   author = {Baider, L.},
+   title = {Communicating about illness: a family narrative},
+   journal = {Supportive Care in Cancer},
+   volume = {16},
+   number = {6},
+   pages = {607-611},
+   url = {http://download.springer.com/static/pdf/73/art%253A10.1007%252Fs00520-007-0370-4.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00520-007-0370-4&token2=exp=1452174947~acl=%2Fstatic%2Fpdf%2F73%2Fart%25253A10.1007%25252Fs00520-007-0370-4.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs00520-007-0370-4*~hmac=6b9a0738f75b5da36520483af8c8b6b3132a0c91b365c1f4f12ee2c462662f9d},
+   year = {2008},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN871,
+   author = {Barab, S. A. and Sadler, T. D. and Heiselt, C. and Hickey, D. and Zuiker, S.},
+   title = {Relating Narrative, Inquiry, and Inscriptions: Supporting Consequential Play},
+   journal = {Journal of Science Education and Technology},
+   volume = {16},
+   number = {1},
+   pages = {59-82},
+   ISSN = {1059-0145},
+   url = {http://download.springer.com/static/pdf/405/art%253A10.1007%252Fs10956-006-9033-3.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10956-006-9033-3&token2=exp=1452174998~acl=%2Fstatic%2Fpdf%2F405%2Fart%25253A10.1007%25252Fs10956-006-9033-3.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs10956-006-9033-3*~hmac=47d76cc8b2fb13c21bb5223116cadc062a30c7fdfd9ee0e776a97fcb4d4849e9},
+   year = {2007},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN985,
+   author = {Bateson, M. C.},
+   title = {Narrative, Adaptation, and Change},
+   journal = {Interchange},
+   volume = {38},
+   number = {3},
+   pages = {213-222},
+   ISSN = {0826-4805},
+   url = {http://download.springer.com/static/pdf/923/art%253A10.1007%252Fs10780-007-9030-3.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10780-007-9030-3&token2=exp=1452175057~acl=%2Fstatic%2Fpdf%2F923%2Fart%25253A10.1007%25252Fs10780-007-9030-3.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252Fs10780-007-9030-3*~hmac=b0804529aaacb464f0ce6f2405ef852530807f3430e3f51492f1feaebf936eba},
+   year = {2007},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1083,
+   author = {Becket, F.},
+   title = {Paul Morel edited by Helen Baron; Studies in Classic American Literature edited by Ezra Greenspan, Lindeth Vasey and John Worthen; Radicalizing Lawrence: Critical Interventions in the Reading and Reception of D.H. Lawrence's Narrative Fiction by Robert Burden},
+   journal = {English},
+   volume = {53},
+   pages = {258-261},
+   ISSN = {0013-8215},
+   year = {2004},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1242,
+   author = {Berridge, V.},
+   title = {Alison Bashford, Purity Women's Writing in Caribbean Narrative (1999) and Pollution: Gender, Embodiment Victorian Medicine (1998); Diana Gittins, Madness in its Place: Narratives of Severalls Hospital, 1913-1997 (1998); Rosemary Pringle, Sex and Medicine: Gender, Power and Authority in the Medical Profession (1998)},
+   journal = {Gender and History},
+   volume = {12},
+   number = {1},
+   pages = {272-274},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1304,
+   author = {Biddle, K. R. and McCabe, A. and Bliss, L. S.},
+   title = {Narrative skills following traumatic brain injury in children and adults},
+   journal = {J Commun Disord},
+   volume = {29},
+   number = {6},
+   pages = {447-68; quiz 468-9},
+   ISSN = {0021-9924 (Print)},
+   DOI = {0021992495000380 [pii]},
+   url = {http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6T85-3W31CPW-2&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=1b75fa3275e2b637750561fba3b84218http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=8956102},
+   year = {1996},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1430,
+   author = {Blouet, O. M.},
+   title = {"Apprenticing to Freedom in the West Indies," review of Between Slavery and Freedom: Special Magistrate John Anderson's Journal of St. Vincent during the Apprenticeship, ed. MCDONALD, and A Narrative of Events, since the First of August, 1834, by James Williams, ed. PATON},
+   journal = {William and Mary Quarterly},
+   volume = {59},
+   number = {3},
+   pages = {809-812},
+   ISSN = {0043-5597},
+   year = {2002},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1583,
+   author = {Bouma, J. A. and Ramirez-Dhoore, D.},
+   title = {Relocations and Border Crossings [Reviews of Female Stories, Female Bodies: Narrative Identity and Representation, by Lidia Curti; Women, America, and Movement: Narratives of Relocation, ed. Susan L. Roberson; Secret Journeys: The Trope of Women's Travel in American Literature, by Marilyn C. Wesley.]},
+   journal = {College Literature},
+   volume = {28},
+   number = {1},
+   pages = {219-228},
+   year = {2001},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN1909,
+   author = {Bunte, P. A.},
+   title = {Lushootseed Texts: An Introduction to Puget Salish Narrative Aesthetics (Crisca Bierwert, ed.); Northern Haida Songs (John Enrico and Wendy Bross Stuart, eds.); Our Tellings: Interior Salish Stories of the NIha7kapmx People (Darwin Hanna and Mamie Henry, eds.); Tales from the Dena: Indian Stories from the Tanana, Koyukuk, and Yukon Rivers (Frederica de Laguna, ed.); The Epic of Qayak: The Longest Story Ever Told by My People (Lela Kiana Oman); The Maidu Indian Myths and Stories of Hainc'ibyjim (William Shipley, ed.)},
+   journal = {Journal of Linguistic Anthropology},
+   volume = {7},
+   number = {1},
+   pages = {133-135},
+   ISSN = {1055-1360},
+   year = {1997},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2299,
+   author = {Chamberiain, M.},
+   title = {Consuelo Lopez Springfield (ed.), Daughters of Caliban: Caribbean Women in the Twentieth Century (1997); Paula L. Aymer, Uprooted Women: Migrant Domestics in the Caribbean (1998); Belinda Edmondson, Making Men: Gender, Literary Authority and Women's Writing in Caribbean Narrative (1999)},
+   journal = {Gender and History},
+   volume = {12},
+   number = {1},
+   pages = {268-271},
+   ISSN = {0953-5233},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2353,
+   author = {Chapman, A.},
+   title = {Judith Still, Feminine Economies: Thinking Against the Market in the Enlightenment and the Late Twentieth Century; Barbara Leah Harman, The Feminine Political Novel in Victorian England; Suzanne Keen, Victorian Renovations of the Novel: Narrative Annexes and the Boundaries of Representation},
+   journal = {Modern Language Review},
+   volume = {95},
+   number = {2},
+   pages = {474-475},
+   ISSN = {0026-7937},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2431,
+   author = {Chimni, B. S.},
+   title = {Peter J. Schraeder (ed.). Exporting Democracy: Rhetoric vs. Reality. Boulder: Lynne Rienner Publishers, 2002. Pp. 289.Susan Marks. The Riddle of All Constitutions: International Law, Democracy, and the Critique of Ideology. Oxford: Oxford University Press, 2003 (paperback). Pp. 164},
+   journal = {European Journal of International Law},
+   volume = {16},
+   number = {5},
+   pages = {1001-1005},
+   ISSN = {0938-5428},
+   year = {2005},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2506,
+   author = {Civichino, A.},
+   title = {Taking chances: As an author, professional speaker, and founder of Big Picture Institute, Anita Caputo uses her storytelling techniques to educate and empower business leaders to foster and cultivate a productive workforce. Through her strategic thinking and thought provoking style, she's empowering her clients to explore options and take action to get what they want from their own careers},
+   journal = {Cma Management},
+   volume = {82},
+   pages = {40-43},
+   ISSN = {1490-4225},
+   year = {2008},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2568,
+   author = {Clifford, D.},
+   title = {Leah Price, The Anthology and the Rise of the Novel from Richardson to George Eliot, Nicola Diane Thompson (ed), Victorian Writers and the Woman Question, Sophie Gilmartin, Ancestry and Narrative in Nineteenth-century British Literature: Blood Relations from Edgeworth to Hardy},
+   journal = {Women},
+   volume = {12},
+   number = {3},
+   pages = {350-353},
+   ISSN = {0957-4042},
+   year = {2001},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2607,
+   author = {Coger, D. M.},
+   title = {South Africa's Future: From Crisis to Prosperity. Anthony Ginsberg; Fault Lines: Journeys into the New South Africa. David Goodman; South Africa in Transition: The Misunderstood Miracle. Adrian Guelke; A Concise History of South Africa. Robert Ross South Africa: A Narrative History. Frank Welsh},
+   journal = {Africa Today},
+   volume = {47},
+   number = {3/4},
+   pages = {182-186},
+   ISSN = {0001-9887},
+   year = {2001},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2630,
+   author = {Cole, J. E.},
+   title = {PEOPLE ON THE MOVE IN EUROPE: Age, Narrative and Migration: The Life Course and Life Histories of Bengali Elders in London Katy Gardner (Oxford and New York: Berg, 2002). vii + 254 pp.; Sunset Lives: British Retirement Migration to the Mediterranean Russell King, Tony Warnes, and Allan Williams (Oxford and New York: Berg, 2000). xiii + 235 pp; Moving with the Ball: The Migration of Professional Footballers Pierre Lanfranchi and Matthew Taylor (Oxford and New York: Berg, 2001). viii + 273 pp; Europe's Invisible Migrants Andrea Smith, ed. (Amsterdam: Amsterdam University Press, 2003). 244 pp},
+   journal = {Identities},
+   volume = {13},
+   pages = {309-325},
+   ISSN = {1070-289X},
+   year = {2006},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN2730,
+   author = {Contreras E, G. A.},
+   title = {Self-Storying, Self-Understanding: Toward a Narrative Approach to EFL Teacher Education Through the writting of his own narrative, a Venezuelan teacher educator illustrates the power of self-storying to inspire culturally sensitive, reflective teaching practices and to promote the value of teacher's firsthand experiences},
+   journal = {Tesol Journal},
+   volume = {9},
+   number = {3},
+   pages = {24-28},
+   year = {2000},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN3560,
+   author = {Drum, A.},
+   title = {Revising Voice: Women Writers and the Challenge to Traditional Narrative Form [Reviews of The Feminine Sublime: Gender and Excess in Women's Fiction, by Barbara Claire Freeman; Passions of the Voice: Hysteria, Narrative and the Figure of the Speaking Woman, by Claire Kahane; The Disobedient Writer: Women and Narrative Tradition, by Nancy A. Walker.]},
+   journal = {College Literature},
+   volume = {25},
+   number = {2},
+   pages = {175-181},
+   ISSN = {0093-3139},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN3690,
+   author = {Edwards, O. C.},
+   title = {Volume Two of The New Interpreter's Bible: The New Interpreter's Bible: General Articles and Introduction, Commentary, and Reflections for Each Book of the Bible, Including the Apocryphal/Deuterocanonical Books, vol. 2: The Book of Numbers, the Book of Deuteronomy, Introduction to Narrative Literature, the Book of Joshua, the Book of Judges, the Book of Ruth, and the First and Second Books of Samuel},
+   journal = {Sewanee Theological Review},
+   volume = {42},
+   number = {4},
+   pages = {457-464},
+   ISSN = {1059-9576},
+   year = {1999},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN4458,
+   author = {Garner, R.},
+   title = {Clipper's Hidden Agenda: As the Great Clipper Debate loses its steam, corporations are realizing that they still need encryption to protect their trade secrets. There are some practical realities to understand after listening to the rhetoric of law-enforcement zealots and privacy libertarians},
+   journal = {Open Computing},
+   volume = {11},
+   number = {8},
+   pages = {50},
+   ISSN = {1072-4044},
+   year = {1994},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN4647,
+   author = {Gillete, J. B.},
+   title = {The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility toward an impressionist narrative},
+   journal = {Landscape Architecture},
+   volume = {88},
+   number = {5},
+   pages = {66-73},
+   ISSN = {0023-8031},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN4647,
+   author = {Gillete, J. B.},
+   title = {The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility toward an impressionist narrative},
+   journal = {Landscape Architecture},
+   volume = {88},
+   number = {5},
+   pages = {66-73},
+   ISSN = {0023-8031},
+   year = {1998},
+   type = {Journal Article}
+}
+********************************************************************************
+@article{RN4935,
+   author = {Green, J. B.},
+   title = {NARRATING THE GOSPEL IN 1 AND 2 PETER Narrative theology prioritizes the overall aim and employment of God's ways revealed in Scripture and ongoing in history. An exploration of 1 and 2 Peter from this perspective emphasizes their theological role in ecclesial formation and prompts renewed reflection on the theological relationship between these two letters},
+   journal = {Interpretation},
+   volume = {60},
+   pages = {262-277},
+   year = {2006},
+   type = {Journal Article}
+}

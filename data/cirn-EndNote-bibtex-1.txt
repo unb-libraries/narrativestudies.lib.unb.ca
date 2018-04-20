@@ -1116,7 +1116,7 @@ http://nej.sagepub.com/content/7/1/63.full.pdf},
 }
 
 @article{RN108,
-   title = {Perfectly Unconventional Offbeat seminars can lighten the load of a content-heavy conference. We asked planners to recommend eccentric topics that appealed to their attendees, and the results range from the wise (using metaphors in storytelling) to the wa},
+   title = {Perfectly Unconventional Offbeat seminars can lighten the load of a content-heavy conference. We asked planners to recommend eccentric topics that appealed to their attendees, and the results range from the wise (using metaphors in storytelling) to the wacky (how to act more like a dog at work)},
    journal = {M and C},
    volume = {36},
    number = {10},
@@ -1626,7 +1626,7 @@ http://nej.sagepub.com/content/7/1/63.full.pdf},
 }
 
 @article{RN157,
-   title = {Only a story? Once upon a time, a fairy godmother weaved her magic on children in Stockport schools. The children were never short of a story again, and they all lived more happily ever after. But, for Becky Shanks, this foray into narrative therapy was j},
+   title = {Only a story? Once upon a time, a fairy godmother weaved her magic on children in Stockport schools. The children were never short of a story again, and they all lived more happily ever after. But, for Becky Shanks, this foray into narrative therapy was just the beginning},
    journal = {Speech and Language Therapy in Practice},
    pages = {10-13},
    ISSN = {1368-2105},
@@ -2129,7 +2129,7 @@ http://nej.sagepub.com/content/7/1/63.full.pdf},
 }
 
 @article{RN206,
-   title = {The AMIA 2006 Scientific Program Committee has retracted the following paper from the AMIA 2006 Proceedings: Comparative evaluation of accuracy of extraction of medication information from narrative physician notes by commercial and academic natural langu},
+   title = {The AMIA 2006 Scientific Program Committee has retracted the following paper from the AMIA 2006 Proceedings: Comparative evaluation of accuracy of extraction of medication information from narrative physician notes by commercial and academic natural language processing software packages},
    journal = {AMIA Annu Symp Proc},
    pages = {789-93},
    ISSN = {1559-4076 (Electronic)},
@@ -3811,7 +3811,7 @@ http://download.springer.com/static/pdf/278/art%253A10.1007%252Fs10508-008-9318-
 
 @article{RN360,
    author = {Adler, K.},
-   title = {Michael T. Ghiselin; Giovanni Pinna (Editors): Biology as History: Papers from International Conferences Sponsored by the California Academy of Sciences in San Francisco and the Museo Civico di Storia Naturale in Milan, Vol. 2: New Perspectives on the His},
+   title = {Michael T. Ghiselin; Giovanni Pinna (Editors): Biology as History: Papers from International Conferences Sponsored by the California Academy of Sciences in San Francisco and the Museo Civico di Storia Naturale in Milan, Vol. 2: New Perspectives on the History of Life: Essays on Systematic Biology as Historical Narrative},
    journal = {Isis},
    volume = {89},
    number = {3},
@@ -4199,7 +4199,7 @@ http://onlinelibrary.wiley.com/doi/10.1002/1097-4679(198903)45:2%3C270::AID-JCLP
 
 @article{RN393,
    author = {Akazawa, M. and Hatano, J.},
-   title = {The comprehension of shinden-zukuri in the 16^T^H and 17^T^H century and it's transformation factors represented in the images of tale of genji picture series -A research on the upper class comprehension of residences shown in the narrative pictures in ea},
+   title = {The comprehension of shinden-zukuri in the 16^T^H and 17^T^H century and it's transformation factors represented in the images of tale of genji picture series -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 1},
    journal = {Journal of Architecture and Planning},
    pages = {185-192},
    year = {2005},
@@ -4217,7 +4217,7 @@ http://onlinelibrary.wiley.com/doi/10.1002/1097-4679(198903)45:2%3C270::AID-JCLP
 
 @article{RN395,
    author = {Akazawa, M. and Hatano, J.},
-   title = {The yearning for shinden-zukuri in the 17th century and it's level of understanding represented in the images of "narrative picture scroll of the tale of ise" drawn by sumiyoshi jyokei -A research on the upper class comprehension of residences shown in th},
+   title = {The yearning for shinden-zukuri in the 17th century and it's level of understanding represented in the images of "narrative picture scroll of the tale of ise" drawn by sumiyoshi jyokei -A research on the upper class comprehension of residences shown in the narrative pictures in early modern period part 2},
    journal = {Journal of Architecture and Planning},
    pages = {167-174},
    year = {2006},
@@ -12041,7 +12041,7 @@ http://onlinelibrary.wiley.com/store/10.1111/1467-6494.00152/asset/1467-6494.001
 
 @article{RN1083,
    author = {Becket, F.},
-   title = {Paul Morel edited by Helen Baron; Studies in Classic American Literature edited by Ezra Greenspan, Lindeth Vasey and John Worthen; Radicalizing Lawrence: Critical Interventions in the Reading and Reception of D.H. Lawrence's Narrative Fiction by Robert Bu},
+   title = {Paul Morel edited by Helen Baron; Studies in Classic American Literature edited by Ezra Greenspan, Lindeth Vasey and John Worthen; Radicalizing Lawrence: Critical Interventions in the Reading and Reception of D.H. Lawrence's Narrative Fiction by Robert Burden},
    journal = {English},
    volume = {53},
    pages = {258-261},
@@ -13872,7 +13872,7 @@ http://onlinelibrary.wiley.com/store/10.1111/1467-6494.00152/asset/1467-6494.001
 
 @article{RN1242,
    author = {Berridge, V.},
-   title = {Alison Bashford, Purity Women's Writing in Caribbean Narrative (1999) and Pollution: Gender, Embodiment Victorian Medicine (1998); Diana Gittins, Madness in its Place: Narratives of Severalls Hospital, 1913-1997 (1998); Rosemary Pringle, Sex and Medicine:},
+   title = {Alison Bashford, Purity Women's Writing in Caribbean Narrative (1999) and Pollution: Gender, Embodiment Victorian Medicine (1998); Diana Gittins, Madness in its Place: Narratives of Severalls Hospital, 1913-1997 (1998); Rosemary Pringle, Sex and Medicine: Gender, Power and Authority in the Medical Profession (1998)},
    journal = {Gender and History},
    volume = {12},
    number = {1},
@@ -16032,7 +16032,7 @@ http://onlinelibrary.wiley.com/store/10.1111/1467-6494.00152/asset/1467-6494.001
 
 @article{RN1430,
    author = {Blouet, O. M.},
-   title = {"Apprenticing to Freedom in the West Indies," review of Between Slavery and Freedom: Special Magistrate John Anderson's Journal of St. Vincent during the Apprenticeship, ed. MCDONALD, and A Narrative of Events, since the First of August, 1834, by James Wi},
+   title = {"Apprenticing to Freedom in the West Indies," review of Between Slavery and Freedom: Special Magistrate John Anderson's Journal of St. Vincent during the Apprenticeship, ed. MCDONALD, and A Narrative of Events, since the First of August, 1834, by James Williams, ed. PATON},
    journal = {William and Mary Quarterly},
    volume = {59},
    number = {3},
@@ -17769,7 +17769,7 @@ http://onlinelibrary.wiley.com/store/10.1111/1467-6494.00152/asset/1467-6494.001
 
 @article{RN1583,
    author = {Bouma, J. A. and Ramirez-Dhoore, D.},
-   title = {Relocations and Border Crossings [Reviews of Female Stories, Female Bodies: Narrative Identity and Representation, by Lidia Curti; Women, America, and Movement: Narratives of Relocation, ed. Susan L. Roberson; Secret Journeys: The Trope of Women's Travel },
+   title = {Relocations and Border Crossings [Reviews of Female Stories, Female Bodies: Narrative Identity and Representation, by Lidia Curti; Women, America, and Movement: Narratives of Relocation, ed. Susan L. Roberson; Secret Journeys: The Trope of Women's Travel in American Literature, by Marilyn C. Wesley.]},
    journal = {College Literature},
    volume = {28},
    number = {1},
@@ -21766,7 +21766,7 @@ http://onlinelibrary.wiley.com/store/10.1111/1467-6494.00152/asset/1467-6494.001
 
 @article{RN7158,
    author = {Lawlor, E. F.},
-   title = {The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. J},
+   title = {The Argumentative Turn in Policy Analysis and Planning, edited by Frank Fischer and John Forester; Narrative Policy Analysis: Theory and Practice, Emery Roe; Policy Change and Learning: An Advocacy Coalition Approach, edited by Paul Sabatier and Hank C. Jenkins-Smith},
    journal = {Journal of Policy Analysis and Management},
    volume = {15},
    number = {1},
@@ -33458,7 +33458,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN8182,
    author = {McKee, R.},
-   title = {DIFFERENT VOICE Storytelling That Moves People: Didactic press releases, dry memos, and hyperbolic missives are unlikely to persuade people, let alone set them on fire. To do that, you need to tell stories. Great stories reveal the struggles of life, hone},
+   title = {DIFFERENT VOICE Storytelling That Moves People: Didactic press releases, dry memos, and hyperbolic missives are unlikely to persuade people, let alone set them on fire. To do that, you need to tell stories. Great stories reveal the struggles of life, honestly and engagingly. Executives can become storytellers by unearthing the dramas within themselves and their organizations},
    journal = {Harvard Business Review},
    volume = {81},
    number = {6},
@@ -34360,7 +34360,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN8262,
    author = {McQueen, S.},
-   title = {Story: From Fireplace to Cyberspace, Connecting Children and Narrative. Proceedings from the 39th Allerton Park Institute. Hearne, Betsy, et al. (Eds.). Champaign, IL: University of Illinois, Graduate School of Library and Information Science, 1998. - 143},
+   title = {Story: From Fireplace to Cyberspace, Connecting Children and Narrative. Proceedings from the 39th Allerton Park Institute. Hearne, Betsy, et al. (Eds.). Champaign, IL: University of Illinois, Graduate School of Library and Information Science, 1998. - 143 pp. $21.95 (paperback). ISBN 0-87845-105-6},
    journal = {Library and Information Science Research},
    volume = {21},
    number = {4},
@@ -39469,7 +39469,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN8709,
    author = {Morris, R.},
-   title = {Educating Savages: The education of Native Americans emerges from a narrative about how the members of a superior society constantly have extended themselves in their efforts to lead savages away from their quaint but untenable existence and toward salvat},
+   title = {Educating Savages: The education of Native Americans emerges from a narrative about how the members of a superior society constantly have extended themselves in their efforts to lead savages away from their quaint but untenable existence and toward salvation through civilization},
    journal = {Quarterly Journal of Speech},
    volume = {83},
    number = {2},
@@ -40644,7 +40644,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN8811,
    author = {Murphy, M.},
-   title = {Subversive Pleasures: Painting's New Feminine Narrative: Aspects of the feminine are employed in new subversive strategies by women painters, in a medium famous for its potential to indulge and seduce, emphasizing the emotional and intuitive along with th},
+   title = {Subversive Pleasures: Painting's New Feminine Narrative: Aspects of the feminine are employed in new subversive strategies by women painters, in a medium famous for its potential to indulge and seduce, emphasizing the emotional and intuitive along with theoretical concerns},
    journal = {New Art Examiner},
    volume = {24},
    number = {6},
@@ -43086,7 +43086,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @inproceedings{RN3459,
    author = {Doherty, D.},
-   title = {Crafting the Bridge Between Personal Narrative and Collective Ethnography: a reflection on emergent method. This case study is an insider account of the development of an emergent research strategy. It traces the bridge between the completion of an extens},
+   title = {Crafting the Bridge Between Personal Narrative and Collective Ethnography: a reflection on emergent method. This case study is an insider account of the development of an emergent research strategy. It traces the bridge between the completion of an extensive},
    booktitle = {British academy of Management},
    publisher = {London},
    pages = {T4},
@@ -44225,7 +44225,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN3560,
    author = {Drum, A.},
-   title = {Revising Voice: Women Writers and the Challenge to Traditional Narrative Form [Reviews of The Feminine Sublime: Gender and Excess in Women's Fiction, by Barbara Claire Freeman; Passions of the Voice: Hysteria, Narrative and the Figure of the Speaking Woma},
+   title = {Revising Voice: Women Writers and the Challenge to Traditional Narrative Form [Reviews of The Feminine Sublime: Gender and Excess in Women's Fiction, by Barbara Claire Freeman; Passions of the Voice: Hysteria, Narrative and the Figure of the Speaking Woman, by Claire Kahane; The Disobedient Writer: Women and Narrative Tradition, by Nancy A. Walker.]},
    journal = {College Literature},
    volume = {25},
    number = {2},
@@ -45705,7 +45705,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN3690,
    author = {Edwards, O. C.},
-   title = {Volume Two of The New Interpreter's Bible: The New Interpreter's Bible: General Articles and Introduction, Commentary, and Reflections for Each Book of the Bible, Including the Apocryphal/Deuterocanonical Books, vol. 2: The Book of Numbers, the Book of De},
+   title = {Volume Two of The New Interpreter's Bible: The New Interpreter's Bible: General Articles and Introduction, Commentary, and Reflections for Each Book of the Bible, Including the Apocryphal/Deuterocanonical Books, vol. 2: The Book of Numbers, the Book of Deuteronomy, Introduction to Narrative Literature, the Book of Joshua, the Book of Judges, the Book of Ruth, and the First and Second Books of Samuel},
    journal = {Sewanee Theological Review},
    volume = {42},
    number = {4},
@@ -54493,7 +54493,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN4458,
    author = {Garner, R.},
-   title = {Clipper's Hidden Agenda: As the Great Clipper Debate loses its steam, corporations are realizing that they still need encryption to protect their trade secrets. There are some practical realities to understand after listening to the rhetoric of law-enforc},
+   title = {Clipper's Hidden Agenda: As the Great Clipper Debate loses its steam, corporations are realizing that they still need encryption to protect their trade secrets. There are some practical realities to understand after listening to the rhetoric of law-enforcement zealots and privacy libertarians},
    journal = {Open Computing},
    volume = {11},
    number = {8},
@@ -56636,7 +56636,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN4647,
    author = {Gillete, J. B.},
-   title = {The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility t},
+   title = {The Rough and the Smooth: At the Toyota Municipal Museum of Art Peter Walker employs a landscape architecture vocabulary to explore metaphysical oppositions - and ultimately to rise above them in a landscape that veers away from a minimalist sensibility toward an impressionist narrative},
    journal = {Landscape Architecture},
    volume = {88},
    number = {5},
@@ -59905,7 +59905,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN4935,
    author = {Green, J. B.},
-   title = {NARRATING THE GOSPEL IN 1 AND 2 PETER Narrative theology prioritizes the overall aim and employment of God's ways revealed in Scripture and ongoing in history. An exploration of 1 and 2 Peter from this perspective emphasizes their theological role in eccl},
+   title = {NARRATING THE GOSPEL IN 1 AND 2 PETER Narrative theology prioritizes the overall aim and employment of God's ways revealed in Scripture and ongoing in history. An exploration of 1 and 2 Peter from this perspective emphasizes their theological role in ecclesial formation and prompts renewed reflection on the theological relationship between these two letters},
    journal = {Interpretation},
    volume = {60},
    pages = {262-277},
@@ -66628,7 +66628,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN10677,
    author = {Ross, R.},
-   title = {Randolph Vigne (ed.), Guillaume Chenu de Chalezac, the 'French Boy': The Narrative of his Experiences as a Huguenot Refugee, as a Castaway Among the Xhosa, his Rescue with the Stavenisse Survivors by the Centaurus, his Service at the Cape and Return to Eu},
+   title = {Randolph Vigne (ed.), Guillaume Chenu de Chalezac, the 'French Boy': The Narrative of his Experiences as a Huguenot Refugee, as a Castaway Among the Xhosa, his Rescue with the Stavenisse Survivors by the Centaurus, his Service at the Cape and Return to Europe, 1686-9},
    journal = {Journal of African History},
    volume = {36},
    number = {1},
@@ -78785,7 +78785,7 @@ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citati
 
 @article{RN11740,
    author = {Spence, G.},
-   title = {Let Me Tell You a Story: Human beings have communicated through storytelling for ages. The story argument is a powerful force in the courtroom because it is made in our natural language. Lawyers who use stories to explain cases speak easily and clearly, h},
+   title = {Let Me Tell You a Story: Human beings have communicated through storytelling for ages. The story argument is a powerful force in the courtroom because it is made in our natural language. Lawyers who use stories to explain cases speak easily and clearly, hold juror' interest, and touch their hearts},
    journal = {Trial},
    volume = {31},
    number = {2},

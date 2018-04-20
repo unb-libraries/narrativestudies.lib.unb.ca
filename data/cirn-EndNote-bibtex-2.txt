@@ -2202,7 +2202,7 @@
 
 @article{RN12078,
    author = {Svoboda, M.},
-   title = {Thucydides: An Introduction for the Common Reader by Perez Zagorin. Princeton: Princeton University Press, 2005. 190+xvi pp A Review of: "Thucydides and the Shaping of History by Emily Greenwood. Classical Literature and Society Series. London: Duckworth,},
+   title = {Thucydides: An Introduction for the Common Reader by Perez Zagorin. Princeton: Princeton University Press, 2005. 190+xvi pp A Review of: "Thucydides and the Shaping of History by Emily Greenwood. Classical Literature and Society Series. London: Duckworth, 2006. 188+xii pp." A Review of: "Thucydides' War Narrative: A Structural Study by Carolyn Dewald. Berkeley: The University of California Press, 2006. 258+xiv pp." A Review of: "Thucydides and the Philosophical Origins of History by Darien Shanske. New York: Cambridge University Press, 2006. 268+xii pp."},
    journal = {Rhetoric Society Quarterly},
    volume = {37},
    pages = {203-207},
@@ -6802,7 +6802,7 @@
 
 @article{RN1909,
    author = {Bunte, P. A.},
-   title = {Lushootseed Texts: An Introduction to Puget Salish Narrative Aesthetics (Crisca Bierwert, ed.); Northern Haida Songs (John Enrico and Wendy Bross Stuart, eds.); Our Tellings: Interior Salish Stories of the NIha7kapmx People (Darwin Hanna and Mamie Henry, },
+   title = {Lushootseed Texts: An Introduction to Puget Salish Narrative Aesthetics (Crisca Bierwert, ed.); Northern Haida Songs (John Enrico and Wendy Bross Stuart, eds.); Our Tellings: Interior Salish Stories of the NIha7kapmx People (Darwin Hanna and Mamie Henry, eds.); Tales from the Dena: Indian Stories from the Tanana, Koyukuk, and Yukon Rivers (Frederica de Laguna, ed.); The Epic of Qayak: The Longest Story Ever Told by My People (Lela Kiana Oman); The Maidu Indian Myths and Stories of Hainc'ibyjim (William Shipley, ed.)},
    journal = {Journal of Linguistic Anthropology},
    volume = {7},
    number = {1},
@@ -11264,7 +11264,7 @@
 
 @article{RN2299,
    author = {Chamberiain, M.},
-   title = {Consuelo Lopez Springfield (ed.), Daughters of Caliban: Caribbean Women in the Twentieth Century (1997); Paula L. Aymer, Uprooted Women: Migrant Domestics in the Caribbean (1998); Belinda Edmondson, Making Men: Gender, Literary Authority and Women's Writi},
+   title = {Consuelo Lopez Springfield (ed.), Daughters of Caliban: Caribbean Women in the Twentieth Century (1997); Paula L. Aymer, Uprooted Women: Migrant Domestics in the Caribbean (1998); Belinda Edmondson, Making Men: Gender, Literary Authority and Women's Writing in Caribbean Narrative (1999)},
    journal = {Gender and History},
    volume = {12},
    number = {1},
@@ -11872,7 +11872,7 @@
 
 @article{RN2353,
    author = {Chapman, A.},
-   title = {Judith Still, Feminine Economies: Thinking Against the Market in the Enlightenment and the Late Twentieth Century; Barbara Leah Harman, The Feminine Political Novel in Victorian England; Suzanne Keen, Victorian Renovations of the Novel: Narrative Annexes },
+   title = {Judith Still, Feminine Economies: Thinking Against the Market in the Enlightenment and the Late Twentieth Century; Barbara Leah Harman, The Feminine Political Novel in Victorian England; Suzanne Keen, Victorian Renovations of the Novel: Narrative Annexes and the Boundaries of Representation},
    journal = {Modern Language Review},
    volume = {95},
    number = {2},
@@ -12769,7 +12769,7 @@
 
 @article{RN2431,
    author = {Chimni, B. S.},
-   title = {Peter J. Schraeder (ed.). Exporting Democracy: Rhetoric vs. Reality. Boulder: Lynne Rienner Publishers, 2002. Pp. 289.Susan Marks. The Riddle of All Constitutions: International Law, Democracy, and the Critique of Ideology. Oxford: Oxford University Press},
+   title = {Peter J. Schraeder (ed.). Exporting Democracy: Rhetoric vs. Reality. Boulder: Lynne Rienner Publishers, 2002. Pp. 289.Susan Marks. The Riddle of All Constitutions: International Law, Democracy, and the Critique of Ideology. Oxford: Oxford University Press, 2003 (paperback). Pp. 164},
    journal = {European Journal of International Law},
    volume = {16},
    number = {5},
@@ -13605,7 +13605,7 @@
 
 @article{RN2506,
    author = {Civichino, A.},
-   title = {Taking chances: As an author, professional speaker, and founder of Big Picture Institute, Anita Caputo uses her storytelling techniques to educate and empower business leaders to foster and cultivate a productive workforce. Through her strategic thinking },
+   title = {Taking chances: As an author, professional speaker, and founder of Big Picture Institute, Anita Caputo uses her storytelling techniques to educate and empower business leaders to foster and cultivate a productive workforce. Through her strategic thinking and thought provoking style, she's empowering her clients to explore options and take action to get what they want from their own careers},
    journal = {Cma Management},
    volume = {82},
    pages = {40-43},
@@ -14319,7 +14319,7 @@
 
 @article{RN2568,
    author = {Clifford, D.},
-   title = {Leah Price, The Anthology and the Rise of the Novel from Richardson to George Eliot, Nicola Diane Thompson (ed), Victorian Writers and the Woman Question, Sophie Gilmartin, Ancestry and Narrative in Nineteenth-century British Literature: Blood Relations f},
+   title = {Leah Price, The Anthology and the Rise of the Novel from Richardson to George Eliot, Nicola Diane Thompson (ed), Victorian Writers and the Woman Question, Sophie Gilmartin, Ancestry and Narrative in Nineteenth-century British Literature: Blood Relations from Edgeworth to Hardy},
    journal = {Women},
    volume = {12},
    number = {3},
@@ -14775,7 +14775,7 @@
 
 @article{RN2607,
    author = {Coger, D. M.},
-   title = {South Africa's Future: From Crisis to Prosperity. Anthony Ginsberg; Fault Lines: Journeys into the New South Africa. David Goodman; South Africa in Transition: The Misunderstood Miracle. Adrian Guelke; A Concise History of South Africa. Robert Ross South },
+   title = {South Africa's Future: From Crisis to Prosperity. Anthony Ginsberg; Fault Lines: Journeys into the New South Africa. David Goodman; South Africa in Transition: The Misunderstood Miracle. Adrian Guelke; A Concise History of South Africa. Robert Ross South Africa: A Narrative History. Frank Welsh},
    journal = {Africa Today},
    volume = {47},
    number = {3/4},
@@ -15046,7 +15046,7 @@
 
 @article{RN2630,
    author = {Cole, J. E.},
-   title = {PEOPLE ON THE MOVE IN EUROPE: Age, Narrative and Migration: The Life Course and Life Histories of Bengali Elders in London Katy Gardner (Oxford and New York: Berg, 2002). vii + 254 pp.; Sunset Lives: British Retirement Migration to the Mediterranean Russe},
+   title = {PEOPLE ON THE MOVE IN EUROPE: Age, Narrative and Migration: The Life Course and Life Histories of Bengali Elders in London Katy Gardner (Oxford and New York: Berg, 2002). vii + 254 pp.; Sunset Lives: British Retirement Migration to the Mediterranean Russell King, Tony Warnes, and Allan Williams (Oxford and New York: Berg, 2000). xiii + 235 pp; Moving with the Ball: The Migration of Professional Footballers Pierre Lanfranchi and Matthew Taylor (Oxford and New York: Berg, 2001). viii + 273 pp; Europe's Invisible Migrants Andrea Smith, ed. (Amsterdam: Amsterdam University Press, 2003). 244 pp},
    journal = {Identities},
    volume = {13},
    pages = {309-325},
@@ -16194,7 +16194,7 @@
 
 @article{RN2730,
    author = {Contreras E, G. A.},
-   title = {Self-Storying, Self-Understanding: Toward a Narrative Approach to EFL Teacher Education Through the writting of his own narrative, a Venezuelan teacher educator illustrates the power of self-storying to inspire culturally sensitive, reflective teaching pr},
+   title = {Self-Storying, Self-Understanding: Toward a Narrative Approach to EFL Teacher Education Through the writting of his own narrative, a Venezuelan teacher educator illustrates the power of self-storying to inspire culturally sensitive, reflective teaching practices and to promote the value of teacher's firsthand experiences},
    journal = {Tesol Journal},
    volume = {9},
    number = {3},
@@ -55996,7 +55996,7 @@
 
 @article{RN10265,
    author = {Rawlings, P.},
-   title = {Adre Marshall, The Turn of the Mind: Constituting Consciousness in Henry James; Beverly Haviland, Henry James's Last Romance: Making Sense of the Past and the American Scene; Enacting History in Henry James; Narrative, Power, and Ethics, ed. by Gert Buele},
+   title = {Adre Marshall, The Turn of the Mind: Constituting Consciousness in Henry James; Beverly Haviland, Henry James's Last Romance: Making Sense of the Past and the American Scene; Enacting History in Henry James; Narrative, Power, and Ethics, ed. by Gert Buelens},
    journal = {Modern Language Review},
    volume = {95},
    number = {3},
@@ -60702,7 +60702,7 @@
 
 @article{RN12379,
    author = {Tompkins, P. K. and Heppard, K. and Melville, C.},
-   title = {Deviance from Normality or the Normalization of Deviance? Making Sense of the Challenger Launch Decision [Claus Jensen's No Downlink: A Dramatic Narrative about the Challenger Accident and Our Time; Diane Vaughan's The Challenger Launch Decision: Risky Te},
+   title = {Deviance from Normality or the Normalization of Deviance? Making Sense of the Challenger Launch Decision [Claus Jensen's No Downlink: A Dramatic Narrative about the Challenger Accident and Our Time; Diane Vaughan's The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA]},
    journal = {Organization},
    volume = {5},
    number = {4},
@@ -63951,7 +63951,7 @@
 
 @article{RN12663,
    author = {Van Proyen, M.},
-   title = {Miming for Meaning Storytelling and representational picture-making are enjoying a resurgence in contemporary art, providing a relief from the dry over-administered critiques now being hosted by institutions across the art world. These late 1990s images a},
+   title = {Miming for Meaning Storytelling and representational picture-making are enjoying a resurgence in contemporary art, providing a relief from the dry over-administered critiques now being hosted by institutions across the art world. These late 1990s images are breaking through our consciousness with weird aggressive subjectivities and pertinently awkward},
    journal = {New Art Examiner},
    volume = {27},
    number = {6},
@@ -69255,7 +69255,7 @@
 
 @article{RN13129,
    author = {Wessells, A. T.},
-   title = {Book Review: Reassembling the Social: An Introduction to Actor-Network-Theory by Bruno Latour A Review of: "Reassembling the Social: An Introduction to Actor-Network-Theory. Bruno Latour. New York: Oxford University Press, 2005. 312 pages. ISBN: 019925604},
+   title = {Book Review: Reassembling the Social: An Introduction to Actor-Network-Theory by Bruno Latour A Review of: "Reassembling the Social: An Introduction to Actor-Network-Theory. Bruno Latour. New York: Oxford University Press, 2005. 312 pages. ISBN: 0199256047"},
    journal = {International Public Management Journal},
    volume = {10},
    number = {3},
@@ -70743,7 +70743,7 @@
 
 @article{RN13259,
    author = {Williams, A.},
-   title = {Fairness at work - implications for employers: Amongst all the rhetoric which has surrounded the recent White Paper there are some sensible proposals aimed at simplifying some aspects of UK employment law and ensuring consistency as to when individuals ac},
+   title = {Fairness at work - implications for employers: Amongst all the rhetoric which has surrounded the recent White Paper there are some sensible proposals aimed at simplifying some aspects of UK employment law and ensuring consistency as to when individuals acquire the full scale of rights},
    journal = {Croner Employers Briefing},
    pages = {6-7},
    ISSN = {0963-5343},

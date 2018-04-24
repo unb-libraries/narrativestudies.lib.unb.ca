@@ -12,7 +12,7 @@ ns_navigation.about:
   menu_name: main
   route_name: ns_navigation.about
   weight: 20
-ns_navigation.contact-main:
+ns_navigation.contact.main:
   title: 'Contact'
   description: 'Contact.'
   parent: main
@@ -20,17 +20,19 @@ ns_navigation.contact-main:
   route_name: ns_navigation.intro
   expanded: TRUE
   weight: 30
-ns_navigation.contact-cirn:
+ns_navigation.contact.cirn:
   title: 'Contact CIRN'
   description: 'Contact CIRN.'
-  parent: ns_navigation.contact-main
+  parent: ns_navigation.contact.main
   menu_name: main
-  route_name: ns_navigation.contact-cirn
+  route_name: entity.contact_form.canonical
+  route_parameters: { contact_form: 'contact_cirn' }
   weight: 10
-ns_navigation.contact-csn:
+ns_navigation.contact.csn:
   title: 'Contact CSN'
   description: 'Contact.'
-  parent: ns_navigation.contact-main
+  parent: ns_navigation.contact.main
   menu_name: main
-  route_name: ns_navigation.contact-csn
+  route_name: entity.contact_form.canonical
+  route_parameters: { contact_form: 'contact_csn' }
   weight: 20

@@ -28,23 +28,3 @@ ns_navigation.user:
     _controller: '\Drupal\ns_navigation\Controller\NsNavigationController:user'
   requirements:
     _permission: 'access content'
-ns_navigation.contact-main:
-  path: '/contact'
-  defaults:
-    _title: 'Contact'
-  requirements:
-    _permission: 'access content'
-ns_navigation.contact-cirn:
-  path: '/contact/{form_id}'
-  defaults:
-    _title: 'Contact CIRN'
-    form_id: 'contact_cirn'
-  requirements:
-    _permission: 'access content'
-ns_navigation.contact-csn:
-  path: '/contact/{form_id}'
-  defaults:
-    _title: 'Contact CSN'
-    form_id: 'contact_csn'
-  requirements:
-    _permission: 'access content'

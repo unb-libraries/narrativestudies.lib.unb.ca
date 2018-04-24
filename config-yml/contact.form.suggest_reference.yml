@@ -5,7 +5,7 @@ dependencies: {  }
 id: suggest_reference
 label: 'Suggest a New Item for the Bibliography'
 recipients:
-  - cvillami@unb.ca
+  - narrativeworks@stu.ca
 reply: ''
 weight: 0
 message: 'Thank you. Your suggestion has been submitted.'

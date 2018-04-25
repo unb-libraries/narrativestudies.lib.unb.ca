@@ -5,6 +5,8 @@
  * Contains ns_navigation.module.
  */
 
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
 /**
  * Implements hook_theme().
  */
@@ -23,6 +25,21 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
  * Implements hook_FORM_ID_alter().
  */
 function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
+
+  if (preg_match('/bibcite_reference_(.*)_edit_form/', $form_id)) {
+    $ref_id = $form_state->getBuildInfo()['callback_object']->getEntity()->id();
+
+    $form['to_authors'] = [
+      '#type' => 'submit',
+      '#value' => t('Edit Authors'),
+      '#submit' => ['ref_edit_authors'],
+    ];
+
+    $form['ref_id'] = [
+      '#type' => 'value',
+      '#value' => $ref_id,
+    ];
+  }
 
   if (array_key_exists('text_keyword__value', $form) && $form_id == "views_exposed_form") {
 
@@ -47,4 +64,13 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
 
     $form['type']['#options'] = $types;
   }
+}
+
+/**
+ * Handles edit-authors.
+ */
+function ref_edit_authors(&$form, &$form_state) {
+  $ref_id = $form_state->getValue('ref_id');
+  $response = new RedirectResponse('/authors-for/' . $ref_id);
+  $response->send();
 }

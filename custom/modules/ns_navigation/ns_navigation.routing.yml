@@ -1,7 +1,7 @@
 ns_navigation.intro:
   path: '/intro'
   defaults:
-    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController:home'
+    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::home'
   requirements:
     _permission: 'access content'
 ns_navigation.adv_biblio:
@@ -19,12 +19,12 @@ ns_navigation.subjects:
 ns_navigation.about:
   path: '/about'
   defaults:
-    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController:about'
+    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::about'
   requirements:
     _permission: 'access content'
-ns_navigation.user:
-  path: '/user/{uid}'
+ns_navigation.edit_authors:
+  path: '/bibcite/reference/{bibcite_reference}/authors/edit'
   defaults:
-    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController:user'
+    _form: '\Drupal\ns_navigation\Form\EditAuthorsForm'
   requirements:
-    _permission: 'access content'
+    _role: 'ns_contributor'

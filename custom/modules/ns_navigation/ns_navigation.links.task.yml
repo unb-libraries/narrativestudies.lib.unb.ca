@@ -1,6 +1,0 @@
-
-ns_navigation.edit_authors:
-  route_name: ns_navigation.edit_authors
-  title: 'Authors'
-  base_route: entity.bibcite_reference.canonical
-  weight: 100

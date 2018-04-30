@@ -71,6 +71,6 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
  */
 function ref_edit_authors(&$form, &$form_state) {
   $ref_id = $form_state->getValue('ref_id');
-  $response = new RedirectResponse('/authors-for/' . $ref_id);
+  $response = new RedirectResponse('/authors/' . $ref_id);
   $response->send();
 }

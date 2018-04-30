@@ -291,6 +291,10 @@ div.description.help-block,
   display: none;
 }
 
+#edit-to-authors {
+  margin-bottom: 8px;
+}
+
 form.contact-message-feedback-form.contact-message-form.contact-form
 #edit-submit {
   width: auto !important;
@@ -302,6 +306,13 @@ form.contact-message-feedback-form.contact-message-form.contact-form
 
 form.bibcite-reference-confirm-form.confirmation #edit-actions {
   margin-top: 10px;
+}
+
+form.bibcite-contributor-confirm-form.confirmation #edit-actions:before {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+  content: "Warning: This action will impact ALL references that include the author.";
 }
 
 /* Footer */

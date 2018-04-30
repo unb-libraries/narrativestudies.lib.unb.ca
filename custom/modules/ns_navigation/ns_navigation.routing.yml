@@ -22,9 +22,3 @@ ns_navigation.about:
     _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::about'
   requirements:
     _permission: 'access content'
-ns_navigation.edit_authors:
-  path: '/bibcite/reference/{bibcite_reference}/authors/edit'
-  defaults:
-    _form: '\Drupal\ns_navigation\Form\EditAuthorsForm'
-  requirements:
-    _role: 'ns_contributor'

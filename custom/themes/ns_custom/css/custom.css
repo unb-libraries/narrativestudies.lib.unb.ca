@@ -242,6 +242,7 @@ div#edit-field-abstract-0-format {
 form#contact-message-suggest-reference-form button#edit-submit {
   text-indent: -9999px;
   line-height: 0;
+  width: 90px;
 }
 
 form#contact-message-suggest-reference-form button#edit-submit:after {
@@ -298,10 +299,6 @@ div.description.help-block,
 form.contact-message-feedback-form.contact-message-form.contact-form
 #edit-submit {
   width: auto !important;
-}
-
-#edit-submit {
-    width: 90px;
 }
 
 form.bibcite-reference-confirm-form.confirmation #edit-actions {

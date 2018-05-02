@@ -22,6 +22,7 @@ RUN /scripts/DeployUpstreamContainerScripts.sh && \
 RUN apk --update add rsyslog postfix php7-ldap php7-redis && \
   rm -f /var/cache/apk/* && \
   touch /var/log/nginx/access.log && touch /var/log/nginx/error.log && \
+  mkdir -p /var/spool/rsyslog; chgrp adm /var/spool/rsyslog; chmod g+w /var/spool/rsyslog && \
   echo "TLS_REQCERT never" > /etc/openldap/ldap.conf
 
 # Tests.

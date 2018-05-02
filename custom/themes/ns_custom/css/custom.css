@@ -305,11 +305,12 @@ form.bibcite-reference-confirm-form.confirmation #edit-actions {
   margin-top: 10px;
 }
 
-form.bibcite-contributor-confirm-form.confirmation #edit-actions:before {
-  display: block;
-  margin-bottom: 10px;
-  font-style: italic;
-  content: "Warning: This action will impact ALL references that include the author.";
+form.bibcite-contributor-confirm-form.confirmation #edit-actions::before {
+    display: block;
+    margin: 14px 0;
+    content: "WARNING: This action will impact ALL references that include the author.";
+    font-weight: bold;
+    color: #aa0404;
 }
 
 /* Footer */

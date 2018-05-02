@@ -84,7 +84,6 @@
         "drupal/node_edit_protection": "1.x-dev",
         "drupal/override_node_options": "2.x-dev",
         "drupal/pathauto": "1.2",
-        "drupal/redis": "1.0-rc2",
         "drupal/sharethis": "2.0-beta3",
         "drupal/token": "1.0-rc1",
         "drush/drush": "^8.1.15",

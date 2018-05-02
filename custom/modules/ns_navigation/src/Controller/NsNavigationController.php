@@ -40,4 +40,11 @@ class NsNavigationController extends ControllerBase {
     return $element;
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function goHome() {
+    return new RedirectResponse('/');
+  }
+
 }

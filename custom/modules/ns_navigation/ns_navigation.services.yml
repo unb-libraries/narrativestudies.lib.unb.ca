@@ -1,0 +1,6 @@
+
+services:
+  ns_navigation.route_subscriber:
+    class: Drupal\ns_navigation\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

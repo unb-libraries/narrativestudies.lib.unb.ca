@@ -3,7 +3,7 @@ name: 'Bibliography of Interdisciplinary Narrative Studies'
 mail: admin@example.com
 slogan: ''
 page:
-  403: ''
+  403: /references-advanced
   404: ''
   front: /intro
 admin_compact_mode: false

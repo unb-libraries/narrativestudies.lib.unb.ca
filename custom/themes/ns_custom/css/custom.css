@@ -310,7 +310,7 @@ form.bibcite-contributor-confirm-form.confirmation #edit-actions::before {
     margin: 14px 0;
     content: "WARNING: This action will impact ALL references that include the author.";
     font-weight: bold;
-    color: #aa0404;
+    color: #990000;
 }
 
 /* Footer */
@@ -327,6 +327,20 @@ footer.footer.container {
 
 footer.footer.container > div.container {
   padding-left: 0px !important;
+}
+
+/* Authors View */
+
+.author-list li:nth-of-type(even) tr {
+  background-color: #e7e7e7 !important;
+}
+
+.author-list td {
+  width: 110px;
+}
+
+.author-list td:nth-of-type(even) {
+  text-align: right;
 }
 
 /* Responsive */

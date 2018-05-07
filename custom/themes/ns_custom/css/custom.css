@@ -313,6 +313,15 @@ form.bibcite-contributor-confirm-form.confirmation #edit-actions::before {
     color: #990000;
 }
 
+/* Hide Delete-cancel Buttons */
+
+button[value="Delete"] + #edit-cancel {
+  display: none !important;
+}
+
+button[value="Delete"] {
+  width: 87px;
+}
 /* Footer */
 
 footer.footer.container {

@@ -22,7 +22,7 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
 }
 
 /**
- * Implements hook_FORM_ID_alter().
+ * Implements hook_FORM_alter().
  */
 function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
 
@@ -39,6 +39,28 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
       '#type' => 'value',
       '#value' => $ref_id,
     ];
+  }
+
+  if ($form_id == 'bibcite_contributor_delete_form') {
+    $form['contrib_cancel_del'] = [
+      '#type' => 'submit',
+      '#weight' => 999,
+      '#value' => t('Cancel'),
+      '#submit' => ['contrib_cancel_del'],
+      '#limit_validation_errors' => [],
+    ];
+
+  }
+
+  if (preg_match('/bibcite_reference_(.*)_delete_form/', $form_id)) {
+    $form['reference_cancel_del'] = [
+      '#type' => 'submit',
+      '#weight' => 999,
+      '#value' => t('Cancel'),
+      '#submit' => ['reference_cancel_del'],
+      '#limit_validation_errors' => [],
+    ];
+
   }
 
   if (array_key_exists('text_keyword__value', $form) && $form_id == "views_exposed_form") {
@@ -64,6 +86,7 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
 
     $form['type']['#options'] = $types;
   }
+
 }
 
 /**
@@ -72,5 +95,21 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
 function ref_edit_authors(&$form, &$form_state) {
   $ref_id = $form_state->getValue('ref_id');
   $response = new RedirectResponse('/authors/' . $ref_id);
+  $response->send();
+}
+
+/**
+ * Handles cancel-redirect for delete contributor.
+ */
+function contrib_cancel_del(&$form, &$form_state) {
+  $response = new RedirectResponse('/authors/');
+  $response->send();
+}
+
+/**
+ * Handles cancel-redirect for delete reference.
+ */
+function reference_cancel_del(&$form, &$form_state) {
+  $response = new RedirectResponse('/references-advanced/');
   $response->send();
 }

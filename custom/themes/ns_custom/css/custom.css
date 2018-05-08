@@ -65,6 +65,11 @@ a:active,
   background-color: #cc0000;
   border-color: #cc0000;
 }
+
+.btn {
+  min-width: 100px !important;
+}
+
 .btn-info,
 .btn-primary {
   background-color: #cc0000;
@@ -313,15 +318,12 @@ form.bibcite-contributor-confirm-form.confirmation #edit-actions::before {
     color: #990000;
 }
 
-/* Hide Delete-cancel Buttons */
+/* Contributor Edit */
 
-button[value="Delete"] + #edit-cancel {
-  display: none !important;
+#custom-cancel {
+  width: 84px;
 }
 
-button[value="Delete"] {
-  width: 87px;
-}
 /* Footer */
 
 footer.footer.container {

@@ -194,7 +194,7 @@ display:
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
-          empty: ''
+          empty: '{{ title }}'
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
@@ -477,15 +477,23 @@ display:
           entity_type: bibcite_contributor
           entity_field: first_name
           plugin_id: standard
-      title: 'Authors - All'
+      title: 'Authors - {{ title }}'
       header: {  }
-      footer:
-        area_text_custom:
-          id: area_text_custom
+      footer: {  }
+      empty:
+        area:
+          id: area
           table: views
-          field: area_text_custom
-          plugin_id: text_custom
-      empty: {  }
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'No authors found matching the selected criteria.'
+            format: basic_html
+          plugin_id: text
       relationships:
         reverse__bibcite_reference__bibcite_contributor:
           id: reverse__bibcite_reference__bibcite_contributor
@@ -511,7 +519,7 @@ display:
             title_enable: false
             title: All
           title_enable: true
-          title: 'Authors - {{ title }}'
+          title: 'Authors for {{ title }}'
           default_argument_type: fixed
           default_argument_options:
             argument: ''
@@ -535,22 +543,6 @@ display:
           entity_type: bibcite_reference
           entity_field: id
           plugin_id: numeric
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user.roles
-      tags: {  }
-  block_1:
-    display_plugin: block
-    id: block_1
-    display_title: Block
-    position: 2
-    display_options:
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -617,10 +609,43 @@ display:
         filters: false
         filter_groups: false
         fields: true
+        title: false
+        arguments: false
       filter_groups:
         operator: AND
         groups:
           1: AND
+      title: 'Authors - All'
+      arguments: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.roles
+      tags: {  }
+  page_2:
+    display_plugin: page
+    id: page_2
+    display_title: 'Page 2'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: authors-for
+      filters: {  }
+      defaults:
+        filters: false
+        filter_groups: false
+        fields: true
+        title: false
+        arguments: true
+      filter_groups:
+        operator: AND
+        groups: {  }
+      display_description: ''
+      title: 'Authors for {{ tittle }}'
     cache_metadata:
       max-age: -1
       contexts:

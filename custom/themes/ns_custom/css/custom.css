@@ -342,12 +342,12 @@ footer.footer.container > div.container {
 
 /* Authors View */
 
-.author-list li:nth-of-type(even) tr {
+.author-list:nth-of-type(even) td {
   background-color: #e7e7e7 !important;
 }
 
 .author-list td {
-  width: 110px;
+  width: 200px;
 }
 
 .author-list td:nth-of-type(even) {

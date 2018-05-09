@@ -24,6 +24,22 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
 /**
  * Implements hook_ENTITY_TYPE_load().
  */
+function ns_navigation_views_pre_render($view) {
+
+  if ($view->id() == "authors_for" && $view->current_display == 'page_1') {
+    $usr = \Drupal::currentUser()->id();
+    $ses = \Drupal::service('session_manager')->getId();
+    $current_ref = 'current_ref' . $usr . $ses;
+
+    if (\Drupal::state()->get($current_ref)) {
+      \Drupal::state()->delete($current_ref);
+    }
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_load().
+ */
 function ns_navigation_bibcite_reference_load($entities) {
   if (count($entities) == 1) {
     $ref_id = key($entities);
@@ -106,7 +122,7 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
       '#type' => 'submit',
       '#value' => t('Cancel'),
       '#weight' => 100,
-      '#submit' => ['del_ref_redir'],
+      '#submit' => ['del_ref_cancel_redir'],
     ];
   }
 
@@ -152,9 +168,18 @@ function del_contrib_redir(&$form, &$form_state) {
   $usr = \Drupal::currentUser()->id();
   $ses = \Drupal::service('session_manager')->getId();
   $current_ref = 'current_ref' . $usr . $ses;
-  $ref_id = \Drupal::state()->get($current_ref);
-  $response = new RedirectResponse('/authors-for/' . $ref_id);
-  $response->send();
+
+  $ref_id = \Drupal::state()->get($current_ref) ?
+  \Drupal::state()->get($current_ref) : "";
+
+  if ($ref_id) {
+    $response = new RedirectResponse('/authors-for/' . $ref_id);
+    $response->send();
+  }
+  else {
+    $response = new RedirectResponse('/authors/');
+    $response->send();
+  }
 }
 
 /**
@@ -162,5 +187,20 @@ function del_contrib_redir(&$form, &$form_state) {
  */
 function del_ref_redir(&$form, &$form_state) {
   $response = new RedirectResponse('/references-advanced/');
+  $response->send();
+}
+
+/**
+ * Handles delete-contributor redirection on cancel.
+ */
+function del_ref_cancel_redir(&$form, &$form_state) {
+  $usr = \Drupal::currentUser()->id();
+  $ses = \Drupal::service('session_manager')->getId();
+  $current_ref = 'current_ref' . $usr . $ses;
+
+  $ref_id = \Drupal::state()->get($current_ref) ?
+  \Drupal::state()->get($current_ref) : "";
+
+  $response = new RedirectResponse('/bibcite/reference/' . $ref_id);
   $response->send();
 }

@@ -70,14 +70,11 @@ display:
             offset_label: Offset
           quantity: 9
       style:
-        type: html_list
+        type: default
         options:
           grouping: {  }
-          row_class: ''
+          row_class: author-list
           default_row_class: true
-          type: ul
-          wrapper_class: author-list
-          class: ''
       row:
         type: fields
         options:

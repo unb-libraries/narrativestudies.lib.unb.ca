@@ -26,13 +26,30 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
  */
 function ns_navigation_views_pre_render($view) {
 
+  if ($view->id() == "ns_references" && ($view->current_display == 'page_2' ||
+  $view->current_display == 'page_3')) {
+
+    $tempstore = \Drupal::service('user.private_tempstore')
+      ->get('ns_navigation');
+
+    $current_uri = \Drupal::request()->getRequestUri();
+    preg_match('/\?(.*)/', $current_uri, $tokens);
+
+    if ($tokens) {
+      $tempstore->set('refs_params', $tokens[1]);
+    }
+  }
+
   if ($view->id() == "authors_for" && $view->current_display == 'page_1') {
     $tempstore = \Drupal::service('user.private_tempstore')
       ->get('ns_navigation');
 
     $current_uri = \Drupal::request()->getRequestUri();
     preg_match('/authors(.*)/', $current_uri, $tokens);
-    $tempstore->set('authors_params', $tokens[1]);
+
+    if ($tokens) {
+      $tempstore->set('authors_params', $tokens[1]);
+    }
 
     if ($tempstore->get('current_ref')) {
       $tempstore->delete('current_ref');
@@ -93,12 +110,23 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
       '#type' => 'submit',
       '#value' => t('Edit Authors'),
       '#submit' => ['ref_edit_authors'],
+      '#limit_validation_errors' => [],
     ];
 
     $form['ref_id'] = [
       '#type' => 'value',
       '#value' => $ref_id,
     ];
+
+    $form['to_results'] = [
+      '#type' => 'submit',
+      '#value' => t('Results'),
+      '#weight' => 100,
+      '#submit' => ['del_ref_redir'],
+      '#limit_validation_errors' => [],
+    ];
+
+    dump($form['to_results']);
   }
 
   if (preg_match('/bibcite_reference_(.*)_delete_form/', $form_id)) {
@@ -174,6 +202,11 @@ function del_contrib_redir(&$form, &$form_state) {
  * Handles delete-reference redirection.
  */
 function del_ref_redir(&$form, &$form_state) {
-  $response = new RedirectResponse('/references-advanced/');
+  $tempstore = \Drupal::service('user.private_tempstore')
+    ->get('ns_navigation');
+  $qstring = $tempstore->get('refs_params') ?
+    $tempstore->get('refs_params') : '';
+
+  $response = new RedirectResponse('/references-advanced?' . $qstring);
   $response->send();
 }

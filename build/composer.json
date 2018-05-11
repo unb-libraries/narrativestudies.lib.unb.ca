@@ -18,7 +18,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "description": "Project definition for narrativestudies.lib.unb.ca",
+    "description": "Drupal 8 component of narrativestudies.lib.unb.ca",
     "extra": {
         "enable-patching": true,
         "installer-paths": {

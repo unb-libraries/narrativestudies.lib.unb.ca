@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "unblibraries/narrativestudies.lib.unb.ca",
+  "name": "unb-libraries/narrativestudies.lib.unb.ca",
   "config": {
     "preferred-install": {
       "*": "dist"

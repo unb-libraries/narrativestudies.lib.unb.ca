@@ -1,13 +1,13 @@
 {
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "unblibraries/narrativestudies.lib.unb.ca",
+  "name": "unb-libraries/narrativestudies.lib.unb.ca",
   "config": {
     "preferred-install": {
       "*": "dist"
     }
   },
-  "description": "Provision/scaffolding for developing drupal instance.",
+  "description": "Scaffold and provision local development for narrativestudies.lib.unb.ca",
   "repositories": [
     {
       "type": "git",
@@ -22,7 +22,7 @@
     "unb-libraries/unb_lib_theme": "dev-8.x-bootstrap-3.x"
   },
   "require-dev": {
-    "unblibraries/dockworker": "^8.0.0"
+    "unb-libraries/dockworker": "^8.0.0"
   },
   "scripts": {
     "post-update-cmd": [

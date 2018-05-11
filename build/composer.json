@@ -18,7 +18,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "description": "Project definition for narrativestudies.lib.unb.ca",
+    "description": "Drupal 8 component of narrativestudies.lib.unb.ca",
     "extra": {
         "enable-patching": true,
         "installer-paths": {
@@ -49,7 +49,7 @@
     },
     "license": "MIT",
     "minimum-stability": "dev",
-    "name": "unblibraries/narrativestudies.lib.unb.ca",
+    "name": "unb-libraries/narrativestudies.lib.unb.ca-drupal8",
     "repositories": [
         {
             "type": "composer",

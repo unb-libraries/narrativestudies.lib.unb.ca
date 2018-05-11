@@ -110,7 +110,6 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
       '#type' => 'submit',
       '#value' => t('Edit Authors'),
       '#submit' => ['ref_edit_authors'],
-      '#limit_validation_errors' => [],
     ];
 
     $form['ref_id'] = [
@@ -126,7 +125,6 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
       '#limit_validation_errors' => [],
     ];
 
-    dump($form['to_results']);
   }
 
   if (preg_match('/bibcite_reference_(.*)_delete_form/', $form_id)) {

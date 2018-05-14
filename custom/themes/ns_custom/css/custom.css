@@ -88,6 +88,7 @@ a:active,
 }
 
 .name.navbar-brand {
+  line-height: 24px;
   font-size: 24px;
 }
 
@@ -103,7 +104,7 @@ form#views-exposed-form-ns-references-page-2 > div {
 }
 
 #views-exposed-form-ns-references-page-2 {
-  margin-bottom: 10px;
+  margin: 14px;
 }
 
 form#views-exposed-form-ns-references-page-2 > div >
@@ -341,6 +342,10 @@ footer.footer.container > div.container {
   padding-left: 0px !important;
 }
 
+#login {
+  margin: 30px;
+}
+
 /* Authors View */
 
 .author-list:nth-of-type(even) td {
@@ -357,7 +362,7 @@ footer.footer.container > div.container {
 
 /* Responsive */
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   #views-exposed-form-ns-references-page-2 #edit-actions {
     display: block;
     margin-top: 10px;

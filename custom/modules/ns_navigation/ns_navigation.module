@@ -82,6 +82,13 @@ function ns_navigation_form_bibcite_contributor_delete_form_alter(&$form, $form_
   }
 
   unset($form['actions']['cancel']);
+
+  $form['custom-cancel'] = [
+    '#type' => 'submit',
+    '#value' => t('Cancel'),
+    '#weight' => 100,
+    '#submit' => ['del_cancel_redir'],
+  ];
 }
 
 /**
@@ -136,6 +143,13 @@ function ns_navigation_form_alter(&$form, &$form_state, $form_id) {
     }
 
     unset($form['actions']['cancel']);
+
+    $form['custom-cancel'] = [
+      '#type' => 'submit',
+      '#value' => t('Cancel'),
+      '#weight' => 100,
+      '#submit' => ['del_cancel_redir'],
+    ];
   }
 
   if (array_key_exists('text_keyword__value', $form) && $form_id == "views_exposed_form") {
@@ -206,5 +220,15 @@ function del_ref_redir(&$form, &$form_state) {
     $tempstore->get('refs_params') : '';
 
   $response = new RedirectResponse('/references-advanced?' . $qstring);
+  $response->send();
+}
+
+/**
+ * Handles 'back' redirection.
+ */
+function del_cancel_redir(&$form, &$form_state) {
+  $current_uri = \Drupal::request()->getRequestUri();
+  $edit_uri = str_replace('delete', 'edit', $current_uri);
+  $response = new RedirectResponse($edit_uri);
   $response->send();
 }

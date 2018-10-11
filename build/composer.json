@@ -42,9 +42,6 @@
             ]
         },
         "patches": {
-            "drupal/node_edit_protection": {
-                "Allow button tag": "https://www.drupal.org/files/issues/handle_button_tags.patch"
-            }
         }
     },
     "license": "MIT",

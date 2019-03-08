@@ -45,6 +45,7 @@
     },
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "unb-libraries/narrativestudies.lib.unb.ca",
     "repositories": [
         {

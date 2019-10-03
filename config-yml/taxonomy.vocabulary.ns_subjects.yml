@@ -5,5 +5,4 @@ dependencies: {  }
 name: Subjects
 vid: ns_subjects
 description: 'For narrative study bibliography keywords.'
-hierarchy: 0
 weight: 0

@@ -66,6 +66,7 @@
         "drupal/entity": "^1.0",
         "drupal/externalauth": "1.1",
         "drupal/features": "3.7",
+        "drupal/health_check": "1.1",
         "drupal/ldap": "3.0-beta3",
         "drupal/override_node_options": "2.x-dev",
         "drupal/pathauto": "1.2",

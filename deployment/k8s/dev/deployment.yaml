@@ -36,6 +36,8 @@ spec:
         vcsRepository: narrativestudies.lib.unb.ca
         vcsRef: dev
     spec:
+      nodeSelector:
+        deployenv: dev
       containers:
         -
           name: narrativestudies-lib-unb-ca

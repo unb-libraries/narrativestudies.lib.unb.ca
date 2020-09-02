@@ -53,7 +53,7 @@ module:
   views_ui: 0
   menu_link_content: 1
   views: 10
-  narrativ: 1000
+  minimal: 1000
 theme:
   stable: 0
   classy: 0
@@ -61,6 +61,6 @@ theme:
   seven: 0
   bootstrap: 0
   ns_custom: 0
-profile: narrativ
+profile: minimal
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,4 +1,4 @@
-![narrativestudies.lib.unb.ca screenshot](https://github.com/unb-libraries/narrativestudies.lib.unb.ca/raw/prod/screenshot.png "narrativestudies.lib.unb.ca screenshot")
+![narrativestudies.lib.unb.ca screenshot](https://github.com/unb-libraries/narrativestudies.lib.unb.ca/raw/prod/.dockworker/screenshot.png "narrativestudies.lib.unb.ca screenshot")
 # [narrativestudies.lib.unb.ca](https://narrativestudies.lib.unb.ca/) : Instance Repository
 [![Build Status](https://travis-ci.com/unb-libraries/narrativestudies.lib.unb.ca.svg?branch=prod)](https://travis-ci.com/unb-libraries/narrativestudies.lib.unb.ca) [![GitHub license](https://img.shields.io/github/license/unb-libraries/narrativestudies.lib.unb.ca)](https://github.com/unb-libraries/narrativestudies.lib.unb.ca/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/narrativestudies.lib.unb.ca)
 

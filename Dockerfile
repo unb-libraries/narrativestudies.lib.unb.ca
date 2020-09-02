@@ -1,7 +1,6 @@
-FROM unblibraries/drupal:dockworker-2.x
+FROM unblibraries/drupal:8.x-3.x-unblib
 MAINTAINER UNB Libraries <libsupport@unb.ca>
 
-ARG COMPOSER_DEPLOY_DEV=no-dev
 ENV DRUPAL_SITE_ID narrativ
 ENV DRUPAL_SITE_URI narrativestudies.lib.unb.ca
 ENV DRUPAL_SITE_UUID 505198c5-b3da-4759-80ae-8f2bcfb469b5

@@ -34,7 +34,7 @@ function ns_author_bibcite_reference_presave($entity) {
 
   foreach ($authors as $author) {
     $aid = $author['target_id'];
-    $aut_storage = \Drupal::entityManager()->getStorage('bibcite_contributor');
+    $aut_storage = \Drupal::entityTypeManager()->getStorage('bibcite_contributor');
     $tgt_author = $aut_storage->load($aid);
     $aut_names = $aut_names . $tgt_author->getName() . ', ';
   }
@@ -50,7 +50,7 @@ function ns_author_bibcite_reference_presave($entity) {
 
   foreach ($keywords as $keyword) {
     $kid = $keyword['target_id'];
-    $kw_storage = \Drupal::entityManager()->getStorage('bibcite_keyword');
+    $kw_storage = \Drupal::entityTypeManager()->getStorage('bibcite_keyword');
     $tgt_keyword = $kw_storage->load($kid);
     $kw_labels = $kw_labels . $tgt_keyword->getName() . ', ';
   }

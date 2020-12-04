@@ -8,23 +8,16 @@
 // Temporarily increase memory allowance.
 ini_set('memory_limit', '1024M');
 
-// Delete all keywords.
-$query = \Drupal::entityQuery('bibcite_keyword')
-  ->execute();
-entity_delete_multiple('bibcite_keyword', $query);
-// Delete all contributors.
-$query = \Drupal::entityQuery('bibcite_contributor')
-  ->execute();
-entity_delete_multiple('bibcite_contributor', $query);
-// Delete all references.
-$query = \Drupal::entityQuery('bibcite_reference')
-  ->range(0, 100)
-  ->execute();
+$entities = ['keyword', 'contributor', 'reference'];
 
-while ($query) {
-  entity_delete_multiple('bibcite_reference', $query);
-
-  $query = \Drupal::entityQuery('bibcite_reference')
-    ->range(0, 100)
-    ->execute();
+foreach($entities as $type) {
+  $storage = \Drupal::entityTypeManager()->getStorage("bibcite_{$type}");
+  while(1) {
+    $ids = $storage->getQuery()->range(0, 100)->execute();
+    print "{$type}: " . count($ids) . "\n";
+    if(empty($ids)) {
+      break;
+    }
+    $storage->delete($storage->loadMultiple($ids));
+  }
 }

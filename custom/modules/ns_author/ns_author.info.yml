@@ -2,4 +2,5 @@ name: Text Author
 type: module
 description: Add text author and other fields to bibcite reference views.
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: Narrative Studies

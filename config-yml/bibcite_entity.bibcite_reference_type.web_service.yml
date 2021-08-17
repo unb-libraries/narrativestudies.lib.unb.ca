@@ -7,7 +7,10 @@ _core:
 id: web_service
 label: 'Web service'
 description: null
+new_revision: false
 override: true
+preview_mode: 1
+citekey_pattern: null
 fields:
   bibcite_secondary_title:
     visible: false

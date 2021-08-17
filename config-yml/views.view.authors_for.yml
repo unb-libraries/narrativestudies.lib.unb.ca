@@ -14,7 +14,6 @@ description: ''
 tag: ''
 base_table: bibcite_contributor
 base_field: id
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -471,7 +470,13 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<table>\n  <tr>\n    <td>{{ last_name }}, {{ first_name }} {{ middle_name }}</td>\n    <td>{{ edit_bibcite_contributor }}</td>\n  </tr>\n</table>\n"
+            text: |
+              <table>
+                <tr>
+                  <td>{{ last_name }}, {{ first_name }} {{ middle_name }}</td>
+                  <td>{{ edit_bibcite_contributor }}</td>
+                </tr>
+              </table>
             make_link: false
             path: ''
             absolute: false
@@ -651,6 +656,8 @@ display:
               administrator: '0'
               ns_contributor: '0'
             placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

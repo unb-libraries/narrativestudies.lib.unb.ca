@@ -7,7 +7,10 @@ _core:
 id: conference_proceedings
 label: 'Conference Proceedings'
 description: 'Conference Proceedings'
+new_revision: false
 override: true
+preview_mode: 1
+citekey_pattern: null
 fields:
   title:
     label: ''

@@ -17,7 +17,7 @@ content:
     region: content
     settings:
       match_operator: CONTAINS
-      size: '60'
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   bibcite_abst_e:
@@ -402,6 +402,13 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
     region: content
     third_party_settings: {  }
   title:

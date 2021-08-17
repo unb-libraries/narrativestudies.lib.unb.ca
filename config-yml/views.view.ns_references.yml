@@ -49,7 +49,6 @@ description: ''
 tag: ''
 base_table: bibcite_reference
 base_field: id
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -232,8 +231,8 @@ display:
           type: bibcite_contributor_label
           settings:
             link: false
-            role: 0
-            category: 0
+            role: false
+            category: false
           group_column: entity_id
           group_columns: {  }
           group_rows: true
@@ -616,7 +615,26 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: |-
+              <br>
+              <div class="container">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Author(s): {{ author_target_id }}</li>
+                    <li>Title: <b>{{ title }}</b></li>
+                    <li>Year: {{ bibcite_year }}</li>
+                    <li>Format: {{ type }}</li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                  {{ nothing }}
+                </div>
+                <div class="col-md-2">
+                  {{ nothing_1 }}
+                </div>
+              </div>
             make_link: false
             path: ''
             absolute: false
@@ -1434,7 +1452,31 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id  }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      \n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: |-
+              <br>
+              <div class="container">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Author(s): {{ author_target_id  }}</li>
+                    <li>Title: <b>{{ title }}</b></li>
+                    <li>Year: {{ bibcite_year }}</li>
+                    <li>Format: {{ type }}</li>
+                    
+                    {% if keywords_target_id %}
+                      <li>Subject(s): {{ keywords_target_id }}</li>
+                    {% endif %}
+
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                  {{ nothing }}
+                </div>
+                <div class="col-md-2">
+                  {{ nothing_1 }}
+                </div>
+              </div>
             make_link: false
             path: ''
             absolute: false
@@ -1596,6 +1638,8 @@ display:
               anonymous: '0'
               administrator: '0'
             placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2380,7 +2424,31 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n      \n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: |-
+              <br>
+              <div class="container">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Author(s): {{ author_target_id }}</li>
+                    <li>Title: <b>{{ title }}</b></li>
+                    <li>Year: {{ bibcite_year }}</li>
+                    <li>Format: {{ type }}</li>
+                    
+                    {% if keywords_target_id %}
+                      <li>Subject(s): {{ keywords_target_id }}</li>
+                    {% endif %}
+
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                  {{ nothing }}
+                </div>
+                <div class="col-md-2">
+                  {{ nothing_1 }}
+                </div>
+              </div>
             make_link: false
             path: ''
             absolute: false
@@ -2469,6 +2537,8 @@ display:
               anonymous: '0'
               administrator: '0'
             placeholder: ''
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2515,6 +2585,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2593,6 +2665,8 @@ display:
               anonymous: '0'
               administrator: '0'
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2633,6 +2707,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2676,6 +2752,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: 'Year of Publication'
@@ -2722,6 +2800,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -3500,7 +3580,31 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<br>\n<div class=\"container\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li>Author(s): {{ author_target_id }}</li>\n      <li>Title: <b>{{ title }}</b></li>\n      <li>Year: {{ bibcite_year }}</li>\n      <li>Format: {{ type }}</li>\n\n      {% if keywords_target_id %}\n        <li>Subject(s): {{ keywords_target_id }}</li>\n      {% endif %}\n\n    </ul>\n  </div>\n  <div class=\"col-md-2\">\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing }}\n  </div>\n  <div class=\"col-md-2\">\n    {{ nothing_1 }}\n  </div>\n</div>"
+            text: |-
+              <br>
+              <div class="container">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Author(s): {{ author_target_id }}</li>
+                    <li>Title: <b>{{ title }}</b></li>
+                    <li>Year: {{ bibcite_year }}</li>
+                    <li>Format: {{ type }}</li>
+
+                    {% if keywords_target_id %}
+                      <li>Subject(s): {{ keywords_target_id }}</li>
+                    {% endif %}
+
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                  {{ nothing }}
+                </div>
+                <div class="col-md-2">
+                  {{ nothing_1 }}
+                </div>
+              </div>
             make_link: false
             path: ''
             absolute: false

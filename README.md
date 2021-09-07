@@ -15,6 +15,7 @@ In your local development environment, several 'one time' dependency installatio
 * [PHP7](https://php.org/)
 * PHP Extensions : php-curl php-dom php-gd php-mbstring php-posix php-yaml php-zip
 * [composer](https://getcomposer.org/)
+* [yq](https://github.com/mikefarah/yq): Installation steps [are located here](https://github.com/mikefarah/yq#install).
 * [docker](https://www.docker.com): Installation steps [are located here](https://docs.docker.com/install/).
 * [docker-compose](https://docs.docker.com/compose/): Installation steps [are located here](https://docs.docker.com/compose/install/).
 
@@ -36,8 +37,8 @@ Run ```vendor/bin/dockworker``` to list available dockworker commands for this a
 ## Author / Contributors
 This application was created at [![UNB Libraries](https://github.com/unb-libraries/assets/raw/master/unblibbadge.png "UNB Libraries")](https://lib.unb.ca) by the following humans:
 
-<a href="https://github.com/camilocodes"><img src="https://avatars.githubusercontent.com/u/12695787?v=3" title="Camilo V." width="128" height="128"></a>
 <a href="https://github.com/JacobSanford"><img src="https://avatars.githubusercontent.com/u/244894?v=3" title="Jacob Sanford" width="128" height="128"></a>
+<a href="https://github.com/camilocodes"><img src="https://avatars.githubusercontent.com/u/12695787?v=3" title="Camilo V." width="128" height="128"></a>
 <a href="https://github.com/bricas"><img src="https://avatars.githubusercontent.com/u/18400?v=3" title="Brian Cassidy" width="128" height="128"></a>
 
 ## License

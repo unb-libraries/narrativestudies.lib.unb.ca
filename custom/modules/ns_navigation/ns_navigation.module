@@ -29,7 +29,7 @@ function ns_navigation_views_pre_render($view) {
   if ($view->id() == "ns_references" && ($view->current_display == 'page_2' ||
   $view->current_display == 'page_3')) {
 
-    $tempstore = \Drupal::service('user.private_tempstore')
+    $tempstore = \Drupal::service('tempstore.private')
       ->get('ns_navigation');
 
     $current_uri = \Drupal::request()->getRequestUri();
@@ -41,7 +41,7 @@ function ns_navigation_views_pre_render($view) {
   }
 
   if ($view->id() == "authors_for" && $view->current_display == 'page_1') {
-    $tempstore = \Drupal::service('user.private_tempstore')
+    $tempstore = \Drupal::service('tempstore.private')
       ->get('ns_navigation');
 
     $current_uri = \Drupal::request()->getRequestUri();
@@ -63,7 +63,7 @@ function ns_navigation_views_pre_render($view) {
 function ns_navigation_bibcite_reference_load($entities) {
   if (count($entities) == 1) {
     $ref_id = key($entities);
-    $tempstore = \Drupal::service('user.private_tempstore')
+    $tempstore = \Drupal::service('tempstore.private')
       ->get('ns_navigation');
     $tempstore->set('current_ref', $ref_id);
   }
@@ -191,7 +191,7 @@ function ref_edit_authors(&$form, &$form_state) {
  * Handles delete-contributor redirection.
  */
 function del_contrib_redir(&$form, &$form_state) {
-  $tempstore = \Drupal::service('user.private_tempstore')
+  $tempstore = \Drupal::service('tempstore.private')
     ->get('ns_navigation');
 
   $ref_id = $tempstore->get('current_ref') ?
@@ -214,7 +214,7 @@ function del_contrib_redir(&$form, &$form_state) {
  * Handles delete-reference redirection.
  */
 function del_ref_redir(&$form, &$form_state) {
-  $tempstore = \Drupal::service('user.private_tempstore')
+  $tempstore = \Drupal::service('tempstore.private')
     ->get('ns_navigation');
   $qstring = $tempstore->get('refs_params') ?
     $tempstore->get('refs_params') : '';

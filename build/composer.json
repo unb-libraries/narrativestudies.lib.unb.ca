@@ -55,7 +55,6 @@
     ],
     "require": {
         "academicpuma/citeproc-php": "1.0",
-        "audiolabs/bibtexparser": "dev-master",
         "ckeditor/ckeditor": "4.5.11",
         "davidgorges/human-name-parser": "~0.2",
         "drupal/bibcite": "2.0.0-beta2",

@@ -58,7 +58,7 @@
         "audiolabs/bibtexparser": "dev-master",
         "ckeditor/ckeditor": "4.5.11",
         "davidgorges/human-name-parser": "~0.2",
-        "drupal/bibcite": "2.0.0-beta1",
+        "drupal/bibcite": "2.0.0-beta2",
         "drupal/bootstrap": "3.23",
         "drupal/core": "9.3.2",
         "drupal/health_check": "1.3",

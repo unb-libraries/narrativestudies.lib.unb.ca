@@ -9,6 +9,8 @@ services:
       - "3306"
     networks:
       - narrativestudies.lib.unb.ca
+    volumes:
+      - mysql-data:/var/lib/mysql
   drupal-redis-lib-unb-ca:
     image: redis:5-alpine
     restart: unless-stopped
@@ -30,6 +32,8 @@ services:
     entrypoint:
       - docker-entrypoint-multiple.sh
       - narrativestudies.lib.unb.ca:/solr-conf
+    volumes:
+      - solr-data:/opt/solr/server/solr/mycores
   mailhog:
     image: mailhog/mailhog
     restart: unless-stopped
@@ -54,7 +58,7 @@ services:
     networks:
       - narrativestudies.lib.unb.ca
     volumes:
-      - /app/html/sites/default
+      - drupal-data:/app/html/sites/default
       - ./config-yml:/app/configuration
       - ./custom/modules:/app/html/modules/custom
       - ./custom/themes:/app/html/themes/custom
@@ -62,3 +66,7 @@ services:
 networks:
   narrativestudies.lib.unb.ca:
     name: narrativestudies.lib.unb.ca
+volumes:
+  drupal-data:
+  mysql-data:
+  solr-data:

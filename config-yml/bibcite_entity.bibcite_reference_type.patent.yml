@@ -13,232 +13,232 @@ preview_mode: 1
 citekey_pattern: null
 fields:
   bibcite_secondary_title:
-    visible: true
     required: false
     label: 'Published Source'
     hint: ''
-  bibcite_tertiary_title:
     visible: true
+  bibcite_tertiary_title:
     required: false
     label: 'International Title'
     hint: ''
-  bibcite_accession_number:
     visible: true
+  bibcite_accession_number:
     required: false
     label: 'Accession Number'
     hint: ''
-  bibcite_isbn:
     visible: true
+  bibcite_isbn:
     required: false
     label: 'ISBN Number'
     hint: ''
-  bibcite_call_number:
     visible: true
+  bibcite_call_number:
     required: false
     label: 'Call Number'
     hint: ''
-  bibcite_other_number:
     visible: true
+  bibcite_other_number:
     required: false
     label: 'Other Numbers'
     hint: ''
+    visible: true
   bibcite_other_author_affiliations:
-    visible: false
     required: false
     label: 'Other Author Affiliations'
     hint: ''
+    visible: false
   bibcite_publisher:
-    visible: true
     required: false
     label: Assignee
     hint: ''
-  bibcite_place_published:
     visible: true
+  bibcite_place_published:
     required: false
     label: Country
     hint: ''
-  bibcite_year:
     visible: true
+  bibcite_year:
     required: true
     label: 'Year of Publication'
     hint: 'Enter YYYY, Submitted or In Press'
-  bibcite_edition:
     visible: true
+  bibcite_edition:
     required: false
     label: 'International Patent Classification'
     hint: ''
-  bibcite_volume:
     visible: true
+  bibcite_volume:
     required: false
     label: 'Patent Version Number'
     hint: ''
-  bibcite_number:
     visible: true
+  bibcite_number:
     required: false
     label: 'Application Number'
     hint: ''
-  bibcite_pages:
     visible: true
+  bibcite_pages:
     required: false
     label: Pagination
     hint: ''
-  bibcite_date:
     visible: true
+  bibcite_date:
     required: false
     label: 'Date Published'
     hint: (mm/yyyy)
+    visible: true
   bibcite_lang:
-    visible: false
     required: false
     label: 'Publication Language'
     hint: ''
-  bibcite_abst_e:
     visible: false
+  bibcite_abst_e:
     required: false
     label: Abstract
     hint: ''
-  bibcite_abst_f:
     visible: false
+  bibcite_abst_f:
     required: false
     label: 'French Abstract'
     hint: ''
+    visible: false
   bibcite_type_of_work:
-    visible: true
     required: false
     label: 'Patent Type'
     hint: ''
-  bibcite_url:
     visible: true
+  bibcite_url:
     required: false
     label: URL
     hint: ''
+    visible: true
   bibcite_notes:
-    visible: false
     required: false
     label: Notes
     hint: ''
-  bibcite_issue:
     visible: false
+  bibcite_issue:
     required: false
     label: Issue
     hint: ''
-  bibcite_research_notes:
     visible: false
+  bibcite_research_notes:
     required: false
     label: 'Reseach Notes'
     hint: ''
-  bibcite_custom1:
     visible: false
+  bibcite_custom1:
     required: false
     label: 'Custom 1'
     hint: ''
+    visible: false
   bibcite_custom2:
-    visible: true
     required: false
     label: 'Issue Date'
     hint: ''
-  bibcite_custom3:
     visible: true
+  bibcite_custom3:
     required: false
     label: 'Designated States'
     hint: ''
-  bibcite_custom4:
     visible: true
+  bibcite_custom4:
     required: false
     label: Attorney/Agent
     hint: ''
-  bibcite_custom5:
     visible: true
+  bibcite_custom5:
     required: false
     label: References
     hint: ''
-  bibcite_custom6:
     visible: true
+  bibcite_custom6:
     required: false
     label: 'Legal Status'
     hint: ''
+    visible: true
   bibcite_custom7:
-    visible: false
     required: false
     label: 'Custom 7'
     hint: ''
-  bibcite_number_of_volumes:
     visible: false
+  bibcite_number_of_volumes:
     required: false
     label: 'Number of Volumes'
     hint: ''
+    visible: false
   bibcite_short_title:
-    visible: true
     required: false
     label: 'Short Title'
     hint: ''
+    visible: true
   bibcite_alternate_title:
-    visible: false
     required: false
     label: 'Alternate Title'
     hint: ''
-  bibcite_translated_title:
     visible: false
+  bibcite_translated_title:
     required: false
     label: 'Translated Title'
     hint: ''
+    visible: false
   bibcite_original_publication:
-    visible: true
     required: false
     label: 'Priority Numbers'
     hint: ''
+    visible: true
   bibcite_reprint_edition:
-    visible: false
     required: false
     label: 'Reprint Edition'
     hint: ''
+    visible: false
   bibcite_section:
-    visible: true
     required: false
     label: 'International Patent Number'
     hint: ''
+    visible: true
   bibcite_citekey:
-    visible: false
     required: false
     label: 'Citation Key'
     hint: ''
+    visible: false
   bibcite_issn:
-    visible: true
     required: false
     label: 'Patent Number'
     hint: ''
-  bibcite_doi:
     visible: true
+  bibcite_doi:
     required: false
     label: DOI
     hint: ''
+    visible: true
   bibcite_auth_address:
-    visible: false
     required: false
     label: 'Author Address'
     hint: ''
-  bibcite_remote_db_name:
     visible: false
+  bibcite_remote_db_name:
     required: false
     label: 'Remote Database Name'
     hint: ''
-  bibcite_remote_db_provider:
     visible: false
+  bibcite_remote_db_provider:
     required: false
     label: 'Remote Database Provider'
     hint: ''
-  bibcite_label:
     visible: false
+  bibcite_label:
     required: false
     label: Label
     hint: ''
-  bibcite_access_date:
     visible: false
+  bibcite_access_date:
     required: false
     label: 'Access Date'
     hint: ''
+    visible: false
   bibcite_refereed:
-    visible: true
     required: false
     label: 'Refereed Designation'
     hint: ''
+    visible: true

@@ -22,19 +22,19 @@ content:
     third_party_settings: {  }
   bibcite_abst_e:
     type: string_textarea
+    weight: 3
+    region: content
     settings:
       rows: 4
       placeholder: ''
-    weight: 3
-    region: content
     third_party_settings: {  }
   bibcite_abst_f:
     type: string_textarea
+    weight: 4
+    region: content
     settings:
       rows: 4
       placeholder: ''
-    weight: 4
-    region: content
     third_party_settings: {  }
   bibcite_access_date:
     type: string_textfield
@@ -62,11 +62,11 @@ content:
     third_party_settings: {  }
   bibcite_auth_address:
     type: string_textarea
+    weight: 13
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 13
-    region: content
     third_party_settings: {  }
   bibcite_call_number:
     type: string_textfield
@@ -86,59 +86,59 @@ content:
     third_party_settings: {  }
   bibcite_custom1:
     type: string_textarea
+    weight: 6
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 6
-    region: content
     third_party_settings: {  }
   bibcite_custom2:
     type: string_textarea
+    weight: 7
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 7
-    region: content
     third_party_settings: {  }
   bibcite_custom3:
     type: string_textarea
+    weight: 8
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 8
-    region: content
     third_party_settings: {  }
   bibcite_custom4:
     type: string_textarea
+    weight: 9
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 9
-    region: content
     third_party_settings: {  }
   bibcite_custom5:
     type: string_textarea
+    weight: 10
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 10
-    region: content
     third_party_settings: {  }
   bibcite_custom6:
     type: string_textarea
+    weight: 11
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 11
-    region: content
     third_party_settings: {  }
   bibcite_custom7:
     type: string_textarea
+    weight: 12
+    region: content
     settings:
       rows: 1
       placeholder: ''
-    weight: 12
-    region: content
     third_party_settings: {  }
   bibcite_date:
     type: string_textfield
@@ -206,11 +206,11 @@ content:
     third_party_settings: {  }
   bibcite_notes:
     type: string_textarea
+    weight: 5
+    region: content
     settings:
       rows: 4
       placeholder: ''
-    weight: 5
-    region: content
     third_party_settings: {  }
   bibcite_number:
     type: string_textfield
@@ -398,18 +398,18 @@ content:
   keywords:
     type: entity_reference_autocomplete_tags
     weight: 2
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 120
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -422,10 +422,10 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 50
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    region: content
     third_party_settings: {  }
 hidden: {  }

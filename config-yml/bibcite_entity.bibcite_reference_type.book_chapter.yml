@@ -13,262 +13,262 @@ preview_mode: 1
 citekey_pattern: null
 fields:
   title:
+    required: false
     label: ''
     hint: 'The title of the Reference.'
     visible: true
-    required: false
   uid:
+    required: false
     label: ''
     hint: 'The username of the content author.'
     visible: true
-    required: false
   keywords:
+    required: false
     label: ''
     hint: ''
     visible: true
-    required: false
   bibcite_abst_e:
+    required: false
     label: Abstract
     hint: ''
     visible: true
-    required: false
   bibcite_abst_f:
+    required: false
     label: 'French Abstract'
     hint: ''
     visible: false
-    required: false
   bibcite_notes:
+    required: false
     label: Notes
     hint: ''
     visible: false
-    required: false
   bibcite_custom1:
+    required: false
     label: 'Custom 1'
     hint: ''
     visible: false
-    required: false
   bibcite_custom2:
+    required: false
     label: 'Custom 2'
     hint: ''
     visible: false
-    required: false
   bibcite_custom3:
+    required: false
     label: 'Custom 3'
     hint: ''
     visible: false
-    required: false
   bibcite_custom4:
+    required: false
     label: 'Custom 4'
     hint: ''
     visible: false
-    required: false
   bibcite_custom5:
+    required: false
     label: 'Custom 5'
     hint: ''
     visible: false
-    required: false
   bibcite_custom6:
+    required: false
     label: 'Custom 6'
     hint: ''
     visible: false
-    required: false
   bibcite_custom7:
+    required: false
     label: 'Custom 7'
     hint: ''
     visible: false
-    required: false
   bibcite_auth_address:
+    required: false
     label: 'Author Address'
     hint: ''
     visible: false
-    required: false
   bibcite_year:
+    required: true
     label: 'Year of Publication'
     hint: 'Enter YYYY, Submitted or In Press'
     visible: true
-    required: true
   bibcite_secondary_title:
+    required: false
     label: 'Book Title'
     hint: ''
     visible: true
-    required: false
   bibcite_volume:
+    required: false
     label: Volume
     hint: ''
     visible: true
-    required: false
   bibcite_edition:
+    required: false
     label: Edition
     hint: ''
     visible: true
-    required: false
   bibcite_section:
+    required: false
     label: Chapter
     hint: ''
     visible: true
-    required: false
   bibcite_issue:
+    required: false
     label: Issue
     hint: ''
     visible: false
-    required: false
   bibcite_number_of_volumes:
+    required: false
     label: 'Number of Volumes'
     hint: ''
     visible: true
-    required: false
   bibcite_number:
+    required: false
     label: 'Series Volume'
     hint: ''
     visible: true
-    required: false
   bibcite_pages:
+    required: false
     label: Pagination
     hint: ''
     visible: true
-    required: false
   bibcite_date:
+    required: false
     label: 'Date Published'
     hint: ''
     visible: false
-    required: false
   bibcite_type_of_work:
+    required: false
     label: 'Type of Work'
     hint: 'Masters Thesis'
     visible: false
-    required: false
   bibcite_lang:
+    required: false
     label: 'Publication Language'
     hint: ''
     visible: false
-    required: false
   bibcite_reprint_edition:
+    required: false
     label: 'Reprint Edition'
     hint: ''
     visible: true
-    required: false
   bibcite_publisher:
+    required: false
     label: Publisher
     hint: ''
     visible: true
-    required: false
   bibcite_place_published:
+    required: false
     label: City
     hint: ''
     visible: true
-    required: false
   bibcite_issn:
+    required: false
     label: ISBN
     hint: ''
     visible: true
-    required: false
   bibcite_isbn:
+    required: false
     label: 'ISBN Number'
     hint: ''
     visible: true
-    required: false
   bibcite_accession_number:
+    required: false
     label: 'Accession Number'
     hint: ''
     visible: true
-    required: false
   bibcite_call_number:
+    required: false
     label: 'Call Number'
     hint: ''
     visible: true
-    required: false
   bibcite_other_number:
+    required: false
     label: 'Other Numbers'
     hint: ''
     visible: true
-    required: false
   bibcite_citekey:
+    required: false
     label: 'Citation Key'
     hint: ''
     visible: false
-    required: false
   bibcite_url:
+    required: false
     label: URL
     hint: ''
     visible: true
-    required: false
   bibcite_doi:
+    required: false
     label: DOI
     hint: ''
     visible: true
-    required: false
   bibcite_research_notes:
+    required: false
     label: 'Reseach Notes'
     hint: ''
     visible: false
-    required: false
   bibcite_tertiary_title:
+    required: false
     label: 'Series Title'
     hint: ''
     visible: true
-    required: false
   bibcite_short_title:
+    required: false
     label: 'Short Title'
     hint: ''
     visible: true
-    required: false
   bibcite_alternate_title:
+    required: false
     label: Abbreviation
     hint: ''
     visible: true
-    required: false
   bibcite_translated_title:
+    required: false
     label: 'Translated Title'
     hint: ''
     visible: false
-    required: false
   bibcite_original_publication:
+    required: false
     label: 'Original Publication'
     hint: ''
     visible: true
-    required: false
   bibcite_other_author_affiliations:
+    required: false
     label: 'Other Author Affiliations'
     hint: ''
     visible: false
-    required: false
   bibcite_remote_db_name:
+    required: false
     label: 'Remote Database Name'
     hint: ''
     visible: false
-    required: false
   bibcite_remote_db_provider:
+    required: false
     label: 'Remote Database Provider'
     hint: ''
     visible: false
-    required: false
   bibcite_label:
+    required: false
     label: Label
     hint: ''
     visible: false
-    required: false
   bibcite_access_date:
+    required: false
     label: 'Access Date'
     hint: ''
     visible: false
-    required: false
   bibcite_refereed:
+    required: false
     label: 'Refereed Designation'
     hint: ''
     visible: true
-    required: false
   bibcite_pmid:
+    required: false
     label: ''
     hint: ''
     visible: true
-    required: false
   text_author:
+    required: false
     label: ''
     hint: ''
     visible: true
-    required: false
   text_keyword:
+    required: false
     label: ''
     hint: ''
     visible: true
-    required: false

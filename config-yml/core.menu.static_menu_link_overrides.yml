@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
 definitions:
   ns_navigation__contact:
     menu_name: main
@@ -5,5 +7,3 @@ definitions:
     weight: 30
     expanded: false
     enabled: true
-_core:
-  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

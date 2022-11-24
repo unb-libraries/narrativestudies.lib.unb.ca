@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: RmirFBOxrJgFgaSz9lbmoun37nT7RzpiWG5fHa2MTio
 format: bibtex
 types:
   book: book
@@ -45,5 +47,3 @@ dependencies:
   enforced:
     module:
       - bibcite_bibtex
-_core:
-  default_config_hash: RmirFBOxrJgFgaSz9lbmoun37nT7RzpiWG5fHa2MTio

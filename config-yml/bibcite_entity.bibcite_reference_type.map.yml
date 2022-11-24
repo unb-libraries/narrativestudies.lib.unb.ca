@@ -13,232 +13,232 @@ preview_mode: 1
 citekey_pattern: null
 fields:
   bibcite_secondary_title:
-    visible: true
     required: false
     label: 'Series Title'
     hint: ''
+    visible: true
   bibcite_tertiary_title:
-    visible: false
     required: false
     label: 'Tertiary Title'
     hint: ''
+    visible: false
   bibcite_accession_number:
-    visible: true
     required: false
     label: 'Accession Number'
     hint: ''
-  bibcite_isbn:
     visible: true
+  bibcite_isbn:
     required: false
     label: 'ISBN Number'
     hint: ''
-  bibcite_call_number:
     visible: true
+  bibcite_call_number:
     required: false
     label: 'Call Number'
     hint: ''
-  bibcite_other_number:
     visible: true
+  bibcite_other_number:
     required: false
     label: 'Other Numbers'
     hint: ''
+    visible: true
   bibcite_other_author_affiliations:
-    visible: false
     required: false
     label: 'Other Author Affiliations'
     hint: ''
+    visible: false
   bibcite_publisher:
-    visible: true
     required: false
     label: Publisher
     hint: ''
-  bibcite_place_published:
     visible: true
+  bibcite_place_published:
     required: false
     label: City
     hint: ''
-  bibcite_year:
     visible: true
+  bibcite_year:
     required: true
     label: 'Year of Publication'
     hint: 'Enter YYYY, Submitted or In Press'
-  bibcite_edition:
     visible: true
+  bibcite_edition:
     required: false
     label: Edition
     hint: ''
+    visible: true
   bibcite_volume:
-    visible: false
     required: false
     label: Volume
     hint: ''
-  bibcite_number:
     visible: false
+  bibcite_number:
     required: false
     label: Number
     hint: ''
+    visible: false
   bibcite_pages:
-    visible: true
     required: false
     label: Description
     hint: ''
-  bibcite_date:
     visible: true
+  bibcite_date:
     required: false
     label: 'Date Published'
     hint: (mm/yyyy)
+    visible: true
   bibcite_lang:
-    visible: false
     required: false
     label: 'Publication Language'
     hint: ''
+    visible: false
   bibcite_abst_e:
-    visible: true
     required: false
     label: Abstract
     hint: ''
+    visible: true
   bibcite_abst_f:
-    visible: false
     required: false
     label: 'French Abstract'
     hint: ''
+    visible: false
   bibcite_type_of_work:
-    visible: true
     required: false
     label: Type
     hint: ''
-  bibcite_url:
     visible: true
+  bibcite_url:
     required: false
     label: URL
     hint: ''
+    visible: true
   bibcite_notes:
-    visible: false
     required: false
     label: Notes
     hint: ''
-  bibcite_issue:
     visible: false
+  bibcite_issue:
     required: false
     label: Issue
     hint: ''
-  bibcite_research_notes:
     visible: false
+  bibcite_research_notes:
     required: false
     label: 'Reseach Notes'
     hint: ''
+    visible: false
   bibcite_custom1:
-    visible: true
     required: false
     label: Scale
     hint: ''
+    visible: true
   bibcite_custom2:
-    visible: false
     required: false
     label: 'Custom 2'
     hint: ''
-  bibcite_custom3:
     visible: false
+  bibcite_custom3:
     required: false
     label: 'Custom 3'
     hint: ''
-  bibcite_custom4:
     visible: false
+  bibcite_custom4:
     required: false
     label: 'Custom 4'
     hint: ''
-  bibcite_custom5:
     visible: false
+  bibcite_custom5:
     required: false
     label: 'Custom 5'
     hint: ''
-  bibcite_custom6:
     visible: false
+  bibcite_custom6:
     required: false
     label: 'Custom 6'
     hint: ''
-  bibcite_custom7:
     visible: false
+  bibcite_custom7:
     required: false
     label: 'Custom 7'
     hint: ''
-  bibcite_number_of_volumes:
     visible: false
+  bibcite_number_of_volumes:
     required: false
     label: 'Number of Volumes'
     hint: ''
+    visible: false
   bibcite_short_title:
-    visible: true
     required: false
     label: 'Short Title'
     hint: ''
-  bibcite_alternate_title:
     visible: true
+  bibcite_alternate_title:
     required: false
     label: 'Alternate Title'
     hint: ''
+    visible: true
   bibcite_translated_title:
-    visible: false
     required: false
     label: 'Translated Title'
     hint: ''
-  bibcite_original_publication:
     visible: false
+  bibcite_original_publication:
     required: false
     label: 'Original Publication'
     hint: ''
-  bibcite_reprint_edition:
     visible: false
+  bibcite_reprint_edition:
     required: false
     label: 'Reprint Edition'
     hint: ''
-  bibcite_section:
     visible: false
+  bibcite_section:
     required: false
     label: Section
     hint: ''
-  bibcite_citekey:
     visible: false
+  bibcite_citekey:
     required: false
     label: 'Citation Key'
     hint: ''
+    visible: false
   bibcite_issn:
-    visible: true
     required: false
     label: ISBN
     hint: ''
-  bibcite_doi:
     visible: true
+  bibcite_doi:
     required: false
     label: DOI
     hint: ''
+    visible: true
   bibcite_auth_address:
-    visible: false
     required: false
     label: 'Author Address'
     hint: ''
-  bibcite_remote_db_name:
     visible: false
+  bibcite_remote_db_name:
     required: false
     label: 'Remote Database Name'
     hint: ''
-  bibcite_remote_db_provider:
     visible: false
+  bibcite_remote_db_provider:
     required: false
     label: 'Remote Database Provider'
     hint: ''
-  bibcite_label:
     visible: false
+  bibcite_label:
     required: false
     label: Label
     hint: ''
-  bibcite_access_date:
     visible: false
+  bibcite_access_date:
     required: false
     label: 'Access Date'
     hint: ''
+    visible: false
   bibcite_refereed:
-    visible: true
     required: false
     label: 'Refereed Designation'
     hint: ''
+    visible: true

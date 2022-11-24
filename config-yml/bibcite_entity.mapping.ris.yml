@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: YkV8bIBaePZrbXuAWYxNbJ2jkmtMwEHq661Arg9JMG8
 format: ris
 types:
   ABST: miscellaneous
@@ -139,5 +141,3 @@ dependencies:
   enforced:
     module:
       - bibcite_ris
-_core:
-  default_config_hash: YkV8bIBaePZrbXuAWYxNbJ2jkmtMwEHq661Arg9JMG8

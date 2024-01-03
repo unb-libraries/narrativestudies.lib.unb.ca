@@ -2488,7 +2488,15 @@ display:
         filter_groups: false
       display_description: ''
       exposed_block: true
-      display_extenders: {  }
+      display_extenders:
+        simple_sitemap_display_extender:
+          variants:
+            views-sitemap:
+              index: true
+              priority: '0.5'
+              changefreq: ''
+              arguments: {  }
+              max_links: 100
       path: references
     cache_metadata:
       max-age: -1

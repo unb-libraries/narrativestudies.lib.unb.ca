@@ -44,6 +44,8 @@ services:
       - "4089:8025"
     networks:
       - narrativestudies.lib.unb.ca
+    profiles:
+      - mailhog
   narrativestudies.lib.unb.ca:
     build:
       context: .

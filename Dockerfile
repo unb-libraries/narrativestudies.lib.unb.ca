@@ -2,10 +2,10 @@ FROM ghcr.io/unb-libraries/drupal:9.x-2.x-unblib
 MAINTAINER UNB Libraries <libsupport@unb.ca>
 
 # Install additional OS packages.
-ENV ADDITIONAL_OS_PACKAGES postfix php7-ldap php7-redis
-ENV DRUPAL_SITE_ID narrativ
-ENV DRUPAL_SITE_URI narrativestudies.lib.unb.ca
-ENV DRUPAL_SITE_UUID 505198c5-b3da-4759-80ae-8f2bcfb469b5
+ENV ADDITIONAL_OS_PACKAGES="postfix php7-ldap php7-redis"
+ENV DRUPAL_SITE_ID="narrativ"
+ENV DRUPAL_SITE_URI="narrativestudies.lib.unb.ca"
+ENV DRUPAL_SITE_UUID="505198c5-b3da-4759-80ae-8f2bcfb469b5"
 
 # Build application.
 COPY ./build/ /build/

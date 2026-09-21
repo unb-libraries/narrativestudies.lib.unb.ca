@@ -5,6 +5,7 @@
  * Contains ns_navigation.module.
  */
 
+use Drupal\Core\Url;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**
@@ -19,6 +20,69 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
       'variables' => [],
     ],
   ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * Adds a download link for the full reference export at the top of the
+ * reference result listings, below the exposed search form.
+ */
+function ns_navigation_preprocess_views_view(array &$variables) {
+  $view = $variables['view'];
+
+  if ($view->id() != 'ns_references' || ($view->current_display != 'page_2' &&
+  $view->current_display != 'page_3')) {
+    return;
+  }
+
+  $file = ns_navigation_reference_export_file();
+
+  if (!$file) {
+    return;
+  }
+
+  $link = [
+    '#type' => 'link',
+    '#title' => [
+      '#type' => 'inline_template',
+      '#template' => '<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>{{ label }}',
+      '#context' => [
+        'label' => t('Download all references (CSV, @size)', [
+          '@size' => format_size(filesize($file)),
+        ]),
+      ],
+    ],
+    '#url' => Url::fromRoute('ns_navigation.reference_download'),
+    '#prefix' => '<div class="ns-reference-download">',
+    '#suffix' => '</div>',
+  ];
+
+  $variables['header'] = [
+    'reference_download' => $link,
+    'original' => $variables['header'],
+  ];
+}
+
+/**
+ * Locates the pre-generated CSV export of all references.
+ *
+ * The export is shipped with the ns_biblio module.
+ *
+ * @return string|null
+ *   The absolute path of the export, or NULL when it is unavailable.
+ */
+function ns_navigation_reference_export_file() {
+  try {
+    $module_path = \Drupal::service('extension.list.module')->getPath('ns_biblio');
+  }
+  catch (\Exception $e) {
+    return NULL;
+  }
+
+  $file = DRUPAL_ROOT . '/' . $module_path . '/data/ns_bibcite_reference_all.csv';
+
+  return is_readable($file) ? $file : NULL;
 }
 
 /**

@@ -22,3 +22,10 @@ ns_navigation.about:
     _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::about'
   requirements:
     _permission: 'access content'
+ns_navigation.reference_download:
+  path: '/references/download'
+  defaults:
+    _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::downloadReferences'
+    _title: 'Download references'
+  requirements:
+    _permission: 'access content'

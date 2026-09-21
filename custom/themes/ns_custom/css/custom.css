@@ -360,6 +360,20 @@ footer.footer.container > div.container {
   text-align: right;
 }
 
+/* References Download Link */
+
+.ns-reference-download {
+  margin: 10px 0 15px;
+}
+
+.ns-reference-download a {
+  font-weight: bold;
+}
+
+.ns-reference-download .glyphicon {
+  margin-right: 6px;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {

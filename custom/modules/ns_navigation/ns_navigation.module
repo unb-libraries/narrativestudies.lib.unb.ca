@@ -25,14 +25,15 @@ function ns_navigation_theme($existing, $type, $theme, $path) {
 /**
  * Implements hook_preprocess_HOOK().
  *
- * Adds a download link for the full reference export at the top of the
- * reference result listings, below the exposed search form.
+ * Adds a download link for the full reference export above the page title of
+ * the reference search pages.
  */
-function ns_navigation_preprocess_views_view(array &$variables) {
-  $view = $variables['view'];
+function ns_navigation_preprocess_page_title(array &$variables) {
+  $route = \Drupal::routeMatch()->getRouteObject();
 
-  if ($view->id() != 'ns_references' || ($view->current_display != 'page_2' &&
-  $view->current_display != 'page_3')) {
+  if (!$route || $route->getDefault('view_id') != 'ns_references' ||
+  ($route->getDefault('display_id') != 'page_2' &&
+  $route->getDefault('display_id') != 'page_3')) {
     return;
   }
 
@@ -42,7 +43,7 @@ function ns_navigation_preprocess_views_view(array &$variables) {
     return;
   }
 
-  $link = [
+  $variables['title_prefix']['reference_download'] = [
     '#type' => 'link',
     '#title' => [
       '#type' => 'inline_template',
@@ -56,11 +57,9 @@ function ns_navigation_preprocess_views_view(array &$variables) {
     '#url' => Url::fromRoute('ns_navigation.reference_download'),
     '#prefix' => '<div class="ns-reference-download">',
     '#suffix' => '</div>',
-  ];
-
-  $variables['header'] = [
-    'reference_download' => $link,
-    'original' => $variables['header'],
+    '#cache' => [
+      'contexts' => ['route'],
+    ],
   ];
 }
 

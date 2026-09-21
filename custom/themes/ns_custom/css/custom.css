@@ -118,13 +118,6 @@ input {
   width: 100%;
 }
 
-section#block-searchlabel {
-  margin: 0 auto;
-  padding-top: 3%;
-  padding-bottom: 5%;
-  text-align: center;
-}
-
 /* Avanced Search Form */
 
 form#views-exposed-form-ns-references-page-3 {
@@ -147,6 +140,7 @@ form#views-exposed-form-ns-references-page-3 div div:first-child input {
 
 form#views-exposed-form-ns-references-page-3 div div:not(:first-child) {
   width: 33%;
+  vertical-align: bottom;
 }
 
 form#views-exposed-form-ns-references-page-3 div div.select-wrapper {
@@ -158,9 +152,10 @@ form#views-exposed-form-ns-references-page-3 div div:not(:first-child) select {
   width: 100%;
 }
 
-form#views-exposed-form-ns-references-page-3 div#edit-actions {
-  display: block;
-  margin-top: 20px;
+/* Drupal suffixes the ids of this form with '--2', so target the classes. */
+
+form#views-exposed-form-ns-references-page-3 div div.form-actions {
+  margin: 0;
 }
 
 /* By-subject Search Form */
@@ -240,10 +235,6 @@ span.fieldset-legend.js-form-required.form-required:after {
 h1.page-header {
   margin-top: 10px;
   font-size: 20px;
-}
-
-div#edit-field-abstract-0-format {
-  display: none !important;
 }
 
 form#contact-message-suggest-reference-form button#edit-submit {
@@ -397,10 +388,6 @@ footer.footer.container > div.container {
 
   #block-ns-custom-account-menu{
     margin-left: 10%;
-  }
-
-  form#views-exposed-form-ns-references-page-3 button#edit-reset {
-    margin-top: 10px;
   }
 
   form#views-exposed-form-ns-references-page-3 div div {

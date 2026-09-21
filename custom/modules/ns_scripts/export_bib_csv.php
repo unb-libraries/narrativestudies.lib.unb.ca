@@ -4,7 +4,7 @@
  * @file
  * Contains script to export all bibcite_reference entities to CSV.
  *
- * Usage: drush scr modules/custom/ns_scripts/export_bib_csv.php > export.csv
+ * Usage: drush scr modules/custom/ns_scripts/export_bib_csv.php > export.csv.
  */
 
 // Temporarily increase memory allowance.

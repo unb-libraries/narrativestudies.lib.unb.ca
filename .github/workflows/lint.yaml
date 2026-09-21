@@ -1,0 +1,17 @@
+name: PHP Coding Standards
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  phpcs:
+    name: PHP Coding Standards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: unb-libraries/install-dockworker-composite-action@v2
+      -
+        name: Check PHP Coding Standards
+        run: vendor/bin/dockworker validate:drupal:php:custom

@@ -99,17 +99,20 @@ a:active,
 /* Global Search Form */
 
 form#views-exposed-form-ns-references-page-2 > div {
-  margin: 0 auto;
-  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
 }
 
 #views-exposed-form-ns-references-page-2 {
-  margin: 14px;
+  margin: 14px 0;
 }
 
 form#views-exposed-form-ns-references-page-2 > div >
 div.form-item.js-form-item.form-type-textfield.js-form-type-textfield {
-  width: 70%;
+  width: auto;
+  flex: 1 1 auto;
+  margin-right: 10px;
 }
 
 form#views-exposed-form-ns-references-page-2 > div >

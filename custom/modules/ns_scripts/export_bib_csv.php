@@ -62,6 +62,7 @@ while (1) {
   }
 
   $offset += $batch_size;
+  fwrite(STDERR, "exported {$offset}\n");
 }
 
 fclose($out);

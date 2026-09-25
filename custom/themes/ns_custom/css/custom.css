@@ -74,6 +74,7 @@ a:active,
 .btn-primary {
   background-color: #cc0000;
   border-color: #990000;
+  font-weight: bold;
 }
 
 .btn-info:hover,
@@ -90,6 +91,34 @@ a:active,
 .name.navbar-brand {
   line-height: 24px;
   font-size: 24px;
+}
+
+/* Bootstrap's default navbar text (#777 on #f8f8f8) is under 4.5:1 contrast. */
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #666;
+}
+
+/* All header items (site title, top-level links, dropdown items) behave
+ * like ordinary links on hover/focus: color change + underline, no
+ * background highlight, so the same affordance applies everywhere. */
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #990000;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .main-container.container.js-quickedit-main-content {
@@ -131,6 +160,7 @@ form#views-exposed-form-ns-references-page-3 label {
   display: block;
   margin-top: 10px;
   margin-bottom: 4px;
+  color: #666;
 }
 
 form#views-exposed-form-ns-references-page-3 div div:first-child {
@@ -357,7 +387,7 @@ footer.footer.container > div.container {
 }
 
 .ns-reference-download a {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .ns-reference-download .glyphicon {

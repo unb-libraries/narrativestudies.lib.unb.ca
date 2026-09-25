@@ -2,8 +2,8 @@
 
 /* Colour.
  *
- * red1:  cc0000;
- * red2:  990000;
+ * red1:  bd0f0f;
+ * red2:  8e0b0b;
  * gray1: f8f8f8;
  * gray2: e7e7e7;
  */
@@ -31,17 +31,17 @@ select:hover,
 select:focus,
 select:active {
   box-shadow: none !important;
-  border-color: #990000 !important;
+  border-color: #8e0b0b !important;
 }
 
 a,
 .pagination > li > a,
 .pagination > li > span {
-  color: #cc0000;
+  color: #bd0f0f;
 }
 
 .select-wrapper:after {
-  color: #990000;
+  color: #8e0b0b;
 }
 
 a:hover,
@@ -53,7 +53,7 @@ a:active,
 .pagination > li > span:hover,
 .pagination > li > span:focus,
 .pagination > li > span:active {
-  color: #990000;
+  color: #8e0b0b;
 }
 
 .pagination > .active > a,
@@ -62,8 +62,8 @@ a:active,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #cc0000;
-  border-color: #cc0000;
+  background-color: #bd0f0f;
+  border-color: #bd0f0f;
 }
 
 .btn {
@@ -72,8 +72,8 @@ a:active,
 
 .btn-info,
 .btn-primary {
-  background-color: #cc0000;
-  border-color: #990000;
+  background-color: #bd0f0f;
+  border-color: #8e0b0b;
   font-weight: bold;
 }
 
@@ -83,8 +83,8 @@ a:active,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #990000 !important;
-  border-color: #990000 !important;
+  background-color: #8e0b0b !important;
+  border-color: #8e0b0b !important;
   outline: none !important;
 }
 
@@ -116,7 +116,7 @@ a:active,
 .navbar-default .navbar-nav > .open > a:focus,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #990000;
+  color: #8e0b0b;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -341,7 +341,7 @@ form.bibcite-contributor-confirm-form.confirmation #edit-actions::before {
     margin: 14px 0;
     content: "WARNING: This action will impact ALL references that include the author.";
     font-weight: bold;
-    color: #990000;
+    color: #8e0b0b;
 }
 
 /* Contributor Edit */
@@ -387,7 +387,11 @@ footer.footer.container > div.container {
 }
 
 .ns-reference-download a {
-  font-weight: 600;
+  /* Helvetica/Arial only ship regular and bold faces, so 500/600 just
+   * snap to one or the other. Fake a semibold weight with a hairline
+   * stroke on the glyphs instead. */
+  font-weight: normal;
+  -webkit-text-stroke: 0.4px currentColor;
 }
 
 .ns-reference-download .glyphicon {

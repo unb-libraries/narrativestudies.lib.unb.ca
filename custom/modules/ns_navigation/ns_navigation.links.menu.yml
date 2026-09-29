@@ -4,6 +4,7 @@ ns_navigation.adv_biblio:
   parent: main
   menu_name: main
   route_name: view.ns_references.page_3
+  route_parameters: { view_id: ns_references, display_id: page_3 }
   weight: 10
 ns_navigation.about:
   title: 'About'

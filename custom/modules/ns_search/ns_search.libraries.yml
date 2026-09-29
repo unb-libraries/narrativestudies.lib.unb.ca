@@ -1,0 +1,10 @@
+search:
+  js:
+    js/lunr.min.js: { minified: true }
+    js/search-common.js: {}
+    js/search.js: {}
+  css:
+    component:
+      css/search.css: {}
+  dependencies:
+    - core/drupalSettings

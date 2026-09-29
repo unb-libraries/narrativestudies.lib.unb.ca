@@ -1,0 +1,64 @@
+{#
+/**
+ * @file
+ * The reference search form.
+ *
+ * Markup and ids follow the Views exposed forms this replaced, which the
+ * theme styles.
+ *
+ * Available variables:
+ * - advanced: Whether to show the advanced search fields.
+ * - action: The URL of the search page.
+ * - types: Reference type labels keyed by bundle.
+ * - values: The current search, keyed by field name.
+ */
+#}
+{% set form_id = advanced ? 'views-exposed-form-ns-references-page-3' : 'views-exposed-form-ns-references-page-2' %}
+<form action="{{ action }}" method="get" id="{{ form_id }}" accept-charset="UTF-8" role="search" data-ns-search>
+  <div class="form--inline form-inline clearfix">
+    {% if advanced %}
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-combine js-form-item-combine form-group">
+        <label for="edit-combine" class="control-label">{{ 'Search Anywhere'|t }}</label>
+        <input class="form-text form-control" type="text" id="edit-combine" name="combine" value="{{ values.combine }}" size="30" maxlength="128" />
+      </div>
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-text-author__value js-form-item-text-author__value form-group">
+        <label for="edit-text-author-value" class="control-label">{{ 'Author Name'|t }}</label>
+        <input class="form-text form-control" type="text" id="edit-text-author-value" name="text_author__value" value="{{ values.text_author__value }}" size="30" maxlength="128" />
+      </div>
+      <div class="form-item js-form-item form-type-select js-form-type-select form-item-type js-form-item-type form-group">
+        <label for="edit-type" class="control-label">{{ 'Format (book, article, etc)'|t }}</label>
+        <div class="select-wrapper">
+          <select class="form-select form-control" id="edit-type" name="type">
+            <option value="All">{{ '- Any -'|t }}</option>
+            {% for type, label in types %}
+              <option value="{{ type }}"{{ values.type == type ? ' selected' }}>{{ label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-bibcite-lang js-form-item-bibcite-lang form-group">
+        <label for="edit-bibcite-lang" class="control-label">{{ 'Language'|t }}</label>
+        <input class="form-text form-control" type="text" id="edit-bibcite-lang" name="bibcite_lang" value="{{ values.bibcite_lang }}" size="30" maxlength="128" />
+      </div>
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-bibcite-year js-form-item-bibcite-year form-group">
+        <label for="edit-bibcite-year" class="control-label">{{ 'Year (from)'|t }}</label>
+        <input class="form-text form-control" type="text" inputmode="numeric" id="edit-bibcite-year" name="bibcite_year" value="{{ values.bibcite_year }}" size="30" maxlength="128" />
+      </div>
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-bibcite-year-1 js-form-item-bibcite-year-1 form-group">
+        <label for="edit-bibcite-year-1" class="control-label">{{ 'Year (to)'|t }}</label>
+        <input class="form-text form-control" type="text" inputmode="numeric" id="edit-bibcite-year-1" name="bibcite_year_1" value="{{ values.bibcite_year_1 }}" size="30" maxlength="128" />
+      </div>
+    {% else %}
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-combine js-form-item-combine form-no-label form-group">
+        <label for="edit-combine" class="visually-hidden">{{ 'Search references'|t }}</label>
+        <input class="form-text form-control" type="text" id="edit-combine" name="combine" value="{{ values.combine }}" size="30" maxlength="128" />
+      </div>
+    {% endif %}
+    <div class="form-actions form-group js-form-wrapper form-wrapper">
+      <button class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span> {{ 'Search'|t }}</button>
+      {% if advanced %}
+        <a class="button btn-danger btn icon-before" href="{{ action }}" data-ns-search-reset><span class="icon glyphicon glyphicon-trash" aria-hidden="true"></span> {{ 'Reset'|t }}</a>
+      {% endif %}
+    </div>
+  </div>
+</form>

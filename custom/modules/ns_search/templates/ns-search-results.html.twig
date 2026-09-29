@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * The container the reference search script renders results into.
+ *
+ * Available variables:
+ * - advanced: Whether this is the advanced search page.
+ */
+#}
+<div class="views-element-container form-group">
+  <div id="ns-results" class="view view-ns-references view-id-ns_references view-display-id-{{ advanced ? 'page_3' : 'page_2' }}" aria-live="polite">
+    <noscript><div class="view-header">{{ 'The reference search requires JavaScript.'|t }}</div></noscript>
+    <div class="view-header" data-ns-search-loading>{{ 'Loading references…'|t }}</div>
+  </div>
+</div>

@@ -37,6 +37,7 @@ module:
   ns_author: 0
   ns_biblio: 0
   ns_navigation: 0
+  ns_search: 0
   options: 0
   page_cache: 0
   path: 0

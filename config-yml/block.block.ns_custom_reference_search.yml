@@ -1,26 +1,24 @@
-uuid: 2373785c-a863-44cd-b684-703ebdd8fe52
+uuid: 79c64113-5dd5-47a9-a71e-bf9139151eb6
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.ns_references
   module:
+    - ns_search
     - system
-    - views
   theme:
     - ns_custom
-id: exposedformns_referencespage_2
+id: ns_custom_reference_search
 theme: ns_custom
 region: header
 weight: -3
 provider: null
-plugin: 'views_exposed_filter_block:ns_references-page_2'
+plugin: ns_search_form
 settings:
-  id: 'views_exposed_filter_block:ns_references-page_2'
-  label: ''
+  id: ns_search_form
+  label: 'Reference search form'
   label_display: '0'
-  provider: views
-  views_label: ''
+  provider: ns_search
+  advanced: false
 visibility:
   request_path:
     id: request_path

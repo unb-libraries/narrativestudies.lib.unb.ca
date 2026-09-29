@@ -1,0 +1,4 @@
+/* Results header receives focus after paging, for screen readers. */
+#ns-results .view-header:focus {
+  outline: none;
+}

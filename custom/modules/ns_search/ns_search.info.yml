@@ -1,0 +1,9 @@
+name: Narrative Studies Search
+type: module
+description: In-browser reference search, built from the CSV export of all references.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Narrative Studies
+dependencies:
+  - bibcite
+  - ns_navigation

@@ -1,0 +1,7 @@
+block.settings.ns_search_form:
+  type: block_settings
+  label: 'Reference search form block'
+  mapping:
+    advanced:
+      type: boolean
+      label: 'Show the advanced search fields'

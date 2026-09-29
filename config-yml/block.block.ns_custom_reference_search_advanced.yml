@@ -1,0 +1,27 @@
+uuid: 49ec0e72-adf6-43d6-a129-74a66d047a9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - ns_search
+    - system
+  theme:
+    - ns_custom
+id: ns_custom_reference_search_advanced
+theme: ns_custom
+region: header
+weight: -2
+provider: null
+plugin: ns_search_form
+settings:
+  id: ns_search_form
+  label: 'Reference search form'
+  label_display: '0'
+  provider: ns_search
+  advanced: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/references-advanced"

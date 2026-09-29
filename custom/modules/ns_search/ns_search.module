@@ -1,0 +1,193 @@
+<?php
+
+/**
+ * @file
+ * Contains ns_search.module.
+ */
+
+use Drupal\Core\File\FileSystemInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_theme().
+ */
+function ns_search_theme($existing, $type, $theme, $path) {
+  return [
+    'ns_search_form' => [
+      'variables' => [
+        'advanced' => FALSE,
+        'action' => '',
+        'types' => [],
+        'values' => [],
+      ],
+    ],
+    'ns_search_results' => [
+      'variables' => [
+        'advanced' => FALSE,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * Adds a download link for the full reference export above the page title of
+ * the reference search pages.
+ */
+function ns_search_preprocess_page_title(array &$variables) {
+  $route_name = \Drupal::routeMatch()->getRouteName();
+
+  if ($route_name != 'ns_search.references' &&
+  $route_name != 'ns_search.references_advanced') {
+    return;
+  }
+
+  $file = ns_navigation_reference_export_file();
+
+  if (!$file) {
+    return;
+  }
+
+  $variables['title_prefix']['reference_download'] = [
+    '#type' => 'link',
+    '#title' => [
+      '#type' => 'inline_template',
+      '#template' => '<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>{{ label }}',
+      '#context' => [
+        'label' => t('Download all references (CSV, @size)', [
+          '@size' => format_size(filesize($file)),
+        ]),
+      ],
+    ],
+    '#url' => Url::fromRoute('ns_navigation.reference_download'),
+    '#prefix' => '<div class="ns-reference-download">',
+    '#suffix' => '</div>',
+    '#cache' => [
+      'contexts' => ['route'],
+    ],
+  ];
+}
+
+/**
+ * Provides the data for the in-browser reference search.
+ *
+ * The records are generated from the CSV export and written to the public
+ * files directory, under a name derived from the export, so that they are
+ * served statically and regenerated whenever the export is replaced.
+ *
+ * @return array|null
+ *   An array with the keys:
+ *   - url: The URL of the JSON search data.
+ *   - types: Reference type labels keyed by bundle, for the types present.
+ *   NULL when the export is unavailable.
+ */
+function ns_search_data() {
+  $csv = ns_navigation_reference_export_file();
+
+  if (!$csv) {
+    return NULL;
+  }
+
+  $version = substr(md5(filemtime($csv) . ':' . filesize($csv)), 0, 12);
+  $uri = 'public://ns-reference-search-' . $version . '.json';
+  $cid = 'ns_search:data:' . $version;
+  $cache = \Drupal::cache();
+
+  $cached = $cache->get($cid);
+  if ($cached && file_exists($uri)) {
+    $types = $cached->data;
+  }
+  else {
+    $data = ns_search_build_data($csv);
+    $types = $data['types'];
+
+    /** @var \Drupal\Core\File\FileSystemInterface $file_system */
+    $file_system = \Drupal::service('file_system');
+    $file_system->saveData(json_encode($data, JSON_UNESCAPED_UNICODE), $uri, FileSystemInterface::EXISTS_REPLACE);
+
+    // Remove data generated from previous exports.
+    foreach (glob($file_system->realpath('public://') . '/ns-reference-search-*.json') as $old) {
+      if (basename($old) != basename($uri)) {
+        $file_system->delete($old);
+      }
+    }
+
+    $cache->set($cid, $types);
+  }
+
+  return [
+    'url' => \Drupal::service('file_url_generator')->generateString($uri),
+    'types' => $types,
+  ];
+}
+
+/**
+ * Builds the reference search data from the CSV export.
+ *
+ * @param string $csv
+ *   The path of the CSV export.
+ *
+ * @return array
+ *   An array with the keys:
+ *   - types: Reference type labels keyed by bundle, sorted by label.
+ *   - records: The exported references as [id, type, title, year, author,
+ *     subjects, language], in the order the search displays them.
+ */
+function ns_search_build_data($csv) {
+  $tidy = function ($value) {
+    return trim(preg_replace('/\s+/u', ' ', (string) $value));
+  };
+
+  $records = [];
+  $handle = fopen($csv, 'r');
+  $header = fgetcsv($handle, 0);
+
+  while (($row = fgetcsv($handle, 0)) !== FALSE) {
+    if (count($row) != count($header)) {
+      continue;
+    }
+    $row = array_combine($header, $row);
+    $records[] = [
+      (int) $row['id'],
+      $row['type'],
+      $tidy($row['title']),
+      $row['bibcite_year'] === '' ? NULL : (int) $row['bibcite_year'],
+      $tidy($row['text_author']),
+      $tidy($row['text_keyword']),
+      $tidy($row['bibcite_lang'] ?? ''),
+    ];
+  }
+
+  fclose($handle);
+
+  // As the former view: year (newest first, none last), type, then title.
+  usort($records, function ($a, $b) {
+    if ($a[3] !== $b[3]) {
+      if ($a[3] === NULL) {
+        return 1;
+      }
+      if ($b[3] === NULL) {
+        return -1;
+      }
+      return $b[3] - $a[3];
+    }
+    return strcmp($a[1], $b[1])
+      ?: strcmp(mb_strtolower($a[2]), mb_strtolower($b[2]))
+      ?: $a[0] - $b[0];
+  });
+
+  $types = [];
+  $bundles = array_unique(array_column($records, 1));
+  $storage = \Drupal::entityTypeManager()->getStorage('bibcite_reference_type');
+  foreach ($bundles as $bundle) {
+    $type = $storage->load($bundle);
+    $types[$bundle] = $type ? $type->label() : $bundle;
+  }
+  asort($types, SORT_NATURAL | SORT_FLAG_CASE);
+
+  return [
+    'types' => $types,
+    'records' => $records,
+  ];
+}

@@ -1,0 +1,7 @@
+ns_search.references_advanced:
+  title: 'Advanced Search'
+  description: 'Advanded options for bibliography search.'
+  parent: main
+  menu_name: main
+  route_name: ns_search.references_advanced
+  weight: 10

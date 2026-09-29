@@ -1,0 +1,14 @@
+ns_search.references:
+  path: '/references'
+  defaults:
+    _controller: '\Drupal\ns_search\Controller\SearchController::references'
+    _title: 'Reference Search'
+  requirements:
+    _permission: 'access content'
+ns_search.references_advanced:
+  path: '/references-advanced'
+  defaults:
+    _controller: '\Drupal\ns_search\Controller\SearchController::referencesAdvanced'
+    _title: 'Advanced Search'
+  requirements:
+    _permission: 'access content'

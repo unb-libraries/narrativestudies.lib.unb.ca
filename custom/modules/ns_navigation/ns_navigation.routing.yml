@@ -4,12 +4,6 @@ ns_navigation.intro:
     _controller: '\Drupal\ns_navigation\Controller\NsNavigationController::home'
   requirements:
     _permission: 'access content'
-ns_navigation.adv_biblio:
-  path: '/references-advanced'
-  defaults:
-    _title: 'Advanced Search'
-  requirements:
-    _permission: 'access content'
 ns_navigation.subjects:
   path: '/subjects'
   defaults:

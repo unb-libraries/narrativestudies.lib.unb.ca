@@ -96,7 +96,8 @@ a:active,
 /* Bootstrap's default navbar text (#777 on #f8f8f8) is under 4.5:1 contrast. */
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav .navbar-text {
   color: #666;
 }
 
@@ -114,6 +115,9 @@ a:active,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav .navbar-text:hover,
+.navbar-default .navbar-nav .navbar-text:focus,
+.navbar-default .navbar-nav > .open .navbar-text,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #8e0b0b;

@@ -27,7 +27,7 @@ $columns = [
   'bibcite_doi',
   'bibcite_url',
   'bibcite_citekey',
-  'status',
+  'bibcite_lang',
 ];
 
 $out = fopen('php://stdout', 'w');
@@ -38,7 +38,10 @@ $offset = 0;
 $batch_size = 100;
 
 while (1) {
-  $ids = $storage->getQuery()->range($offset, $batch_size)->execute();
+  $ids = $storage->getQuery()
+    ->condition('status', 1)
+    ->range($offset, $batch_size)
+    ->execute();
   if (empty($ids)) {
     break;
   }

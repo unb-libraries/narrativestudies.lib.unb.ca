@@ -3,7 +3,7 @@ ns_navigation.adv_biblio:
   description: 'Advanded options for bibliography search.'
   parent: main
   menu_name: main
-  route_name: ns_navigation.adv_biblio
+  route_name: view.ns_references.page_3
   weight: 10
 ns_navigation.about:
   title: 'About'
@@ -17,7 +17,7 @@ ns_navigation.contact.main:
   description: 'Contact.'
   parent: main
   menu_name: main
-  route_name: ns_navigation.intro
+  route_name: '<nolink>'
   expanded: TRUE
   weight: 30
 ns_navigation.contact.cirn:

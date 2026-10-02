@@ -1,6 +1,6 @@
-search:
+# The search form, wherever it appears; sends searches to the search page.
+form:
   js:
-    js/lunr.min.js: { minified: true }
     js/search-common.js: {}
     js/search.js: {}
   css:
@@ -8,3 +8,9 @@ search:
       css/search.css: {}
   dependencies:
     - core/drupalSettings
+# The search itself, on the search pages.
+search:
+  js:
+    js/lunr.min.js: { minified: true }
+  dependencies:
+    - ns_search/form

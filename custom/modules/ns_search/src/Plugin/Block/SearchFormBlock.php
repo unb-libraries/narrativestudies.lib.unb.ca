@@ -115,6 +115,9 @@ class SearchFormBlock extends BlockBase implements ContainerFactoryPluginInterfa
       '#action' => Url::fromRoute($route)->toString(),
       '#types' => $data ? $data['types'] : [],
       '#values' => $values,
+      '#attached' => [
+        'library' => ['ns_search/form'],
+      ],
       '#cache' => [
         'contexts' => ['url.query_args'],
       ],

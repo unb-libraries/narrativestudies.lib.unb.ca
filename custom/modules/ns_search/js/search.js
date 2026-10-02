@@ -3,8 +3,13 @@
  * In-browser reference search for /references and /references-advanced.
  *
  * Loads the search data, indexes it with lunr and renders results into
- * #ns-results, using the markup of the Views pages this replaced. Pages
- * without #ns-results (such as the front page) submit the form normally.
+ * #ns-results, using the markup of the Views pages this replaced.
+ *
+ * The search lives in the URL fragment (#combine=...&page=2), never the
+ * query string, so every search is served by the one /references page; this
+ * keeps the search working in a web archive, which only replays captured
+ * URLs. Pages without #ns-results (such as the front page) send the form to
+ * the search page the same way.
  */
 (function (drupalSettings, S) {
   var RETURN_KEY = 'nsSearch:last',
@@ -29,10 +34,10 @@
       })
   }
 
-  // Remembers the last search so reference edit/delete forms can return to
-  // it; storage may be unavailable, which only loses that convenience.
-  function remember (search) {
-    try { sessionStorage.setItem(RETURN_KEY, location.pathname + search) } catch (e) {}
+  // Remembers the last search (a fragment) so reference edit/delete forms can
+  // return to it; storage may be unavailable, which only loses that.
+  function remember (fragment) {
+    try { sessionStorage.setItem(RETURN_KEY, fragment) } catch (e) {}
   }
 
   function recall () {
@@ -88,7 +93,7 @@
 
   function pagerItem (params, page, cls, title, hidden, text, rel) {
     return '<li class="pager__item' + (cls ? ' ' + cls : '') + '">' +
-      '<a href="' + esc(S.writeParams(params, page) || '?') + '" title="' + title + '"' +
+      '<a href="' + esc(S.writeParams(params, page) || '#') + '" title="' + title + '"' +
       (rel ? ' rel="' + rel + '"' : '') + ' data-page="' + page + '"' +
       (cls === 'is-active active' ? ' aria-current="page"' : '') + '>' +
       '<span class="visually-hidden">' + hidden + '</span>' + text + '</a></li>'
@@ -140,28 +145,33 @@
   }
 
   function go (params, page) {
-    var search = S.writeParams(params, page)
-    history.pushState(null, '', location.pathname + search)
-    remember(search)
-    params.page = page
-    render(params)
+    var fragment = S.writeParams(params, page)
+    history.pushState(null, '', location.pathname + fragment)
+    show()
   }
 
-  function fromLocation () {
-    var params = S.readParams(location.search)
-    remember(location.search)
-    fillForm(params)
-    if (idx) render(params)
+  // Shows the search in the URL, once the data is ready. Going back or
+  // forward fires both popstate and hashchange; only the first does work.
+  var shown = null
+  function show () {
+    var fragment = location.hash
+    remember(fragment)
+    fillForm(S.readParams(fragment))
+    if (!idx || fragment === shown) return
+    shown = fragment
+    render(S.readParams(fragment))
   }
 
-  // "?return" comes from the reference edit/delete forms: go back to the
-  // last search, made on either search page (both take the same params).
-  function restoreReturn () {
-    if (!new URLSearchParams(location.search).has('return')) return
-    var last = recall(),
-        q = last ? last.indexOf('?') : -1,
-        search = q === -1 ? '' : last.slice(q)
-    history.replaceState(null, '', location.pathname + search)
+  // Moves a query-string search into the fragment: from links made before
+  // the search moved there, and from the reference edit/delete forms, whose
+  // "?return" goes back to the last search.
+  function fromQuery () {
+    if (!location.search) return
+    var legacy = S.readParams(location.search),
+        fragment = new URLSearchParams(location.search).has('return')
+          ? recall() || ''
+          : location.hash || S.writeParams(legacy, legacy.page)
+    history.replaceState(null, '', location.pathname + fragment)
   }
 
   function load () {
@@ -177,7 +187,7 @@
       })
       .then(function () {
         idx = S.buildIndex(lunr, data)
-        fromLocation()
+        show()
       })
       .catch(function (err) {
         results.innerHTML = '<div class="alert alert-danger" role="alert">' +
@@ -188,14 +198,22 @@
   function init () {
     form = document.querySelector('form[data-ns-search]')
     results = document.getElementById('ns-results')
-    if (!form || !results || !settings) return
+    if (!form) return
 
-    restoreReturn()
-    fillForm(S.readParams(location.search))
+    // No results here: go to the search page with the search in the fragment.
+    if (!results) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault()
+        location.href = form.action.replace(/#.*/, '') + S.writeParams(readForm(), 0)
+      })
+      return
+    }
+    if (!settings) return
 
-    // Until the search is ready, the form and reset link work as normal.
+    fromQuery()
+    show()
+
     form.addEventListener('submit', function (e) {
-      if (!idx) return
       e.preventDefault()
       go(readForm(), 0)
     })
@@ -203,9 +221,7 @@
     var reset = form.querySelector('[data-ns-search-reset]')
     if (reset) {
       reset.addEventListener('click', function (e) {
-        if (!idx) return
         e.preventDefault()
-        fillForm(S.readParams(''))
         go(S.readParams(''), 0)
       })
     }
@@ -214,13 +230,14 @@
       var a = e.target.closest('a[data-page]')
       if (!a || e.ctrlKey || e.metaKey || e.shiftKey || e.button !== 0) return
       e.preventDefault()
-      go(S.readParams(location.search), Number(a.dataset.page))
+      go(S.readParams(location.hash), Number(a.dataset.page))
       var header = results.querySelector('.view-header')
       header.scrollIntoView()
       header.focus({ preventScroll: true })
     })
 
-    window.addEventListener('popstate', fromLocation)
+    window.addEventListener('popstate', show)
+    window.addEventListener('hashchange', show)
 
     load()
   }

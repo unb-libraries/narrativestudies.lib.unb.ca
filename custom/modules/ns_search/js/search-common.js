@@ -53,11 +53,12 @@
   }
 
   /**
-   * Normalizes query-string params (named as the former view's filters, so
-   * existing links keep working).
+   * Reads a search from a URL fragment ("#...") or, for links made before
+   * searches moved to the fragment, a query string ("?..."). Params are
+   * named as the former view's filters.
    */
-  function readParams (search) {
-    var p = new URLSearchParams(search)
+  function readParams (str) {
+    var p = new URLSearchParams(String(str || '').replace(/^[#?]/, ''))
     var type = p.get('type') || ''
     return {
       combine: (p.get('combine') || '').trim(),
@@ -70,6 +71,11 @@
     }
   }
 
+  /**
+   * Writes a search as a URL fragment, or '' for no search. Searches live in
+   * the fragment, which never reaches the server, so the search pages need
+   * no server (or web archive) support for each search.
+   */
   function writeParams (params, page) {
     var p = new URLSearchParams()
     if (params.combine) p.set('combine', params.combine)
@@ -80,7 +86,7 @@
     if (params.yearTo) p.set('bibcite_year_1', params.yearTo)
     if (page) p.set('page', page)
     var s = p.toString()
-    return s ? '?' + s : ''
+    return s ? '#' + s : ''
   }
 
   /**

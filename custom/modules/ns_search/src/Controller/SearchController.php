@@ -48,6 +48,19 @@ class SearchController extends ControllerBase {
       '#advanced' => $advanced,
       '#attached' => [
         'library' => ['ns_search/search'],
+        // Lets crawlers that do not run scripts, such as web archives, find
+        // the data the search loads.
+        'html_head_link' => [
+          [
+            [
+              'rel' => 'preload',
+              'href' => $data['url'],
+              'as' => 'fetch',
+              'crossorigin' => 'anonymous',
+            ],
+            FALSE,
+          ],
+        ],
         'drupalSettings' => [
           'nsSearch' => [
             'dataUrl' => $data['url'],
